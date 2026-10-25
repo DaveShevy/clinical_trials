@@ -1,0 +1,8 @@
+[
+  {"slug": "keratosis-pilaris", "label": "Keratosis pilaris", "query": "\"keratosis pilaris\"", "group": "Dermatology"},
+  {"slug": "rosacea", "label": "Rosacea", "query": "rosacea", "group": "Dermatology"},
+  {"slug": "acne", "label": "Acne", "query": "acne", "group": "Dermatology"},
+  {"slug": "atopic-dermatitis", "label": "Atopic dermatitis (eczema)", "query": "\"atopic dermatitis\" OR eczema", "group": "Dermatology"},
+  {"slug": "psoriasis", "label": "Psoriasis", "query": "psoriasis", "group": "Dermatology"},
+  {"slug": "hidradenitis-suppurativa", "label": "Hidradenitis suppurativa", "query": "\"hidradenitis suppurativa\"", "group": "Dermatology"}
+]

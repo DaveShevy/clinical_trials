@@ -1,0 +1,50 @@
+name: Refresh trial data
+
+on:
+  schedule:
+    - cron: "0 9 * * 1"
+  workflow_dispatch:
+    inputs:
+      probe:
+        description: "Also check browser (CORS) access and capture raw test fixtures"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check browser access to the API
+        if: ${{ inputs.probe }}
+        run: |
+          url="https://clinicaltrials.gov/api/v2/studies?query.cond=rosacea&pageSize=1&fields=protocolSection,hasResults"
+          echo "--- GET with Origin header"
+          curl -sS -D - -o /dev/null -H "Origin: https://daveshevy.github.io" "$url"
+          echo "--- OPTIONS preflight"
+          curl -sS -D - -o /dev/null -X OPTIONS -H "Origin: https://daveshevy.github.io" \
+            -H "Access-Control-Request-Method: GET" "$url" || true
+      - name: Capture raw fixtures
+        if: ${{ inputs.probe }}
+        run: python scripts/fetch_trials.py --capture-fixtures tests/fixtures/raw
+      - name: Fetch trials
+        run: python scripts/fetch_trials.py
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/data data tests/fixtures
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Refresh trial data"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

@@ -1,0 +1,45 @@
+{
+ "totalCount": 2,
+ "studies": [
+  {
+   "protocolSection": {
+    "identificationModule": {"nctId": "NCT07078461", "briefTitle": "Thulium Laser in Keratosis Pilaris"},
+    "statusModule": {
+     "overallStatus": "RECRUITING",
+     "startDateStruct": {"date": "2025-10-23", "type": "ACTUAL"},
+     "primaryCompletionDateStruct": {"date": "2026-12", "type": "ESTIMATED"},
+     "completionDateStruct": {"date": "2027-06", "type": "ESTIMATED"},
+     "studyFirstPostDateStruct": {"date": "2025-07-21"},
+     "lastUpdatePostDateStruct": {"date": "2025-11-03"}
+    },
+    "sponsorCollaboratorsModule": {"leadSponsor": {"name": "Johns Hopkins University", "class": "OTHER"}},
+    "descriptionModule": {"briefSummary": "This study tests a laser for keratosis pilaris."},
+    "conditionsModule": {"conditions": ["Keratosis Pilaris (KP)"]},
+    "designModule": {"studyType": "INTERVENTIONAL", "phases": ["NA"], "enrollmentInfo": {"count": 25, "type": "ESTIMATED"}},
+    "armsInterventionsModule": {"interventions": [{"type": "DEVICE", "name": "1927-nm Thulium Laser therapy"}]},
+    "contactsLocationsModule": {"locations": [
+     {"facility": "Johns Hopkins", "status": "RECRUITING", "city": "Baltimore", "state": "Maryland", "country": "United States", "geoPoint": {"lat": 39.29038, "lon": -76.61219}},
+     {"facility": "No coordinates", "city": "Nowhere", "country": "United States"}
+    ]}
+   },
+   "hasResults": false
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {"nctId": "NCT00944216", "briefTitle": "Salkera Emollient Foam in Keratosis Pilaris"},
+    "statusModule": {
+     "overallStatus": "TERMINATED",
+     "whyStopped": "Low enrollment",
+     "startDateStruct": {"date": "2009-06"},
+     "primaryCompletionDateStruct": {"date": "2010-01"},
+     "lastUpdatePostDateStruct": {"date": "2012-02-01"}
+    },
+    "sponsorCollaboratorsModule": {"leadSponsor": {"name": "Wright State University", "class": "OTHER"}},
+    "conditionsModule": {"conditions": ["Keratosis Pilaris"]},
+    "designModule": {"studyType": "INTERVENTIONAL", "phases": ["PHASE4"], "enrollmentInfo": {"count": 1}},
+    "armsInterventionsModule": {"interventions": [{"type": "DRUG", "name": "Salkera Emollient Foam"}]}
+   },
+   "hasResults": true
+  }
+ ]
+}
