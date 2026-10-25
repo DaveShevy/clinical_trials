@@ -101,9 +101,11 @@ def normalize(study):
         "enrollment": (design.get("enrollmentInfo") or {}).get("count"),
         "start": _date(status.get("startDateStruct")),
         "primaryCompletion": _date(status.get("primaryCompletionDateStruct")),
+        "primaryCompletionType": (status.get("primaryCompletionDateStruct") or {}).get("type"),
         "completion": _date(status.get("completionDateStruct")),
         "firstPosted": _date(status.get("studyFirstPostDateStruct")),
         "lastUpdate": _date(status.get("lastUpdatePostDateStruct")),
+        "verified": status.get("statusVerifiedDate"),
         "conditions": p.get("conditionsModule", {}).get("conditions") or [],
         "interventions": [
             {"type": i.get("type"), "name": i.get("name")}
