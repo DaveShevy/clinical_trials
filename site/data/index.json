@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-10-25T23:14:25+00:00",
+ "conditions": [
+  {
+   "slug": "keratosis-pilaris",
+   "label": "Keratosis pilaris",
+   "group": "Dermatology",
+   "count": 9
+  },
+  {
+   "slug": "rosacea",
+   "label": "Rosacea",
+   "group": "Dermatology",
+   "count": 237
+  },
+  {
+   "slug": "acne",
+   "label": "Acne",
+   "group": "Dermatology",
+   "count": 1052
+  },
+  {
+   "slug": "atopic-dermatitis",
+   "label": "Atopic dermatitis (eczema)",
+   "group": "Dermatology",
+   "count": 1762
+  },
+  {
+   "slug": "psoriasis",
+   "label": "Psoriasis",
+   "group": "Dermatology",
+   "count": 2569
+  },
+  {
+   "slug": "hidradenitis-suppurativa",
+   "label": "Hidradenitis suppurativa",
+   "group": "Dermatology",
+   "count": 287
+  }
+ ]
+}

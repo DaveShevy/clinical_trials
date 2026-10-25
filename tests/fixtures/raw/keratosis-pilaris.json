@@ -1,0 +1,1860 @@
+{
+ "totalCount": 9,
+ "studies": [
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT04797663",
+     "orgStudyIdInfo": {
+      "id": "las177"
+     },
+     "organization": {
+      "fullName": "Cairo University",
+      "class": "OTHER"
+     },
+     "briefTitle": "Long-pulsed 1064 nm Nd-YAG Laser Versus TCA 20% in Treatment of Keratosis Pilaris",
+     "officialTitle": "Clinical and Dermoscopic Evaluation of Long-pulsed 1064 nm Nd-YAG Laser Versus Trichloroacetic Acid 20% in Treatment of Keratosis Pilaris"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2021-08",
+     "overallStatus": "COMPLETED",
+     "startDateStruct": {
+      "date": "2021-03-17",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2021-07-18",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2021-08-01",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-03-06",
+     "studyFirstSubmitQcDate": "2021-03-12",
+     "studyFirstPostDateStruct": {
+      "date": "2021-03-15",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2021-08-01",
+     "lastUpdatePostDateStruct": {
+      "date": "2021-08-03",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "PRINCIPAL_INVESTIGATOR",
+      "investigatorFullName": "Dina Saadi",
+      "investigatorTitle": "principal investigator",
+      "investigatorAffiliation": "Cairo University"
+     },
+     "leadSponsor": {
+      "name": "Cairo University",
+      "class": "OTHER"
+     }
+    },
+    "oversightModule": {
+     "isFdaRegulatedDrug": true,
+     "isFdaRegulatedDevice": true
+    },
+    "descriptionModule": {
+     "briefSummary": "Keratosis pilaris (KP) is a common disorder of keratinization. There are different treatment modalities for KP with variable results. Nd:YAG laser and chemical peels are among these treatment modalities, however, there is no enough evidence in the literature regarding their efficacy. The aim of this study is to assess and compare the efficacy of long pulsed Nd:YAG laser and trichloreacetic acid 20% in treatment of keratosis pilaris.",
+     "detailedDescription": "Keratosis pilaris (KP) is a genetic disorder of keratinization of hair follicles of skin. It's a very common benign condition that manifests as small, rough folliculocentric keratotic papules, often described as chicken bumps, chicken skin or goose-bumps, in characteristic areas of body, particularly the outer upper arms and thighs.\n\nTrichloreacetic acid (TCA) is a type of chemical peels that is derived from acetic acid by the chlorination of 3 hydrogen ions. It can induce coagulative necrosis of proteins and cells. The depth of action depends on various factors e.g the number of layers applied and its combination with substances that potentiate its action.\n\nNd: YAG laser is a type of hair removing devices that operates at wave length of 1064nm. This wave length allows for less absorption at the epidermis. It is less absorbed by melanin, which leads to lower side effect and better tolerance but less efficacy in dark skinned patients."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Keratosis Pilaris"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE4"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "SINGLE",
+       "whoMasked": [
+        "OUTCOMES_ASSESSOR"
+       ]
+      }
+     },
+     "enrollmentInfo": {
+      "count": 20,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "Nd-YAG laser",
+       "type": "ACTIVE_COMPARATOR",
+       "description": "laser hair removal",
+       "interventionNames": [
+        "Device: Nd-YAG laser"
+       ]
+      },
+      {
+       "label": "TCA 20%",
+       "type": "EXPERIMENTAL",
+       "description": "chemical peel",
+       "interventionNames": [
+        "Drug: TCA 20%"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DEVICE",
+       "name": "Nd-YAG laser",
+       "description": "laser hair removal device",
+       "armGroupLabels": [
+        "Nd-YAG laser"
+       ],
+       "otherNames": [
+        "1064 nm laser"
+       ]
+      },
+      {
+       "type": "DRUG",
+       "name": "TCA 20%",
+       "description": "chemical peel",
+       "armGroupLabels": [
+        "TCA 20%"
+       ],
+       "otherNames": [
+        "Trichloroacetic acid"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Change of clinical and dermoscopic scores of KP with Nd-YAG laser",
+       "description": "the change in roughness and color of KP by clinical score after 4 sessions of Nd-YAG laser. the score ranges from 0-4. where 0 is no change and 4 is excellent improvement",
+       "timeFrame": "4 months"
+      },
+      {
+       "measure": "Change of clinical and dermoscopic scores of KP with TCA 20%",
+       "description": "the change in roughness and color of KP by clinical score after 4 sessions of TCA 20% peel. the score ranges from 0-4. where 0 is no change and 4 is excellent improvement",
+       "timeFrame": "4 months"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "safety and tolerability of Nd-YAG laser and TCA 20% in treatment of KP: adverse events",
+       "description": "adverse effects of treatment modalities, if any",
+       "timeFrame": "4 months"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients above 18 years with KP.\n* Patients with KP affecting back of the trunk, arms, thighs, forearms, legs and buttocks.\n\nExclusion Criteria:\n\n* Pregnant or lactating females.\n* Patients who had performed any laser treatment for KP within 6 months prior to the study.\n* Patients with history of oral retinoids within 3 months prior to the study.\n* Patients with history of hypertrophic scars or keloids.\n* Patients who used any topical treatment one month prior to the session.\n* Patients with acne affecting the same sites of keratosis pilaris.\n* Patients with active skin diseases affecting the area involved with KP e.g. folliculitis and eczema.",
+     "healthyVolunteers": false,
+     "sex": "FEMALE",
+     "minimumAge": "18 Years",
+     "maximumAge": "60 Years",
+     "stdAges": [
+      "ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "overallOfficials": [
+      {
+       "name": "Akmal Saad, professor",
+       "affiliation": "Cairo University",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "locations": [
+      {
+       "facility": "Kasr Alainy",
+       "city": "Cairo",
+       "zip": "11562",
+       "country": "Egypt",
+       "geoPoint": {
+        "lat": 30.06263,
+        "lon": 31.24967
+       }
+      }
+     ]
+    },
+    "referencesModule": {
+     "references": [
+      {
+       "pmid": "35917264",
+       "type": "DERIVED",
+       "citation": "Hassan AS, Abdel Aziz M, Saadi DG. Clinical and Dermoscopic Evaluation of Trichloroacetic Acid 20% Versus Long-Pulsed 1064-nm Nd-YAG Laser in the Treatment of Keratosis Pilaris. Dermatol Surg. 2022 Aug 1;48(8):838-842. doi: 10.1097/DSS.0000000000003488. Epub 2022 Jun 15."
+      }
+     ]
+    }
+   },
+   "hasResults": false
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT07078461",
+     "orgStudyIdInfo": {
+      "id": "IRB00461291"
+     },
+     "organization": {
+      "fullName": "Johns Hopkins University",
+      "class": "OTHER"
+     },
+     "briefTitle": "Investigating the Safety and Efficacy of the 1927-nm Thulium Laser in Keratosis Pilaris",
+     "officialTitle": "Investigating the Safety and Efficacy of the 1927-nm Thulium Laser for Soft Tissue Coagulation in Keratosis Pilaris",
+     "acronym": "KP"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2025-11",
+     "overallStatus": "RECRUITING",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2025-10-23",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2026-12",
+      "type": "ESTIMATED"
+     },
+     "completionDateStruct": {
+      "date": "2026-12",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2025-07-21",
+     "studyFirstSubmitQcDate": "2025-07-21",
+     "studyFirstPostDateStruct": {
+      "date": "2025-07-22",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-11-24",
+     "lastUpdatePostDateStruct": {
+      "date": "2025-11-26",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "SPONSOR"
+     },
+     "leadSponsor": {
+      "name": "Johns Hopkins University",
+      "class": "OTHER"
+     }
+    },
+    "oversightModule": {
+     "oversightHasDmc": true,
+     "isFdaRegulatedDrug": false,
+     "isFdaRegulatedDevice": true,
+     "isUsExport": false
+    },
+    "descriptionModule": {
+     "briefSummary": "Keratosis pilaris (KP) is a very common skin condition that affects up to 80% of adolescents and 40% of adults. Clinically, KP causes rough dry patches and tiny spiny bumps around the hair follicles, as well as redness and pigmentation changes, most often on the upper arms, thighs, cheeks, or buttocks. While KP is benign, it can be cosmetically very bothersome. Currently, treatment options for KP are limited, and consist of topical moisturizers and keratolytic agents, but often leads to suboptimal improvements. In literature, many laser treatment modalities for KP have been studied, with varying results. The primary aim of this pilot study is to investigate how KP, a predominantly follicular disorder, responds to treatment with the 1927-nm Thulium laser.",
+     "detailedDescription": "The non-ablative fractional 1927nm Thulium laser (LaseMD ULTRA) is approved by the Food and Drug Administration (FDA) for use in dermatological procedures requiring soft-tissue coagulation, such as treatment of actinic keratosis (pre-cancerous spots), and treatment of benign pigmented lesions such as, but not limited to lentigos (age spots), solar lentigos (sunspots) and ephelides (freckles). It is not approved for use for soft-tissue coagulation in keratosis pilaris.\n\nIt has been used in previous studies to treat conditions including acne scarring, skin rejuvenation, enlarged sebaceous glands, dyschromia, rosacea, and actinic keratoses. Its role as a potential treatment option for KP, remains unexplored."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Keratosis Pilaris (KP)"
+     ],
+     "keywords": [
+      "keratosis pilaris",
+      "thulium",
+      "laser"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "NA"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "Prospective cohort, open-label, split-body, randomized, single-blinded study",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      }
+     },
+     "enrollmentInfo": {
+      "count": 25,
+      "type": "ESTIMATED"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "1927-nm Thulium Laser therapy (right arm)",
+       "type": "ACTIVE_COMPARATOR",
+       "description": "Participants will receive treatment for Keratosis Pilaris with the 1927-nm Thulium laser on the right arm.",
+       "interventionNames": [
+        "Device: 1927-nm Thulium Laser therapy"
+       ]
+      },
+      {
+       "label": "1927-nm Thulium Laser therapy (left arm)",
+       "type": "ACTIVE_COMPARATOR",
+       "description": "Participants will receive treatment for Keratosis Pilaris with the 1927-nm Thulium laser on the left arm.",
+       "interventionNames": [
+        "Device: 1927-nm Thulium Laser therapy"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DEVICE",
+       "name": "1927-nm Thulium Laser therapy",
+       "description": "The investigators will use the LaseMD LEO Laser System (1927-nm Thulium laser) to create controlled, localized microscopic treatment zones (MTZs) of thermal injury to treatment area (unilateral upper arm). The investigators will utilize the random mode using the C1 tip (spot size 200 micrometers), which involves irradiation of the entire upper arm until diffuse erythema and edema appear. Additionally, the investigators may use the C5 tip (350 micrometers spot size) for focused treatment, up to five passes, until coagulation becomes evident. The maximum fluence for all C1 tip is 3-60 J/cm2 and 1-20 J/cm2 for C5 tips. The maximum pulse energy is 20 J with a pulse duration of 20 ms.",
+       "armGroupLabels": [
+        "1927-nm Thulium Laser therapy (left arm)",
+        "1927-nm Thulium Laser therapy (right arm)"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Disease Severity as assessed by the Investigator's Global Assessment (IGA)",
+       "description": "IGA score will be assessed by two blinded dermatologists for each arm based for two categories (erythema and texture/skin roughness) from standardized digital photographs. Scale ranges from 0 (clear) - 3 (severe). Lower score better.",
+       "timeFrame": "6 weeks, 12 weeks, 18 weeks, 24 weeks, 2 follow up visits up to 3 months"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "Global Improvement Scale (GIS)",
+       "description": "Global Improvement Scale (GIS) as rated by patients at last study visit and at follow-up visit(s). Scale range 0 (no improvement) - 4 (excellent improvement). Higher score better.",
+       "timeFrame": "24 weeks, 2 follow up visits up to 3 months"
+      },
+      {
+       "measure": "Participant Satisfaction",
+       "description": "Participant satisfaction rated from 0 (unsatisfied) - 3 (satisfied). Higher score more satisfaction.",
+       "timeFrame": "24 weeks, 2 follow up visits up to 3 months"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* Female or male, in good health, ages 18-65\n* Voluntarily signed informed consent form\n* Any Fitzpatrick skin type (I-VI)\n* Clinically diagnosed keratosis pilaris of bilateral upper arms\n* Willing to have photographs taken and agree to the use of photographs for regulatory, presentation, or marketing purposes\n* Willing and able to follow protocol procedures and requirements\n\nExclusion Criteria:\n\n* History of receiving any laser therapy to the bilateral arms in the 12 months before recruitment\n* History of or concurrent use of radiation to the bilateral arms in the 12 months before recruitment\n* Participation of other device or drug clinical trials within 1 month before recruitment\n* Concurrent diagnosis of active skin condition in the arms\n* Presence of an active systemic or local skin disease that may affect wound healing\n* History of forming keloids, collagen vascular disease, chronic drug or alcohol use\n* History of malignant tumors in the upper arms\n* Presence of open ulcers or infections any skin site\n* Presence of a tan or sunburn over the upper arms in the month before recruitment\n* Use of topical or oral photosensitizing medications\n* Excessive body hair or tattoo in target area\n* Pregnant and/or breastfeeding\n* Presence of any medical conditions that interfere with subject's participation\n* History of diagnosed pigmentary disorders in the target area\n* Current smoker or history of smoking within 5 years",
+     "healthyVolunteers": true,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "maximumAge": "65 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "centralContacts": [
+      {
+       "name": "Youkyung S Roh, MD",
+       "role": "CONTACT",
+       "phone": "410-502-7546",
+       "email": "yroh2@jhmi.edu"
+      },
+      {
+       "name": "Ruizhi Wang",
+       "role": "CONTACT",
+       "phone": "410-502-7546",
+       "email": "rwang@jhmi.edu"
+      }
+     ],
+     "overallOfficials": [
+      {
+       "name": "Sarah Hsu, MD",
+       "affiliation": "Johns Hopkins University",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      },
+      {
+       "name": "Myriam Gonzalez, MD",
+       "affiliation": "Johns Hopkins University",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "locations": [
+      {
+       "facility": "Johns Hopkins University",
+       "status": "RECRUITING",
+       "city": "Baltimore",
+       "state": "Maryland",
+       "zip": "21287",
+       "country": "United States",
+       "contacts": [
+        {
+         "name": "Ruizhi Wang",
+         "role": "CONTACT",
+         "phone": "410-502-7546",
+         "email": "rwang@jhmi.edu"
+        },
+        {
+         "name": "Sarah Hsu, MD",
+         "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+         "name": "Myriam Gonzalez, MD",
+         "role": "PRINCIPAL_INVESTIGATOR"
+        }
+       ],
+       "geoPoint": {
+        "lat": 39.29038,
+        "lon": -76.61219
+       }
+      }
+     ]
+    },
+    "referencesModule": {
+     "references": [
+      {
+       "pmid": "23041112",
+       "type": "BACKGROUND",
+       "citation": "Weiss ET, Brauer JA, Anolik R, Reddy KK, Karen JK, Hale EK, Brightman LA, Bernstein L, Geronemus RG. 1927-nm fractional resurfacing of facial actinic keratoses: a promising new therapeutic option. J Am Acad Dermatol. 2013 Jan;68(1):98-102. doi: 10.1016/j.jaad.2012.05.033. Epub 2012 Oct 2."
+      },
+      {
+       "pmid": "35917264",
+       "type": "BACKGROUND",
+       "citation": "Hassan AS, Abdel Aziz M, Saadi DG. Clinical and Dermoscopic Evaluation of Trichloroacetic Acid 20% Versus Long-Pulsed 1064-nm Nd-YAG Laser in the Treatment of Keratosis Pilaris. Dermatol Surg. 2022 Aug 1;48(8):838-842. doi: 10.1097/DSS.0000000000003488. Epub 2022 Jun 15."
+      },
+      {
+       "pmid": "38447098",
+       "type": "BACKGROUND",
+       "citation": "Wong PC, Wang MA, Ng TJ, Akbarialiabad H, Murrell DF. Keratosis pilaris treatment paradigms: assessing effectiveness across modalities. Clin Exp Dermatol. 2024 Sep 18;49(10):1105-1117. doi: 10.1093/ced/llae066."
+      },
+      {
+       "pmid": "37564689",
+       "type": "BACKGROUND",
+       "citation": "Wang MA, Wilson A, Murrell DF. A Review of the Scoring and Assessment of Keratosis Pilaris. Skin Appendage Disord. 2023 Aug;9(4):241-251. doi: 10.1159/000529487. Epub 2023 Apr 20."
+      }
+     ]
+    }
+   },
+   "hasResults": false
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT01281644",
+     "orgStudyIdInfo": {
+      "id": "MA111810"
+     },
+     "organization": {
+      "fullName": "Northwestern University",
+      "class": "OTHER"
+     },
+     "briefTitle": "Treatment of Keratosis Pilaris With 810 nm Diode Laser",
+     "officialTitle": "Treatment of Keratosis Pilaris With 810 nm Diode Laser",
+     "acronym": "KP"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2021-12",
+     "overallStatus": "COMPLETED",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2011-03"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2011-10",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2011-10",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2011-01-20",
+     "studyFirstSubmitQcDate": "2011-01-21",
+     "studyFirstPostDateStruct": {
+      "date": "2011-01-24",
+      "type": "ESTIMATED"
+     },
+     "resultsFirstSubmitDate": "2014-08-14",
+     "resultsFirstSubmitQcDate": "2014-10-15",
+     "resultsFirstPostDateStruct": {
+      "date": "2014-10-20",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2021-12-02",
+     "lastUpdatePostDateStruct": {
+      "date": "2021-12-06",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "PRINCIPAL_INVESTIGATOR",
+      "investigatorFullName": "Murad Alam",
+      "investigatorTitle": "Associate Professor of Dermatology",
+      "investigatorAffiliation": "Northwestern University"
+     },
+     "leadSponsor": {
+      "name": "Northwestern University",
+      "class": "OTHER"
+     }
+    },
+    "oversightModule": {
+     "oversightHasDmc": true
+    },
+    "descriptionModule": {
+     "briefSummary": "The investigators hope to establish whether or not the diode laser, a longer-wavelength laser, is effective in treating keratosis pilaris, and hopefully opening a door into the discussion and management of this skin condition. The primary outcome of interest is the difference in the overall blind rater severity scores of the treated versus the untreated sites. The secondary outcome of interest is the change in the patient's self-rated severity score of the treated site. To account for potential natural disease progression or regression, the investigators will also compare patient mean changes to the mean changes in severity scores of the untreated site."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Keratosis Pilaris (KP)"
+     ],
+     "keywords": [
+      "Keratosis pilaris (KP)"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "NA"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "SINGLE",
+       "whoMasked": [
+        "OUTCOMES_ASSESSOR"
+       ]
+      }
+     },
+     "enrollmentInfo": {
+      "count": 23,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "No Laser Treatment",
+       "type": "NO_INTERVENTION"
+      },
+      {
+       "label": "45-60 J Diode Laser Therapy",
+       "type": "ACTIVE_COMPARATOR",
+       "description": "Diode laser therapy will be initiated at 45-60 J for 30 ms to 100 ms.",
+       "interventionNames": [
+        "Device: Diode Laser"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DEVICE",
+       "name": "Diode Laser",
+       "description": "810 nm diode laser",
+       "armGroupLabels": [
+        "45-60 J Diode Laser Therapy"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Difference in Disease Severity Scores",
+       "description": "The primary outcome measure was the difference in disease severity total score, combining redness and roughness/bumpiness scales, between the treated site and the control site, as rated by the blinded dermatologists at 12 weeks post-initial visit. These scales were not validated, as no relevant validated scale was available. However, raters were trained and calibrated on the use of the scale, and prior to review of study images, were asked to rate archival skin images on the same 4-point qualitative subscales used in the study. Each scale ranged from 0 to 3, with 0 being none and 3 being severe. The total score summed the redness and roughness/bumpiness scale scores for a range of 0 (none/better outcome) to 6 (severe/worse outcome).",
+       "timeFrame": "12 weeks"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "Patient Self-rated Severity",
+       "description": "This outcome measure was the difference in disease severity total score, combining redness and roughness/bumpiness scales, between the treated site and the control site, as rated by the patient at 12 weeks post-initial visit. These scales were not validated, as no relevant validated scale was available. Each scale ranged from 0 to 3, with 0 being none and 3 being severe. The total score summed the redness and roughness/bumpiness scale scores for a range of 0 (none/better outcome) to 6 (severe/worse outcome).",
+       "timeFrame": "12 weeks"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* Subject is age 18 to 65\n* Subject has diagnosis of keratosis pilaris involving both arms\n* Subject has Fitzpatrick Skin Type I - III\n* Subject is in good health\n* Subject has the willingness and ability to understand and provide informed consen\n\nExclusion Criteria:\n\n* Under 18 or over 65 years of age\n* Subjects with Fitzpatrick Skin Type greater than III\n* Subjects who have received any laser therapy to the armsin the past year\n* Subjects with concurrent diagnosis of another skin condition or malignancy\n* Subjects with tan or sunburn over the upper arms in the past month\n* Subjects with open, non-healing sores or infections at any skin site\n* Subjects who are unable to understand the protocol or give informed consent\n* Subjects who take oral photosensitizing medications or who apply topical photosensitizing medications to either arm",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "maximumAge": "65 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "overallOfficials": [
+      {
+       "name": "Murad Alam, MD",
+       "affiliation": "Northwestern University",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "locations": [
+      {
+       "facility": "Northwestern University",
+       "city": "Chicago",
+       "state": "Illinois",
+       "zip": "60611",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 41.85003,
+        "lon": -87.65005
+       }
+      }
+     ]
+    },
+    "referencesModule": {
+     "references": [
+      {
+       "pmid": "25372313",
+       "type": "DERIVED",
+       "citation": "Ibrahim O, Khan M, Bolotin D, Dubina M, Nodzenski M, Disphanurat W, Kakar R, Yoo S, Whiting D, West DP, Poon E, Veledar E, Alam M. Treatment of keratosis pilaris with 810-nm diode laser: a randomized clinical trial. JAMA Dermatol. 2015 Feb;151(2):187-91. doi: 10.1001/jamadermatol.2014.2211."
+      }
+     ]
+    }
+   },
+   "hasResults": true
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT07739420",
+     "orgStudyIdInfo": {
+      "id": "2023139"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2023139",
+       "type": "OTHER",
+       "domain": "JOSE R. REYES MEMORIAL MEDICAL CENTER INSTITUTIONAL REVIEW BOARD"
+      }
+     ],
+     "organization": {
+      "fullName": "Jose R. Reyes Memorial Medical Center",
+      "class": "OTHER_GOV"
+     },
+     "briefTitle": "A Randomized, Assessor-Blinded, Intraindividual Study on the Efficacy of Fractional Carbon Dioxide Laser Versus Long-Pulsed 1064 nm Nd:YAG Laser in the Treatment of Keratosis Pilaris",
+     "officialTitle": "A Randomized, Assessor-Blinded, Intraindividual Study on the Efficacy of Fractional Carbon Dioxide Laser Versus Long-Pulsed 1064 nm Nd:YAG Laser in the Treatment of Keratosis Pilaris",
+     "acronym": "KP"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2026-07",
+     "overallStatus": "COMPLETED",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2024-02-01",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2024-09-30",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2024-12-31",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-07-13",
+     "studyFirstSubmitQcDate": "2026-07-27",
+     "studyFirstPostDateStruct": {
+      "date": "2026-07-31",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-07-27",
+     "lastUpdatePostDateStruct": {
+      "date": "2026-07-31",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "PRINCIPAL_INVESTIGATOR",
+      "investigatorFullName": "Maria Korina Abao Dakis",
+      "investigatorTitle": "Dermatology Resident/Principal Investigator",
+      "investigatorAffiliation": "Jose R. Reyes Memorial Medical Center"
+     },
+     "leadSponsor": {
+      "name": "Jose R. Reyes Memorial Medical Center",
+      "class": "OTHER_GOV"
+     }
+    },
+    "oversightModule": {
+     "oversightHasDmc": false,
+     "isFdaRegulatedDrug": false,
+     "isFdaRegulatedDevice": false,
+     "isUsExport": false
+    },
+    "descriptionModule": {
+     "briefSummary": "This study compares the efficacy of fractional carbon dioxide laser versus long-pulsed 1064 nm Nd:YAG laser in the treatment of keratosis pilaris.",
+     "detailedDescription": "The main study objective is to compare the efficacy, safety, and tolerability of fractional carbon dioxide versus long-pulsed 1064 nm Nd:YAG laser in the treatment of keratosis pilaris. This is a split-body trial involving three laser sessions delivered every four weeks, followed by one follow-up visit. Improvement is measured using clinical scores based on global assessment, the number of hyperkeratotic papules, erythema, and pigmentation. Dermoscopic assessment is focused on perifollicular erythema, coiled hair, and follicular hyperkeratosis. Patient satisfaction, adverse events, and procedural pain are evaluated."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Keratosis Pilaris (KP)"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "NA"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "CARE_PROVIDER",
+        "OUTCOMES_ASSESSOR"
+       ]
+      }
+     },
+     "enrollmentInfo": {
+      "count": 27,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "Fractional carbon dioxide laser",
+       "type": "ACTIVE_COMPARATOR",
+       "description": "This group will receive treatment with fractional carbon dioxide laser.",
+       "interventionNames": [
+        "Device: Fractional carbon dioxide laser"
+       ]
+      },
+      {
+       "label": "Long-pulsed 1064 nm Nd:YAG laser",
+       "type": "ACTIVE_COMPARATOR",
+       "description": "This group will receive long-pulsed 1064 nm Nd:YAG laser treatment.",
+       "interventionNames": [
+        "Device: Long-pulsed 1064 nm Nd:YAG laser"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DEVICE",
+       "name": "Fractional carbon dioxide laser",
+       "description": "This is a fractional ablative laser.",
+       "armGroupLabels": [
+        "Fractional carbon dioxide laser"
+       ]
+      },
+      {
+       "type": "DEVICE",
+       "name": "Long-pulsed 1064 nm Nd:YAG laser",
+       "description": "This is a non-ablative laser.",
+       "armGroupLabels": [
+        "Long-pulsed 1064 nm Nd:YAG laser"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Assessment of Clinical Improvement or Worsening",
+       "description": "Clinical photos were taken at baseline and 4 weeks after the last laser session using a 48-megapixel camera (iPhone 15 Pro Max, Apple). Initial assessment of the photographs was performed by the primary investigator and reviewed and verified by a blinded-board certified dermatologist. The scoring system was adapted from the Physician's Global Assessment (PGA) scoring. Baseline clinical scores for follicular keratotic papules were graded as follows: grade 1, mild = 0-25%; grade 2, moderate = 26-50%; grade 3, severe = 51-75%; grade 4, very severe = 76-100%. Erythema and pigmentation were graded as none, faint, moderate, and intense (1 to 4). Clinical improvement or worsening was rated as follows: grade -4, severe worsening \\>75%; grade -3, marked worsening 51-75%; grade -2, moderate worsening 26-50%; grade -1, slight worsening 0-25%; grade 0, no improvement; grade 1 mild improvement 0%-25%; grade 2, moderate improvement 26%-50%; grade 3, marked improvement 51-75%; grade 4, excellent impr",
+       "timeFrame": "4 months"
+      },
+      {
+       "measure": "Dermoscopic Findings Improvement or Worsening",
+       "description": "A dermoscope (Illuco IDS-1100) with polarized and non-polarized modes was used to assess the dermoscopic findings. Dermoscopic photographs were initially assessed by the primary investigator and reviewed and verified by a blinded board-certified dermatologist with a certification in dermoscopy. Dermoscopic scores (0 to 5) for a fixed area on each treatment area were calculated at baseline and at follow-up, with perifollicular erythema graded as none, faint, moderate, and brownish (0 to 3). Coiled hair and hyperkeratosis were marked as present (1) or absent (0). These numbers were totaled per treatment area and were expressed as mean scores.",
+       "timeFrame": "4 months"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "Pain Score",
+       "description": "Pain scores were evaluated after each laser treatment using a 10-point visual analogue scale (VAS), where 0 indicated no pain and 10 indicated extreme pain. At the end of the study, participants rated their overall satisfaction with treatment on a 5-point scale, with 0 indicating no improvement and 4 indicating excellent improvement.",
+       "timeFrame": "4 months"
+      },
+      {
+       "measure": "Patient Satisfaction",
+       "description": "Patient satisfaction was graded at the end of the study based on their overall satisfaction with the laser treatment, as follows: 0 (unsatisfied), 1 (poor), 2 (fair), 3 (satisfied), 4 (extremely satisfied). This was adapted from the Client Satisfaction Questionnaire-4 (CSQ-4).",
+       "timeFrame": "4 months"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* Aged 13 years old and above\n* Fitzpatrick skin types III or IV\n* Keratosis pilaris symmetrically affecting both upper outer arms\n\nExclusion Criteria:\n\n* Other variants and subtypes of keratosis pilaris: atrophoderma vermiculatum, erythromelanosis follicularis faciei et colli, folliculitis spinulosa decalvans, keratosis follicular spinulosa decalvans, keratosis pilaris atrophicans, keratosis pilaris atrophicans faciei, and keratosis pilaris rubra\n* Received any laser treatment, systemic retinoids, or dermabrasion for KP or for other indications (e.g. acne) within the past 6 months\n* Received topical treatment (including emollients, keratolytic agents, retinoids, or corticosteroids) for KP within the past month\n* Underwent hair removal by waxing, threading, or plucking in the areas to be treated within the past month\n* History of keloids or hypertrophic scars\n* Presence of other skin diseases in the area to be treated\n* History of autoimmune or photosensitive diseases\n* Intake of topical or oral photosensitizing medications\n* Pregnant or lactating",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "13 Years",
+     "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "locations": [
+      {
+       "facility": "Department of Dermatology, Jose R. Reyes Memorial Medical Center",
+       "city": "Manila",
+       "state": "National Capital Region",
+       "zip": "1003",
+       "country": "Philippines",
+       "geoPoint": {
+        "lat": 14.6042,
+        "lon": 120.9822
+       }
+      }
+     ]
+    },
+    "ipdSharingStatementModule": {
+     "ipdSharing": "YES",
+     "description": "Individual participant data will include age, sex, Fitzpatrick skin type, medical and family history, previous treatments for keratosis pilaris, and body weight index.",
+     "infoTypes": [
+      "SAP",
+      "ICF"
+     ]
+    }
+   },
+   "hasResults": false
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT00944216",
+     "orgStudyIdInfo": {
+      "id": "KP"
+     },
+     "organization": {
+      "fullName": "Wright State University",
+      "class": "OTHER"
+     },
+     "briefTitle": "Efficacy and Safety of Salkera Emollient Foam in the Treatment of Moderate to Severe Keratosis Pilaris, a Prospective Study",
+     "officialTitle": "Efficacy and Safety of Salkera Emollient Foam in the Treatment of Moderate to Severe Keratosis Pilaris, a Prospective Study"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2022-02",
+     "overallStatus": "TERMINATED",
+     "whyStopped": "terminated due to administrative reasons.",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2009-06"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2010-01",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2010-01",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2009-07-21",
+     "studyFirstSubmitQcDate": "2009-07-22",
+     "studyFirstPostDateStruct": {
+      "date": "2009-07-23",
+      "type": "ESTIMATED"
+     },
+     "resultsFirstSubmitDate": "2011-08-04",
+     "resultsFirstSubmitQcDate": "2022-02-03",
+     "resultsFirstPostDateStruct": {
+      "date": "2022-02-04",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-02-03",
+     "lastUpdatePostDateStruct": {
+      "date": "2022-02-04",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "SPONSOR"
+     },
+     "leadSponsor": {
+      "name": "Wright State University",
+      "class": "OTHER"
+     },
+     "collaborators": [
+      {
+       "name": "PreCision Dermatology, Inc.",
+       "class": "INDUSTRY"
+      }
+     ]
+    },
+    "oversightModule": {
+     "oversightHasDmc": true
+    },
+    "descriptionModule": {
+     "briefSummary": "Keratosis pilaris (KP) is a benign skin condition that often is very frustrating for the patients and treating physicians. The investigators are interested to see if the study product is effective in treating moderate to severe KP.",
+     "detailedDescription": "Keratosis pilaris (KP) is a benign, inherited skin disorder that presents as grouped, rough, horny follicular papules. It is estimated that 40-50% of the adult population and 50-80% of adolescents suffer from KP. Both men and women are affected, with a possible female predominance. It is noted worldwide and shows no racial predilection. Most patients with KP are actually unaware that the condition has a designed medical term. Although no clear etiology had been identified, KP is sometimes associated with other skin conditions such as icththyosis vulgaris, xerosis or atopic dermatitis.\n\nMany patients with KP never seek medical attention since they are asymptomatic. However, KP can create significant cosmetic concerns in some cases. It can also become symptomatic especially when inflammatory lesions are present. There is no gold standard treatment for KP. Prevention of excessive dryness of the skin and continued moisturization are used currently as standard of care. Many topical agents such as tretinoin, ammonium lactate lotion, urea creams, tazarotene, adapalene, tacrolimus, alpha hydroxy acids and salicylic acids have been used with variable results. Sometimes topical corticosteroids are used, especially when inflammation is present. In general, KP treatments need to be continuous and complete clearance may not be possible.\n\nSalkera emollient foam is a keratolytic foam containing 6% salicylic acid in an aqueous based emollient foam vehicle. It is different from other salicylic containing topical product in that it has been shown to produce desquamation of the stratum corneum while not effecting qualitative or quantitative changes in the structure of the viable dermis. In addition, it also contains aloe vera and anti-oxidants which help to sooth the skin. Salkera emollient foam has been used to treat several hyperkeratotic skin disorders such as KP, psoriasis, keratosis palmaris/plantaris, verrucae, icthyoses and pityriasis rubra pilaris. However, there has been no published study assessing the efficacy and safety of Salkera emollient foam in treating moderate to severe KP.\n\nThis prospective single center pilot study is designed to assess the efficacy and safety of Salkera emollient foam in treating moderate to severe KP. Patients' cosmetic acceptance of the product will also be assessed. In addition, this study is also designed to develop a validated outcome measure for assessing KP severity that can be used in future KP clinical trials."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Keratosis Pilaris"
+     ],
+     "keywords": [
+      "keratosis pilaris"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE4"
+     ],
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "NONE"
+      }
+     },
+     "enrollmentInfo": {
+      "count": 1,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "Salkera Emollient Foam Treatment",
+       "type": "EXPERIMENTAL",
+       "description": "All participants will receive this intervention.",
+       "interventionNames": [
+        "Drug: Salkera Emollient Foam"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DRUG",
+       "name": "Salkera Emollient Foam",
+       "description": "application of the Salkera emollient foam twice a day during the 12 week study period.",
+       "armGroupLabels": [
+        "Salkera Emollient Foam Treatment"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Differences Between Week 0 and Week 12 Aggregate Site Severity Score and Investigator Assessment for Site Disease Severity for All Studied Patients.",
+       "timeFrame": "12 weeks"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "Change of Subject Assessment of Overall Disease Severity Between Week 0 and Week 12.",
+       "description": "Subject disease severity score: None (0), mild (1), mild/moderate (2), moderate (3), moderate/severe (4), severe (5).",
+       "timeFrame": "12 wks"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* Subject is willing and able to give informed consent.\n* Subject is willing and able to participate in the study as an outpatient and is willing to comply with the study requirements.\n* Subject is 18 years of age or older.\n* Subject has KP on 2 out of the 4 extremities.\n* For each assessed extremity, subject has at least a moderate severity (\u2265 3) on the Investigator Site Assessment of KP Severity.\n* For each assessed extremity, subject has an aggregate score of at least 6 on the Investigator Assessment of Erythema, Roughness and Scaling.\n* If subject is a female of childbearing potential, subject will have a negative urine pregnancy test at screening (week 0).\n* If female, subject will be either post-menopausal for \\> 2 year, surgically sterile (hysterectomy or bilateral tubal ligation), or practicing one form of birth control (abstinence, oral contraceptive, estrogen patch, implant contraception, injectable contraception, IUD, diaphragm, condom, sponge, spermicides, or vasectomy of partner). Female subjects should continue to practice birth control for 1 month after the completion of study.\n\nExclusion Criteria:\n\n* Subject has evidence of a clinically significant, unstable or poorly controlled medical condition as determined by the investigators/sub-investigators.\n* Subject has active skin infection, atopic dermatitis or any other skin disease that will interfere with the clinical assessment of KP.\n* Subject has known allergies to any ingredient of study medication.\n* Subject who has used any of the following topical therapies for KP lesions within the last two weeks: topical corticosteroid, tretinoin, tazarotene, adapalene, salicylic acid, alpha-hydroxy acid, urea and/or ammonium lactate lotion.\n* Subject who has been treated with UVB therapy in the last two weeks.\n* Subject who has received systemic antibiotics, steroid, tacrolimus, tretinoin, isotretinoin and/or PUVA within the last 4 weeks.\n* Female subjects who are pregnant (positive urine pregnancy test), breast-feeding or are considering become pregnant during the study period.\n* Subject who is currently participating in another clinical trial or has completed a clinical trial within the last 4 weeks.",
+     "healthyVolunteers": true,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "locations": [
+      {
+       "facility": "Wright State University School of Medicine, Department of Dermatology",
+       "city": "Dayton",
+       "state": "Ohio",
+       "zip": "45408",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 39.75895,
+        "lon": -84.19161
+       }
+      }
+     ]
+    }
+   },
+   "hasResults": true
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT05666011",
+     "orgStudyIdInfo": {
+      "id": "KP-IPL"
+     },
+     "organization": {
+      "fullName": "Goldman, Butterwick, Fitzpatrick and Groff",
+      "class": "OTHER"
+     },
+     "briefTitle": "Laser to Aid in Treatment of Keratosis Pilaris on Arms",
+     "officialTitle": "A Single Center, Evaluator-Blinded, Split-Body, Randomized Pilot Study of Intense Pulsed Light Activation of Silver Nanoparticles vs. Intense Pulsed Light Alone in the Treatment of Keratosis Pilaris"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2022-10",
+     "overallStatus": "UNKNOWN",
+     "lastKnownStatus": "NOT_YET_RECRUITING",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2023-03-20",
+      "type": "ESTIMATED"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2023-05-30",
+      "type": "ESTIMATED"
+     },
+     "completionDateStruct": {
+      "date": "2023-05-30",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2022-10-21",
+     "studyFirstSubmitQcDate": "2022-12-22",
+     "studyFirstPostDateStruct": {
+      "date": "2022-12-27",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-03-17",
+     "lastUpdatePostDateStruct": {
+      "date": "2023-03-20",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "SPONSOR"
+     },
+     "leadSponsor": {
+      "name": "Goldman, Butterwick, Fitzpatrick and Groff",
+      "class": "OTHER"
+     }
+    },
+    "oversightModule": {
+     "oversightHasDmc": false,
+     "isFdaRegulatedDrug": false,
+     "isFdaRegulatedDevice": true,
+     "isUsExport": true
+    },
+    "descriptionModule": {
+     "briefSummary": "To assess efficacy and safety of intense pulsed light (IPL) activation of silver nanoparticles (SNA) versus IPL alone for treatment of keratosis pilaris.",
+     "detailedDescription": "The primary objective of this pilot study is to assess efficacy and safety of intense pulsed light (IPL; StellarM22\u2122 Universal IPL, Lumenis Ltd., Yokneam, Israel) alone versus combination of IPL activation of silver nanoparticles (SNA) for treatment of keratosis pilaris.\n\nPrior to first treatment, right and left arms of 10 enrolled subjects will be randomized to combination treatment with IPL activation of SNA (i.e. intervention arm) versus IPL alone (i.e. control arm). The intervention arm will be pre-treated with sugaring to epilate existing hair. This arm will then be treated with 0.5mL of nanoparticle suspension administered with a standard infusion paddle for 5 minutes prior to IPL treatment.\n\nFollowing nanoparticle infusion, excess suspension will be removed from the surface of the skin with a pre-moistened wipe. Once all visible suspension is removed from the skin, the area will be cleansed with an alcohol wipe. If the alcohol wipe shows that the suspension is still present on the surface of the skin, additional pre-moistened wipes will be used to cleanse the skin until the alcohol wipe comes away without visible suspension. IPL will then be applied to the intervention arm.\n\nTreatments will be repeated three times, spaced four- to six-weeks apart. After completing all three treatments, patients will return for macroscopic and dermoscopic photography at 1 month and 3 months."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Keratosis Pilaris"
+     ],
+     "keywords": [
+      "keratosis pilaris",
+      "arms"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "NA"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "Enrolled subjects will be randomized to combination treatment with IPL activation of SNA (i.e. intervention arm) versus IPL alone (i.e. control arm).",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "SINGLE",
+       "maskingDescription": "Blinded Investigator will be unaware of which arm received which treatment",
+       "whoMasked": [
+        "INVESTIGATOR"
+       ]
+      }
+     },
+     "enrollmentInfo": {
+      "count": 10,
+      "type": "ESTIMATED"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "Group A -- Right side is Intervention Arm, Left side is Control Arm",
+       "type": "EXPERIMENTAL",
+       "description": "Right Arm will be treated with IPL activation of SNA (Silver Nanoparticles ) and left arm with IPL alone.",
+       "interventionNames": [
+        "Device: M22 IPL"
+       ]
+      },
+      {
+       "label": "Group B -- Left side is Intervention Arm, Right side is Control Arm",
+       "type": "EXPERIMENTAL",
+       "description": "Left Arm will be treated with IPL activation of SNA (Silver Nanoparticles ) and right arm with IPL alone.",
+       "interventionNames": [
+        "Device: M22 IPL"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DEVICE",
+       "name": "M22 IPL",
+       "description": "IPL is an attractive option in the treatment of KP as the provider can utilize cut-off filters to target both melanin for hair removal and erythema with a single device. An added benefit of IPL is the larger crystal size, allowing for efficient coverage of a larger body surface area. IPL has been utilized in the treatment of KP and KP variants, with outcomes showing reductions in both erythema and texture.",
+       "armGroupLabels": [
+        "Group A -- Right side is Intervention Arm, Left side is Control Arm",
+        "Group B -- Left side is Intervention Arm, Right side is Control Arm"
+       ],
+       "otherNames": [
+        "StellarM22 Intense Pulsed Light Laser"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Erythema Grading Scale by a blinded investigator to assess change (one for each arm)",
+       "description": "Erythema grading scale (Right Arm) 0 No erythema\n\n1. Mild erythema\n2. Moderate erythema\n3. Severe erythema\n4. Very severe erythema\n\nErythema grading scale (Left Arm) 0 No erythema\n\n1. Mild erythema\n2. Moderate erythema\n3. Severe erythema\n4. Very severe erythema",
+       "timeFrame": "Baseline, Day 30, Day 60, Day 90, Day 110"
+      },
+      {
+       "measure": "Textural Change Grading Scale by a blinded investigator (one for each arm)",
+       "description": "Textural change grading scale ( Right Arm) 0 No textural change\n\n1. Mild textural change\n2. Moderate textural change\n3. Severe textural change\n4. Very severe textural change\n\nTextural change grading scale (Left Arm) 0 No textural change\n\n1. Mild textural change\n2. Moderate textural change\n3. Severe textural change\n4. Very severe textural change",
+       "timeFrame": "Baseline, Day 30, Day 60, Day 90, Day 110"
+      },
+      {
+       "measure": "Investigator Global Aesthetic Improvement Scale (IGAIS) by a blinded investigator",
+       "description": "Blinded Physician Global Aesthetic Improvement Scale\n\nRating Description\n\n1. Very Much Improved- Optimal cosmetic result in this subject\n2. Much Improved- Marked improvement in appearance form the initial condition, but not completely optimal for this subject.\n3. Improved- Obvious improvement in appearance from initial condition, but a re- treatment is indicated.\n4. No Change- The appearance is essentially the same as the original condition.\n5. Worse- The appearance is worse than the original condition.\n\nScores (write a number under each treated area or check \"Not Treated\") Right Arm Left Arm\n\nNot Treated Not Treated",
+       "timeFrame": "Day 30, Day 60, Day 90, Day 110"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "Subject Global Aesthetic Improvement Scale (SGAIS)",
+       "description": "Subject Global Aesthetic Improvement Scale Assessment How would you rate the overall change in appearance of your treated areas? Non-treated areas will be checked as \"Not Treated\" for you.\n\nRating Description\n\n1. Very Much Improved- Optimal cosmetic result in this subject\n2. Much Improved- Marked improvement in appearance form the initial condition, but not completely optimal for this subject.\n3. Improved- Obvious improvement in appearance from initial condition, but a re-treatment is indicated.\n4. No Change- The appearance is essentially the same as the original condition.\n5. Worse- The appearance is worse than the original condition.\n\nScores (write a number under each treated area or check \"Not Treated\") Right Arm Left Arm\n\nNot Treated Not Treated",
+       "timeFrame": "Day 30, Day 60, Day 90, Day 110"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* Adult males and females aged 18 or older with clinical diagnosis of KP of the posterior upper arms.\n* Subjects in good general health based on investigator's judgment and medical history\n* Understands and accepts obligation not to receive any other procedures on the treatment area through the length of the study\n* Understands and accepts the obligation and is logistically able to be present for all visits\n* Is willing to comply with all requirements of the study and sign the informed consent documents\n* Must be willing to maintain usual sun exposure for the duration of the study\n* Subject agrees to avoid tanning or use of sunless tanner during the entire course of the study\n* Subject agrees to avoid any changes in current skincare regimen.\n* Negative urine pregnancy test result at the time of study entry (if applicable)\n* For female subjects of childbearing potential, must be willing to use an acceptable form of birth control during the entire course of the study. All systemic birth control measures must be in consistent use for at least 30 days prior to study enrollment.\n\n  1. A female is considered of childbearing potential unless she is postmenopausal, without a uterus and/or both ovaries, or has had a bilateral tubal ligation.\n  2. Acceptable methods of birth control are: oral contraceptives, contraceptive patches/rings/implants, Implanon\u00ae, Depo-Provera\u00ae, double-barrier methods (e.g., condoms and spermicide), abstinence, and/or vasectomy of partner with a documented second acceptable method of birth control, should the subject become sexually active.\n\nExclusion Criteria:\n\n* Female subjects who are pregnant, planning a pregnancy, or breast feeding during the study\n* The subject is hypersensitive to light in the visible and/or near infrared wavelength region\n* The subject is taking medication which is known to increase sensitivity to sunlight\n* The subject has a seizure disorder triggered by light\n* The subject has a pacemaker\n* The subject has a metal implant that interferes with the transmission of energy to the electrical field\n* The subject has any embedded electronic devices that give or receive a signal such as Implantable Cardiac Defibrillators (ICD) or Cardiac Resynchronization Therapy (CRT) devices: treatment may interfere with the functionality of the device and/or damage the electronic implant\n* Gold or metal allergy\n* The subject has nerve insensitivity to heat in the treatment area or in the neutral pad placement area or a neuropathic disorder\n* The subject has used topical keratolytics, retinoids, chemical or mechanical exfoliative treatments in the 30 days prior to application of study treatment\n* Dermal fillers, biostimulators, laser treatments, or other energy-based light treatments during the 6-month period before study treatment\n* Subjects with tattoos in the treatment areas\n* Subjects with a significant history or current evidence of a medical, psychological, or other disorder that, in the investigator's opinion, would preclude enrollment into the study\n* Subjects with a history of or presence of any skin condition/disease (including but not limited to any visible rash, atopic dermatitis, psoriasis, actinic keratoses, neoplasm of uncertain behavior, or untreated keratinocyte carcinoma/melanoma, etc.) in the treatment area that might interfere with the diagnosis or evaluation of study parameters\n* History of keloid or hypertrophic scarring\n* Subjects with an active bacterial, viral, or fungal infection of the treatment areas\n* The subject has a significant systemic illness, such as lupus, or an illness localized in area being treated\n* Subjects planning any cosmetic procedure to the treatment areas during the study period, other than the treatment that will be performed by the investigator\n* Presence of incompletely healed wound(s) in the treatment area\n* Current participation or participation within 30 days prior to the start of this study in a drug or other investigational research study",
+     "healthyVolunteers": true,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "centralContacts": [
+      {
+       "name": "Andrea Pacheco",
+       "role": "CONTACT",
+       "phone": "8586571004",
+       "email": "apacheco@clderm.com"
+      },
+      {
+       "name": "Sherif Mikhail, MD",
+       "role": "CONTACT",
+       "phone": "8586571004",
+       "email": "smikhail@westderm.com"
+      }
+     ]
+    },
+    "ipdSharingStatementModule": {
+     "ipdSharing": "UNDECIDED"
+    }
+   },
+   "hasResults": false
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT06032078",
+     "orgStudyIdInfo": {
+      "id": "2022-04-376-A-3"
+     },
+     "organization": {
+      "fullName": "Premier Specialists, Australia",
+      "class": "OTHER"
+     },
+     "briefTitle": "Evaluation of the Responsiveness of Investigator Global Assessment Score for Keratosis Pilaris",
+     "officialTitle": "Evaluation of the Responsiveness of Investigator Global Assessment Score for Keratosis"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2023-09",
+     "overallStatus": "UNKNOWN",
+     "lastKnownStatus": "ACTIVE_NOT_RECRUITING",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2023-07-26",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2023-12-29",
+      "type": "ESTIMATED"
+     },
+     "completionDateStruct": {
+      "date": "2023-12-29",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2023-08-28",
+     "studyFirstSubmitQcDate": "2023-09-07",
+     "studyFirstPostDateStruct": {
+      "date": "2023-09-11",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-09-07",
+     "lastUpdatePostDateStruct": {
+      "date": "2023-09-11",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "PRINCIPAL_INVESTIGATOR",
+      "investigatorFullName": "Dedee Murrell",
+      "investigatorTitle": "Professor Dedee Murrell",
+      "investigatorAffiliation": "Premier Specialists, Australia"
+     },
+     "leadSponsor": {
+      "name": "Premier Specialists, Australia",
+      "class": "OTHER"
+     },
+     "collaborators": [
+      {
+       "name": "The University of New South Wales",
+       "class": "OTHER"
+      }
+     ]
+    },
+    "oversightModule": {
+     "oversightHasDmc": false,
+     "isFdaRegulatedDrug": false,
+     "isFdaRegulatedDevice": false,
+     "isUsExport": false
+    },
+    "descriptionModule": {
+     "briefSummary": "This prospective study aims to evaluate the responsiveness of the validated investigator global assessment (IGA) and composite area index score for keratosis pilaris by data collection through treatment and scoring sessions held at a private practice and relevant statistical analysis.",
+     "detailedDescription": "This is a prospective study aiming to evaluate the responsiveness of the IGA score for KP. KPAI is a 5-point IGA score (0-4) of five main body areas: face, upper limbs, lower limbs, trunk, and buttocks, for a maximum of 20 in two main categories, activity (erythema, skin roughness and papulation) and damage (pigmentation and scarring). The final score will be a maximum of 100. KPIGA, on the other hand, is a standard 0-4 IGA score. A Physician's Global Assessment Score and a 15-point Likert Scale would also be used by investigators, data collected act as external anchor for further responsiveness statistical analysis purpose.\n\n4 scoring sessions will take place at Premier Specialists, Kogarah, Sydney with all co-investigators conducting the study in person at this single study site. Each dermatologist and medical professional involved will receive training on using the scores through a slideshow of training photos prior to the live scoring session. Firstly, a baseline score will be determined using the proposed scoring systems on the first scoring session. After that, participants will be offered 3 sessions of Nd: YAG laser 1064nm treatments at 4-week intervals on the affected skin of all body regions (face, upper limbs, lower limbs, trunk, and buttocks). The baseline KPIGA and KPAI scores obtained on the first scoring visit acts as the control for this pilot study and the scores obtained in the 3 progressive visits will be compared to the baseline. According to relevant study, the recommended Nd: YAG laser 1064nm treatment regimen is 3 treatment sessions at 4-week intervals. They will be scored before subsequent treatment sessions to see if there is any improvement in their KP and if the score is responsive to change.\n\nEvery participant will also complete the DLQI questionnaire during each visit. This data will be used to provide insight of patient's subjective perceptions of KP and the psychological impact it may have on them."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Keratosis Pilaris"
+     ],
+     "keywords": [
+      "responsiveness",
+      "investigator global assessment"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "NA"
+     ],
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "15 patients with keratosis pilaris (including subtypes) are recruited",
+      "primaryPurpose": "OTHER",
+      "maskingInfo": {
+       "masking": "NONE"
+      }
+     },
+     "enrollmentInfo": {
+      "count": 15,
+      "type": "ESTIMATED"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "Patients with keratosis pilaris",
+       "type": "EXPERIMENTAL",
+       "description": "Patients treated with 3 sessions of 1064nm Nd: YAG laser at 4-weekly intervals. Results are compared with baseline.",
+       "interventionNames": [
+        "Device: Cutera laser machine"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DEVICE",
+       "name": "Cutera laser machine",
+       "description": "1064nm Nd: YAG laser",
+       "armGroupLabels": [
+        "Patients with keratosis pilaris"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "KP-IGA",
+       "description": "KP-IGA is a standard 0-4 IGA score.",
+       "timeFrame": "through study completion, an average of 1 year"
+      },
+      {
+       "measure": "KPAI",
+       "description": "KPAI is a 5-point IGA score (0-4) of five main body areas: face, upper limbs, lower limbs, trunk, and buttocks, for a maximum of 20 in two main categories, activity (erythema, skin roughness and papulation) and damage (pigmentation and scarring). The final score will be a maximum of 100.",
+       "timeFrame": "through study completion, an average of 1 year"
+      },
+      {
+       "measure": "Likert Scale of Magnitude of CHange",
+       "description": "15-point Likert scale from -7 (deterioration) to +7 (improvement)",
+       "timeFrame": "through study completion, an average of 1 year"
+      },
+      {
+       "measure": "Physician's Global Assessment",
+       "description": "10-point scale form 0 to 10 showing the worst skin condition to the best",
+       "timeFrame": "through study completion, an average of 1 year"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n1. All genders are allowed to participate\n2. Age range: 18-80 years\n3. Participants with Fitzpatrick skin type 1-3\n4. Those with KP including subtypes of KP on the scored body regions (face, upper limbs, lower limbs, trunk, and buttocks)\n5. Able to attend the scoring sessions\n6. Participants having read and understood the PICF and are willing to participate\n7. Of mature mind and able to provide informed consent\n8. Able to maintain compliance with required study related procedures including completing the QOL questionnaire's\n\nExclusion Criteria:\n\n1. Participants who are unwilling or unable to attend the scoring sessions\n2. Those with other skin conditions overlapping the same area(s) as the KP\n3. People younger than 18\n4. People with darker skin i.e. Fitzpatrick skin type 4 or above\n5. Those who had received any laser or dermabrasion therapy in the previous 6 months or topical treatment (keratolytic agents or corticosteroids) in the previous 1 month before the study treatment session\n6. Those with a history of keloid or hypertrophic scars\n7. Those being on photosensitive medications, allergic to intervention agents\n8. Pregnant or lactating",
+     "healthyVolunteers": true,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "locations": [
+      {
+       "facility": "Premier Dermatology",
+       "city": "Sydney",
+       "state": "New South Wales",
+       "zip": "2217",
+       "country": "Australia",
+       "geoPoint": {
+        "lat": -33.86785,
+        "lon": 151.20732
+       }
+      },
+      {
+       "facility": "Premier Specialists",
+       "city": "Sydney",
+       "state": "New South Wales",
+       "zip": "2217",
+       "country": "Australia",
+       "geoPoint": {
+        "lat": -33.86785,
+        "lon": 151.20732
+       }
+      }
+     ]
+    },
+    "ipdSharingStatementModule": {
+     "ipdSharing": "NO",
+     "description": "All data obtained will be stored securely on-site premises and will not be articulated outside of Australia. Data obtained from patients through scoring sheets and QOL questionnaires will be transcribed as de-identifiable data in an Excel spreadsheet into a password-protected computer (only the investigators with the corresponding study codes given to each patient can identify the data for the purpose of study data analysis). The original scoring sheets and QOL questionnaires will be stored securely on-site and may only be accessed by investigators and co-investigators, as detailed in the patient consent form."
+    }
+   },
+   "hasResults": false
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT05535517",
+     "orgStudyIdInfo": {
+      "id": "KPIGA2022"
+     },
+     "organization": {
+      "fullName": "Premier Specialists, Australia",
+      "class": "OTHER"
+     },
+     "briefTitle": "Development and Validation of an Investigator Global Assessment Score for Keratosis Pilaris",
+     "officialTitle": "Development and Validation of an Investigator Global Assessment Score for Keratosis Pilaris"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2022-09",
+     "overallStatus": "UNKNOWN",
+     "lastKnownStatus": "RECRUITING",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2022-08-13",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2023-08-30",
+      "type": "ESTIMATED"
+     },
+     "completionDateStruct": {
+      "date": "2023-08-30",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2022-08-30",
+     "studyFirstSubmitQcDate": "2022-09-06",
+     "studyFirstPostDateStruct": {
+      "date": "2022-09-10",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-09-06",
+     "lastUpdatePostDateStruct": {
+      "date": "2022-09-10",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "PRINCIPAL_INVESTIGATOR",
+      "investigatorFullName": "Dedee Murrell",
+      "investigatorTitle": "Professor, Director of Premier Specialists",
+      "investigatorAffiliation": "Premier Specialists, Australia"
+     },
+     "leadSponsor": {
+      "name": "Premier Specialists, Australia",
+      "class": "OTHER"
+     }
+    },
+    "oversightModule": {
+     "isFdaRegulatedDrug": false,
+     "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+     "briefSummary": "This validation study aims to develop a standardised investigator global assessment (IGA) score for keratosis pilaris and test the validity and reliability of the score through a one-day scoring exercise held at a private practice and compare it to a standard 0-4 IGA score specifically defined for keratosis pilaris.",
+     "detailedDescription": "This is a prospective validation study aiming to develop and validate a standardised IGA score for KP. Firstly, a preliminary score will be developed using deidentified photos of patients with KP. These photos will only be used to create the training slide for the assessors. The proposed score, Keratosis Pilaris Area Index (KPAI), is a 5-point IGA score (0-4) of five main body areas: face, upper limbs, lower limbs, trunk, and buttocks, for a maximum of 20 in two main categories, activity (erythema, skin roughness and papulation) and damage (pigmentation and scarring). The final score will be a maximum of 100. This will be compared to a standard 0-4 IGA score, defined specifically for KP, known as a KP-IGA.\n\nThe one-day scoring exercise has been modified from the Epidermolysis Bullosa Disease Activity and Scarring Index (EBDASI) validation (Loh et al., 2014). It will take place at Premier Specialists, Kogarah, Sydney with all co-investigators conducting the study in person at this single study site. Each dermatologist and medical professional involved will receive training on using the scores through a slideshow of training photos prior to the live scoring session. Five dermatologists and four medical professionals will be randomly assigned to assess 20 KP patients in 5-minute intervals, using the proposed scoring system, KPAI, and the KP-IGA score. This data will be used to assess inter-rater reliability.\n\nEach dermatologist or medical professional will be randomly assigned to rescore two patients after seeing other patients to minimise recall bias. The randomisation will be done by an investigator who is uninvolved in the scoring session and has had no interaction with both patients and assessors. Data gathered from this section is used to determine intra-rater reliability.\n\nEvery participant will also complete two QOL questionnaires: the DLQI/CDLQI and HADS. This data will be used to provide insight of patient's subjective perceptions of KP and the psychological impact it may have on them.\n\nParticipants who attended the scoring day will be invited to attend a follow-up scoring session in September - October 2022. The purpose of this scoring session is to see how stable their condition is and take baseline photographs of their skin to monitor their condition.\n\nFour assessors will score the participants in 5-minute intervals with the proposed scoring system KPAI and the KP-IGA. Participants will be offered free samples of Cerave Salicylic Acid Smoothing Cleanser and Cream to try. They will be invited to return for another rescoring in November - December 2022 to see if there is any improvement in their KP and if the score is responsive to change.\n\nIn the November - December 2022 scoring session, participants will be given free samples of Propaira 30% Urea exfoliating emollient and Propaira 20% Lactic acid exfoliating lotion to try. They will be invited to return for a fourth scoring session in December to monitor their progress and see if the scores improve."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Keratosis Pilaris"
+     ],
+     "keywords": [
+      "scoring system",
+      "IGA score",
+      "severity",
+      "disease assessment",
+      "KP",
+      "evaluation"
+     ]
+    },
+    "designModule": {
+     "studyType": "OBSERVATIONAL",
+     "patientRegistry": false,
+     "designInfo": {
+      "observationalModel": "OTHER",
+      "timePerspective": "PROSPECTIVE"
+     },
+     "enrollmentInfo": {
+      "count": 15,
+      "type": "ESTIMATED"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "Group 1",
+       "description": "KP Scoring Day Participants\n\nParticipants who attend the one-day scoring session in August 2022.",
+       "interventionNames": [
+        "Other: KPAI",
+        "Other: KP-IGA"
+       ]
+      },
+      {
+       "label": "Group 2",
+       "description": "KP Follow-up Scoring (September)\n\nParticipants who attended the scoring day in August will be invited to attend a follow-up scoring session in September - October 2022. The purpose of this scoring session is to see how stable their condition is and take baseline photographs of their skin to monitor their condition.\n\nFour assessors will score the participants in 5-minute intervals with the proposed scoring system KPAI and the KP-IGA. Participants will be offered free samples of Cerave Salicylic Acid Smoothing Cleanser and Cream to try.",
+       "interventionNames": [
+        "Other: CeraVe SA Smoothing Cleanser",
+        "Other: CeraVe SA Smoothing Cream",
+        "Other: KPAI",
+        "Other: KP-IGA"
+       ]
+      },
+      {
+       "label": "Group 3",
+       "description": "KP Follow-up Scoring (November)\n\nParticipants who attend the September scoring session will be invited to return for another rescoring in November - December 2022 to see if there is any improvement in their KP and if the score is responsive to change.\n\nParticipants will be given free samples of Propaira 30% Urea exfoliating emollient and Propaira 20% Lactic acid exfoliating lotion to try.",
+       "interventionNames": [
+        "Other: Propaira 20% Lactic Acid Exfoliating Lotion",
+        "Other: Propaira 30% Urea Exfoliating Emollient",
+        "Other: KPAI",
+        "Other: KP-IGA"
+       ]
+      },
+      {
+       "label": "Group 4",
+       "description": "KP Follow-up Scoring (December)\n\nParticipants who attend the November scoring session will be invited to return for another rescoring in December 2022 to monitor their progress, and see if there is any improvement in their KP and if the score is responsive to change.",
+       "interventionNames": [
+        "Other: KPAI",
+        "Other: KP-IGA"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "OTHER",
+       "name": "CeraVe SA Smoothing Cleanser",
+       "description": "The CeraVe Salicylic Acid (SA) Smoothing Cleanser is formulated with salicylic acid to help exfoliate the skin and remove dirt and dead skin cells on the skin without compromising or striping moisture from the skin's natural barrier, leaving the skin feeling clean, smooth and hydrated. This salicylic acid cleanser is also formulated to include hyaluronic acid to hydrate and retain moisture and 3 essential ceramides to moisturise and help support the skin's barrier.",
+       "armGroupLabels": [
+        "Group 2"
+       ]
+      },
+      {
+       "type": "OTHER",
+       "name": "CeraVe SA Smoothing Cream",
+       "description": "The CeraVe Salicylic Acid (SA) Smoothing Cream contains salicylic acid as well as hydrating hyaluronic acid and three essential ceramides.",
+       "armGroupLabels": [
+        "Group 2"
+       ]
+      },
+      {
+       "type": "OTHER",
+       "name": "Propaira 20% Lactic Acid Exfoliating Lotion",
+       "description": "For smoothing rough skin.",
+       "armGroupLabels": [
+        "Group 3"
+       ]
+      },
+      {
+       "type": "OTHER",
+       "name": "Propaira 30% Urea Exfoliating Emollient",
+       "description": "30% Urea, 7% Glycerin to smoothen rough skin.",
+       "armGroupLabels": [
+        "Group 3"
+       ]
+      },
+      {
+       "type": "OTHER",
+       "name": "KPAI",
+       "description": "The proposed score, Keratosis Pilaris Area Index (KPAI), is a 5-point IGA score (0-4) of five main body areas: face, upper limbs, lower limbs, trunk, and buttocks, for a maximum of 20 in two main categories, activity (erythema, skin roughness and papulation) and damage (pigmentation and scarring). The final score will be a maximum of 100.",
+       "armGroupLabels": [
+        "Group 1",
+        "Group 2",
+        "Group 3",
+        "Group 4"
+       ],
+       "otherNames": [
+        "Keratosis Pilaris Area Index"
+       ]
+      },
+      {
+       "type": "OTHER",
+       "name": "KP-IGA",
+       "description": "A standard 5-point IGA score (0-4) defined specifically for KP",
+       "armGroupLabels": [
+        "Group 1",
+        "Group 2",
+        "Group 3",
+        "Group 4"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Keratosis Pilaris Area Index (KPAI)",
+       "description": "This study aims to develop and validate an IGA score for evaluating KP (KPAI) by determining the intra-rater and inter-rater reliability through testing the composite IGA score on patients and comparing it to a standard 0-4 IGA that will be defined specifically for KP.",
+       "timeFrame": "through study completion, an average of 1 year"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "QOL questionnaires (DLQI/CDLQI)",
+       "description": "The secondary aim of the study is to explore the impact KP may have on patients' QOL by using the (Child) Dermatology Life Quality (DLQI/CDLQI) Index questionnaires.",
+       "timeFrame": "through study completion, an average of 1 year"
+      },
+      {
+       "measure": "QOL questionnaires (HADS)",
+       "description": "The secondary aim of the study is to explore the impact KP may have on patients' QOL by using the hospital anxiety and depression scale (HADS) questionnaires.",
+       "timeFrame": "through study completion, an average of 1 year"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* All genders are allowed to participate\n* Age range: 12-80 years\n* Those with KP including subtypes of KP\n* Able to attend the one-day scoring session\n* Participants having read and understood the patient information and consent form and are willing to participate\n* Of mature mind and able to provide informed consent, in case of children (\\< 18 years) then the guardian or caretaker can provide consent\n* Able to maintain compliance with required study related procedures including completing the QOL questionnaire's\n\nExclusion Criteria:\n\n* Participants who are unwilling or unable to attend the one-day scoring session\n* Those with other skin conditions overlapping the same area(s) as the KP",
+     "healthyVolunteers": true,
+     "sex": "ALL",
+     "minimumAge": "12 Years",
+     "maximumAge": "80 Years",
+     "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+     ],
+     "studyPopulation": "Patients of the Principal Investigator's dermatology practice who have been diagnosed with keratosis pilaris.",
+     "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+     "centralContacts": [
+      {
+       "name": "Bianca Wills, BMedSci",
+       "role": "CONTACT",
+       "phone": "0452409850",
+       "email": "premierspectrialsbianca@gmail.com"
+      },
+      {
+       "name": "Madeline Wang",
+       "role": "CONTACT",
+       "phone": "0452558767",
+       "email": "z5257702@ad.unsw.edu.au"
+      }
+     ],
+     "overallOfficials": [
+      {
+       "name": "D\u00e9d\u00e9e Murrell",
+       "affiliation": "Premier Specialists",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "locations": [
+      {
+       "facility": "Premier Specialists",
+       "status": "RECRUITING",
+       "city": "Kogarah",
+       "state": "New South Wales",
+       "zip": "2222",
+       "country": "Australia",
+       "contacts": [
+        {
+         "name": "Bianca Wills, BMedSci",
+         "role": "CONTACT",
+         "phone": "9598 5800",
+         "email": "premierspectrialsbianca@gmail.com"
+        },
+        {
+         "name": "Madeline Wang",
+         "role": "SUB_INVESTIGATOR"
+        },
+        {
+         "name": "Anna Wilson",
+         "role": "SUB_INVESTIGATOR"
+        },
+        {
+         "name": "D\u00e9d\u00e9e Murrell",
+         "role": "PRINCIPAL_INVESTIGATOR"
+        }
+       ],
+       "geoPoint": {
+        "lat": -33.9681,
+        "lon": 151.13564
+       }
+      }
+     ]
+    },
+    "referencesModule": {
+     "references": [
+      {
+       "pmid": "24355263",
+       "type": "BACKGROUND",
+       "citation": "Loh CC, Kim J, Su JC, Daniel BS, Venugopal SS, Rhodes LM, Intong LR, Law MG, Murrell DF. Development, reliability, and validity of a novel Epidermolysis Bullosa Disease Activity and Scarring Index (EBDASI). J Am Acad Dermatol. 2014 Jan;70(1):89-97.e1-13. doi: 10.1016/j.jaad.2013.09.041."
+      }
+     ]
+    },
+    "ipdSharingStatementModule": {
+     "ipdSharing": "UNDECIDED"
+    }
+   },
+   "hasResults": false
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT03243617",
+     "orgStudyIdInfo": {
+      "id": "AOB2015-02"
+     },
+     "organization": {
+      "fullName": "AOBiome LLC",
+      "class": "INDUSTRY"
+     },
+     "briefTitle": "Cosmetic Study of AO+Mist in Improving the Appearance of Skin Afflicted With Keratosis Pilaris",
+     "officialTitle": "A Placebo-Controlled, Double-Blind, Bi-Lateral Study to Evaluate the Performance and Tolerability of a Cosmetic Product Designed to Improve the Appearance of Skin Afflicted With Keratosis Pilaris"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2017-08",
+     "overallStatus": "COMPLETED",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2015-12-04",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2016-06-08",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2016-09-03",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2017-08-01",
+     "studyFirstSubmitQcDate": "2017-08-08",
+     "studyFirstPostDateStruct": {
+      "date": "2017-08-09",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2017-08-08",
+     "lastUpdatePostDateStruct": {
+      "date": "2017-08-09",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "SPONSOR"
+     },
+     "leadSponsor": {
+      "name": "AOBiome LLC",
+      "class": "INDUSTRY"
+     }
+    },
+    "oversightModule": {
+     "oversightHasDmc": false,
+     "isFdaRegulatedDrug": false,
+     "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+     "briefSummary": "The purpose of this study is to demonstrate the safety, tolerability and efficacy of AO+ Mist administered daily for 4 weeks to improve the appearance of skin afflicted with keratosis pilaris.",
+     "detailedDescription": "This will be a single center, double-blind, placebo-controlled study in subjects with keratosis pilaris affecting both sides of the body.\n\nSubjects will be screened within 4 weeks of enrollment. Subjects will be seen at the research facility on for the baseline visit and will be asked to return to the site on weeks 1, 2, 3 and 4 for assessments. Test product application will occur for four weeks starting with the day of the baseline visit."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Keratosis Pilaris"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "NA"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "Bi-Lateral study",
+      "primaryPurpose": "OTHER",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "maskingDescription": "AO+ Mist (or placebo) are supplied in white 100mL metered spray bottles. Test products are blinded and labeled for application to the LEFT or RIGHT side of the body.",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER"
+       ]
+      }
+     },
+     "enrollmentInfo": {
+      "count": 26,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "AO+Mist",
+       "type": "ACTIVE_COMPARATOR",
+       "description": "Cosmetic Product AO+Mist",
+       "interventionNames": [
+        "Other: Placebo",
+        "Other: AO+Mist"
+       ]
+      },
+      {
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR",
+       "description": "Placebo",
+       "interventionNames": [
+        "Other: Placebo",
+        "Other: AO+Mist"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "OTHER",
+       "name": "Placebo",
+       "description": "Subjects are instructed in the use of the spray bottle and asked to self-administer the Test Product as follows:\n\n* LEFT side of the body where skin is affected: Five (5) pumps of Spray (BOTTLE LABELED: LEFT) must be applied twice-a-day to the entire area affected by KP once in the morning and once in the evening for 28 days.\n* RIGHT side of the body where skin is affected: Five (5) pumps of Spray (BOTTLE LABELED: RIGHT) must be applied twice-a-day to the entire area affected by KP once in the morning and once in the evening for 28 days.\n* Subjects may not wash their body with soap and water AFTER the applications",
+       "armGroupLabels": [
+        "AO+Mist",
+        "Placebo"
+       ]
+      },
+      {
+       "type": "OTHER",
+       "name": "AO+Mist",
+       "description": "Subjects are instructed in the use of the spray bottle and asked to self-administer the Test Product as follows:\n\n* LEFT side of the body where skin is affected: Five (5) pumps of Spray (BOTTLE LABELED: LEFT) must be applied twice-a-day to the entire area affected by KP once in the morning and once in the evening for 28 days.\n* RIGHT side of the body where skin is affected: Five (5) pumps of Spray (BOTTLE LABELED: RIGHT) must be applied twice-a-day to the entire area affected by KP once in the morning and once in the evening for 28 days.\n* Subjects may not wash their body with soap and water AFTER the applications",
+       "armGroupLabels": [
+        "AO+Mist",
+        "Placebo"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Number of Participants With Treatment-Related Adverse Events as assessed by physical exam and appearance",
+       "timeFrame": "Baseline-Week 4"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "Difference in Keratosis pilaris Investigator Score",
+       "timeFrame": "Baseline-Week 4"
+      }
+     ],
+     "otherOutcomes": [
+      {
+       "measure": "Difference in Skindex16 Quality of Life survey",
+       "timeFrame": "Baseline-Week 4"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n1. Male and female subjects \u226518 and \u226465 years of age\n2. Subject is in good general health\n3. Diagnosis of keratosis pilaris involving areas of the body affected bilaterally\n4. Subject has Fitzpatrick Skin Type I-VI\n5. Willing to refrain from using any treatments, other than the investigational product, including antibiotics, for acne present on the face.\n6. Ability to comprehend and comply with procedures\n7. Agree to commit to participate in the current protocol\n8. Provide written informed consent prior to any study procedure being performed (all subjects should be able to understand the informed consent form and any other documents that subjects are required to read)\n\nExclusion Criteria:\n\n1. Male and female subjects under 18 years or over 65 years of age\n2. Female subjects who are pregnant or lactating\n3. Subjects who have received laser therapy to the KP affected area in the past 1 year\n4. Subjects with a concurrent diagnosis of another skin condition or malignancy\n5. Subjects with tan or sunburn over the area affected by KPin the past month\n6. Subjects with open, non-healing sores or infections at any skin site\n7. Treatment with over-the-counter topical medications for the treatment of acne vulgaris including benzoyl peroxide, topical anti-inflammatory medications, corticosteroids, \u03b1-hydroxy/glycolic acid, including lactic acid lotions (Am-Lactin, Lac-Hydrin), urea cream (Carmol 10, Carmol 20, Carmol 40, Urix 40), salicylic acid (Salex lotion), topical corticosteroids within 4 weeks prior to baseline.\n8. Treatment with systemic corticosteroids (including intranasal and inhaled corticosteroids) within 4 weeks prior to baseline\n9. Treatment with systemic antibiotics or systemic anti-acne drugs or systemic anti-inflammatory drugs within 4 weeks prior to baseline\n10. Prescription topical retinoid use on the face or body within 4 weeks of baseline (e.g., tretinoin, tazarotene, adapalene).\n11. Oral retinoid use (e.g., isotretinoin) within 12 months prior to baseline or vitamin A supplements greater than 10,000 units/day within 6 months of baseline..\n12. Treatment with any investigational drug within 30 days prior to the beginning of the screening period (this includes investigational formulations of marketed products, inhaled and topical drugs)\n13. Subjects who are unable to understand the protocol or give informed consent\n14. Any other condition and/or situation that causes the Investigator to deem a subject unsuitable for the study (e.g., due to expected study medication non-compliance, inability to medically tolerate the study procedures, or a subject's unwillingness to comply with study-related procedures)",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "maximumAge": "65 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "overallOfficials": [
+      {
+       "name": "Jeffrey Dover, MD",
+       "affiliation": "Skincare Physicians",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "locations": [
+      {
+       "facility": "Skincare Physicians",
+       "city": "Chestnut Hill",
+       "state": "Massachusetts",
+       "zip": "02467",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 42.33065,
+        "lon": -71.16616
+       }
+      }
+     ]
+    },
+    "ipdSharingStatementModule": {
+     "ipdSharing": "NO"
+    }
+   },
+   "hasResults": false
+  }
+ ]
+}

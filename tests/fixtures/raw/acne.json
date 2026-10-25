@@ -1,0 +1,4241 @@
+{
+ "totalCount": 1052,
+ "studies": [
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT01682200",
+     "orgStudyIdInfo": {
+      "id": "PaspaPharma-04"
+     },
+     "organization": {
+      "fullName": "Medivet Pty Ltd",
+      "class": "INDUSTRY"
+     },
+     "briefTitle": "Clinical Trial on the Effects and Side Effects of ProOxy in the Treatment of Acne",
+     "officialTitle": "An Open Label Pilot Clinical Trial on the Efficacy and Safety of ProOxy Facial Spray (Topical 15% Oxygen Solution) in the Treatment of Moderate Facial Acne Vulgaris Among Filipino Patients"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2012-09",
+     "overallStatus": "COMPLETED",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2009-10"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2010-03",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2011-09",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2012-09-06",
+     "studyFirstSubmitQcDate": "2012-09-07",
+     "studyFirstPostDateStruct": {
+      "date": "2012-09-10",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2012-09-07",
+     "lastUpdatePostDateStruct": {
+      "date": "2012-09-10",
+      "type": "ESTIMATED"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "SPONSOR"
+     },
+     "leadSponsor": {
+      "name": "Medivet Pty Ltd",
+      "class": "INDUSTRY"
+     }
+    },
+    "oversightModule": {
+     "oversightHasDmc": false
+    },
+    "descriptionModule": {
+     "briefSummary": "This study was conducted to determine the effects and side effects of ProOxy facial spray in the treatment of acne.",
+     "detailedDescription": "A study on the effects and side effects of ProOxy facial spray was done. Sixty people were selected and approved to participate in this study. Pictures of the face (frontal,left side and right side) were taken upon acceptance, during and after treatment at 4,8 and 12 weeks intervals."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Acne Vulgaris"
+     ],
+     "keywords": [
+      "moderate",
+      "facial acne",
+      "acne vulgaris"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE1"
+     ],
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "NONE"
+      }
+     },
+     "enrollmentInfo": {
+      "count": 50,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "ProOxy, Effects and Side Effects in treating acne",
+       "type": "EXPERIMENTAL",
+       "description": "Patients are instructed to clean the face with ProOxy facial cleanser and then spray on the face wet enough but not dripping twice daily (upon waking up and before bedtime) for 3 months.",
+       "interventionNames": [
+        "Drug: ProOxy"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DRUG",
+       "name": "ProOxy",
+       "description": "Clean the face with ProOxy facial wash before spraying ProOxy on the face enough to wet it twice daily, upon waking up and before bedtime.",
+       "armGroupLabels": [
+        "ProOxy, Effects and Side Effects in treating acne"
+       ],
+       "otherNames": [
+        "15% Oxygen solution spray"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Changes in the appearances,sizes of the acne lesions as well as the disappearance of acne on the face.",
+       "description": "Upon acceptance,pictures are taken and acne lesions are identified and counted and after 4,8, and 12 weeks during and after application of ProOxy.",
+       "timeFrame": "4,8,12 weeks post application of the spray"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* patients with acne on their faces only\n* patients who are at least 18 years of age\n* patients who have normal and disease free skin at the dorsal surface of the upper arm.\n* patients who are willing to follow instructions on both the Patch Test Part one and Part Two procedures and to follow scheduled visits.\n\nExclusion Criteria\n\n* patients with systemic illnesses(such as but not limited to heart disease, hypertension, diabetes, cancer, liver disease, kidney disease)\n* patients with very dark skin color, Fitzpatrick skin type V-VI, who are prone to post=inflammatory hyperpigmentation.\n* patients with intake of oral medications including glucocorticoids or any immuno-suppressants or who have undergone ultraviolet phototherapy for the past 2 weeks prior to the patch test.\n* patients with history of contact dermatitis, dermatographism or anaphylaxis.\n* patients with history of eczematous and inflammatory dermatitis, seborrheic dermatitis and psoriasis.",
+     "healthyVolunteers": true,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "maximumAge": "40 Years",
+     "stdAges": [
+      "ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "locations": [
+      {
+       "facility": "Mary Chile General Hospital",
+       "city": "Manila",
+       "state": "National Capital Region",
+       "country": "Philippines",
+       "geoPoint": {
+        "lat": 14.6042,
+        "lon": 120.9822
+       }
+      },
+      {
+       "facility": "Far Eastern University Hospital, Dept of Family Medicine",
+       "city": "Quezon City",
+       "state": "National Capital Region",
+       "country": "Philippines",
+       "geoPoint": {
+        "lat": 14.6488,
+        "lon": 121.0509
+       }
+      }
+     ]
+    }
+   },
+   "hasResults": false
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT00869492",
+     "orgStudyIdInfo": {
+      "id": "mar-der1"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "dermatology1"
+      }
+     ],
+     "organization": {
+      "fullName": "Marmara University",
+      "class": "OTHER"
+     },
+     "briefTitle": "Comparison of Nadifloxacin Cream Alone and With Benzoyl Peroxide Solution in the Treatment of Acne",
+     "officialTitle": "A Double Blind Randomised Comparison of Nadifloxacin 1% Cream Alone and Nadifloxacine %1 Cream With Benzoyl Peroxide 5% Solution in the Treatment of Mild to Moderate Facial Acne Vulgaris"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2009-03",
+     "overallStatus": "UNKNOWN",
+     "lastKnownStatus": "ACTIVE_NOT_RECRUITING",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2008-08"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2009-06",
+      "type": "ESTIMATED"
+     },
+     "completionDateStruct": {
+      "date": "2009-06",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2009-03-24",
+     "studyFirstSubmitQcDate": "2009-03-24",
+     "studyFirstPostDateStruct": {
+      "date": "2009-03-26",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2009-03-24",
+     "lastUpdatePostDateStruct": {
+      "date": "2009-03-26",
+      "type": "ESTIMATED"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "oldNameTitle": "Z\u00fcleyha Yaz\u0131c\u0131",
+      "oldOrganization": "Dermatology Department of Marmara University School of Medicine"
+     },
+     "leadSponsor": {
+      "name": "Marmara University",
+      "class": "OTHER"
+     }
+    },
+    "oversightModule": {
+     "oversightHasDmc": false
+    },
+    "descriptionModule": {
+     "briefSummary": "The purpose of this study is to determine whether using of nadifloxacine 1% cream and benzoyl peroxide 5% solution together is more effective than using nadifloxacine alone in the treatment of mild to moderate facial acne.",
+     "detailedDescription": "Nadifloxacin; a new topical antibiotic for the treatment of acne has recently been marketed in our country. Only a few studies on its use and effectiviness could be found in the literature. Nadifloxacin may be an alternative to other topical antibiotics and benzoyl peroxide or its use along with benzoyl peroxide may be more effective and rational to prevent possible future resistance."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Acne Vulgaris"
+     ],
+     "keywords": [
+      "Acne",
+      "Nadifloxacin",
+      "benzoyl peroxide"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE3"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      }
+     },
+     "enrollmentInfo": {
+      "count": 90,
+      "type": "ESTIMATED"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "A",
+       "type": "OTHER",
+       "description": "instructed nadifloxacine 1% cream twice dailly, and placebo for benzoyl peroxide 5% solution once dailly",
+       "interventionNames": [
+        "Drug: nadifloxacine"
+       ]
+      },
+      {
+       "label": "B",
+       "type": "OTHER",
+       "description": "instructed nadifloxacine 1% cream twice dailly, and active benzoyl peroxide 5% solution once dailly",
+       "interventionNames": [
+        "Drug: benzoyl peroxide",
+        "Drug: nadifloxacine"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DRUG",
+       "name": "benzoyl peroxide",
+       "description": "benzoyl peroxide %5 solution once dailly",
+       "armGroupLabels": [
+        "B"
+       ],
+       "otherNames": [
+        "Aknefug BP5 lotion"
+       ]
+      },
+      {
+       "type": "DRUG",
+       "name": "nadifloxacine",
+       "description": "Nadifloxacine 1% cream twice dailly",
+       "armGroupLabels": [
+        "A",
+        "B"
+       ],
+       "otherNames": [
+        "Nadixa 1% cream"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Number of patients whom inflammatory lesions were decreased %50 or more",
+       "timeFrame": "two months"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "the number of patients whom were observed side effects",
+       "timeFrame": "two months"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* Clinical diagnosis of mild to moderate facial acne vulgaris\n* Must have at least 10 inflammatory and/or non-inflammatory and no more than 3 nodulocystic acne lesions\n\nExclusion Criteria:\n\n* Nodulocystic acne lesions more than 3 and pure comedonal acne\n* Additional truncal acne needs systemic therapy\n* Usage of topical treatments for acne in last 2 weeks, systemic antibiotic in last 4 weeks, systemic isotretinoin in last 6 months\n* Application of chemical peels and laser in last 4 weeks\n* Usage of hormones in last 3 months\n* Clinical signs of hyperandrogenism in females\n* Pregrancy and lactation\n* Hypersensitivity to interventions\n* Additional facial skin diseases (eg. atopic and seborreic dermatitis)\n* Photosensitive disorders and usage of drugs which can trigger Photosensitive conditions",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "14 Years",
+     "maximumAge": "40 Years",
+     "stdAges": [
+      "CHILD",
+      "ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "overallOfficials": [
+      {
+       "name": "Z\u00fcleyha Yaz\u0131c\u0131, doktor",
+       "affiliation": "Marmara University",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "locations": [
+      {
+       "facility": "Marmara University school of medicine",
+       "city": "Istanbul",
+       "country": "Turkey (T\u00fcrkiye)",
+       "geoPoint": {
+        "lat": 41.01384,
+        "lon": 28.94966
+       }
+      }
+     ]
+    }
+   },
+   "hasResults": false
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT03393494",
+     "orgStudyIdInfo": {
+      "id": "PRG-NY-17-008"
+     },
+     "organization": {
+      "fullName": "Padagis LLC",
+      "class": "INDUSTRY"
+     },
+     "briefTitle": "Bioequivalence Study of Two Treatments in the Treatment of Acne Vulgaris on the Face",
+     "officialTitle": "Multi-Center, Double-Blind, Randomized, Vehicle-Controlled, Parallel-Group Study to Compare Perrigo's Adapalene/BP Gel to Galderma's Epiduo (Adapalene/BP) Gel, and Both Treatments to a Vehicle Control in the Treatment of Acne Vulgaris"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2021-11",
+     "overallStatus": "COMPLETED",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2017-12-13",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2018-09-30",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2019-01-05",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2018-01-03",
+     "studyFirstSubmitQcDate": "2018-01-03",
+     "studyFirstPostDateStruct": {
+      "date": "2018-01-08",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2020-11-13",
+     "resultsFirstSubmitQcDate": "2020-12-09",
+     "resultsFirstPostDateStruct": {
+      "date": "2021-01-05",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2019-10-08",
+     "dispFirstSubmitQcDate": "2020-12-09",
+     "dispFirstPostDateStruct": {
+      "date": "2021-01-05",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2021-11-05",
+     "lastUpdatePostDateStruct": {
+      "date": "2021-11-08",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "SPONSOR"
+     },
+     "leadSponsor": {
+      "name": "Padagis LLC",
+      "class": "INDUSTRY"
+     }
+    },
+    "oversightModule": {
+     "oversightHasDmc": false,
+     "isFdaRegulatedDrug": true,
+     "isFdaRegulatedDevice": false,
+     "isUsExport": false
+    },
+    "descriptionModule": {
+     "briefSummary": "To compare the safety and efficacy of Perrigo's product to an FDA approved product for the treatment of Acne Vulgaris"
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Acne Vulgaris"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE3"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      }
+     },
+     "enrollmentInfo": {
+      "count": 825,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "Perrigo active",
+       "type": "EXPERIMENTAL",
+       "description": "Test product",
+       "interventionNames": [
+        "Drug: Adapalene and Benzoyl Peroxide Topical Gel"
+       ]
+      },
+      {
+       "label": "Reference active",
+       "type": "ACTIVE_COMPARATOR",
+       "description": "RLD product",
+       "interventionNames": [
+        "Drug: Epiduo Topical Product"
+       ]
+      },
+      {
+       "label": "Perrigo placebo",
+       "type": "PLACEBO_COMPARATOR",
+       "description": "placebo product",
+       "interventionNames": [
+        "Drug: Placebo"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DRUG",
+       "name": "Adapalene and Benzoyl Peroxide Topical Gel",
+       "description": "Test product",
+       "armGroupLabels": [
+        "Perrigo active"
+       ]
+      },
+      {
+       "type": "DRUG",
+       "name": "Epiduo Topical Product",
+       "description": "RLD product",
+       "armGroupLabels": [
+        "Reference active"
+       ]
+      },
+      {
+       "type": "DRUG",
+       "name": "Placebo",
+       "description": "Placebo gel",
+       "armGroupLabels": [
+        "Perrigo placebo"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Mean Percent Change From Baseline in the Papules and Pustules Lesion Count",
+       "timeFrame": "Day 1 to week 12"
+      },
+      {
+       "measure": "Mean Percent Change From Baseline in the Open and Closed Comedones Lesion Count",
+       "description": "Per protocol population",
+       "timeFrame": "Day 1 to week 12"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n1. Signed IRB approved written informed consent/assent\n2. 12 to 40 years of age, inclusive.\n3. Clinical diagnosis of facial acne vulgaris with an inflammatory lesion (papules and pustules) count of 20-50, inclusive and a non-inflammatory (open and closed comedones) lesion count of 25-100 inclusive and no more than 2 nodulocystic lesions (e.g., nodules and cysts) including those present on the nose.\n4. Baseline Investigator's Global Assessment Score of 3 (moderate) or 4 (severe) on a severity scale of 0 to 4.\n5. Females of child bearing potential (excluding women who are surgically sterilized (tubal ligation or bilateral oophorectomy or hysterectomy) or post-menopausal for at least 2 years), in addition to having a negative urine pregnancy test at Visit 1/Day1(Baseline), must be willing to use an acceptable form of birth control during the study.\n\nExclusion Criteria:\n\n1. Pregnant, breastfeeding or planning a pregnancy within the period of their study participation period.\n2. Presence of more than 2 facial Nodulocystic lesions.\n3. Presence of any other facial skin condition that, in the Investigator's opinion, might interfere with acne vulgaris diagnosis and/or evaluations\n4. Any uncontrolled, chronic or serious disease or medical condition that would prevent participation in a clinical trial, or, in judgment of the investigator, would put the subject at undue risk or might confound the study assessments\n5. Excessive facial hair that would interfere with the diagnosis or assessment of acne vulgaris.\n6. History of unresponsiveness to topical adapalene and/or benzoyl peroxide therapy.\n7. Currently using any product containing adapalene and/or benzoyl peroxide and/or belonging to the same family.\n8. History of hypersensitivity or allergy to adapalene, benzoyl peroxide, retinoids and/or any ingredient in the study medication.\n9. Use of medications known to exacerbate acne\n10. Start or change within 3 months (90 days) of Visit 1 and throughout the study\n11. Use of medicated make-up throughout the study and significant change in the use of consumer products within 30 days (1 month) of study entry and throughout the study\n12. Subject consumes excessive alcohol, abuses drugs, or has a condition that could compromise the subject's ability to comply with study requirements.\n13. Subjects who in the opinion of the investigator, are unlikely to be able to follow the restrictions of the protocol and complete the study.",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "12 Years",
+     "maximumAge": "40 Years",
+     "stdAges": [
+      "CHILD",
+      "ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "locations": [
+      {
+       "facility": "Dermatology Consultants",
+       "city": "High Point",
+       "state": "North Carolina",
+       "zip": "27262",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 35.95569,
+        "lon": -80.00532
+       }
+      }
+     ]
+    },
+    "ipdSharingStatementModule": {
+     "ipdSharing": "NO"
+    }
+   },
+   "hasResults": true
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT03115177",
+     "orgStudyIdInfo": {
+      "id": "15052002"
+     },
+     "organization": {
+      "fullName": "Rush University Medical Center",
+      "class": "OTHER"
+     },
+     "briefTitle": "Can Addition of Doxycycline Perioperatively Reduce Propionibacterium Acnes in Shoulder Arthroplasty?",
+     "officialTitle": "Can Addition of Doxycycline Perioperatively Reduce Propionibacterium Acnes in Shoulder Arthroplasty?"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2018-05",
+     "overallStatus": "COMPLETED",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2015-11"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2017-02",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2017-02",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2016-04-25",
+     "studyFirstSubmitQcDate": "2017-04-10",
+     "studyFirstPostDateStruct": {
+      "date": "2017-04-14",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2018-04-18",
+     "resultsFirstSubmitQcDate": "2018-05-16",
+     "resultsFirstPostDateStruct": {
+      "date": "2018-06-15",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2018-05-16",
+     "lastUpdatePostDateStruct": {
+      "date": "2018-06-15",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "PRINCIPAL_INVESTIGATOR",
+      "investigatorFullName": "Allison Rao",
+      "investigatorTitle": "Orthopaedic Surgery Resident",
+      "investigatorAffiliation": "Rush University Medical Center"
+     },
+     "leadSponsor": {
+      "name": "Rush University Medical Center",
+      "class": "OTHER"
+     }
+    },
+    "oversightModule": {
+     "oversightHasDmc": true
+    },
+    "descriptionModule": {
+     "briefSummary": "The purpose of this study is to investigate antibiotic treatment to target bacteria about the shoulder. This bacteria, Propionibacterium acnes, is detected in many revision shoulder surgeries and is thought to contribute to periprosthetic joint infections, pain, and failure of total shoulder arthroplasty as well as other shoulder surgeries. This study is investigating adding an FDA approved antibiotic that is commonly used for treatment of this bacteria and many common infections. The investigators will take intraoperative cultures to look for the presence or absence of specific bacteria. The investigators are conducting this trial to see if adding another antibiotic to specifically target this common bacteria found around the shoulder will be effective.",
+     "detailedDescription": "Patients undergoing total and reverse shoulder arthroplasty for primary glenohumeral arthritis will be invited to participate in this study if patients meet inclusion and exclusion criteria. Patients will be randomized to receive either standard perioperative antibiotics with cefazolin or to the treatment group to receive doxycycline in addition to cefazolin. Patients will then undergo routine surgical treatment. 3 cultures from the superficial tissue, dermis, and glenohumeral joint will be taken and cultured for 14 days to detect any bacterial growth."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Osteoarthritis"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "NA"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "primaryPurpose": "PREVENTION",
+      "maskingInfo": {
+       "masking": "NONE"
+      }
+     },
+     "enrollmentInfo": {
+      "count": 56,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "Cefazolin",
+       "type": "ACTIVE_COMPARATOR",
+       "description": "All patients will receive standard perioperative antibiotics with 2g of cefazolin within 1 hour of incision. The control group will not receive any further antibiotic treatment.",
+       "interventionNames": [
+        "Drug: Cefazolin"
+       ]
+      },
+      {
+       "label": "Doxycycline+Cefazolin Group",
+       "type": "ACTIVE_COMPARATOR",
+       "description": "All patients will receive standard perioperative antibiotics with 2g of cefazolin within 1 hour of incision. The treatment group will receive 100mg of doxycycline IV in addition to cefazolin within 1 hour of incision.",
+       "interventionNames": [
+        "Drug: Doxycycline",
+        "Drug: Cefazolin"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DRUG",
+       "name": "Doxycycline",
+       "description": "The treatment group will receive 100mg of doxycycline IV in addition to cefazolin within 1 hour of incision for total shoulder arthroplasty.",
+       "armGroupLabels": [
+        "Doxycycline+Cefazolin Group"
+       ]
+      },
+      {
+       "type": "DRUG",
+       "name": "Cefazolin",
+       "armGroupLabels": [
+        "Cefazolin",
+        "Doxycycline+Cefazolin Group"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Bacterial Culture",
+       "description": "Intraoperative cultures will be taken from all study participants and tested for detection of bacteria. These cultures were held for 14 days and tested for aerobic and anaerobic bacteria. Reported data are presented for the number of participants with a positive bacteria culture from the intraoperative samples.",
+       "timeFrame": "2 weeks"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients undergoing primary total shoulder arthroplasty at Rush University Medical Center\n\nExclusion Criteria:\n\n* Patients with prior shoulder surgery of any kind\n* Patients with a known infection or history of infection with clinical signs such as elevated erythrocyte sedimentation rate, C-reactive protein, positive culture aspiration\n* Patients with a known allergy to doxycycline\n* Patients with a known allergy to cefazolin or penicillin",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "40 Years",
+     "maximumAge": "90 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "overallOfficials": [
+      {
+       "name": "Allison Rao, MD",
+       "affiliation": "Rush University Medical Center",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "locations": [
+      {
+       "facility": "Rush University Medical Center",
+       "city": "Chicago",
+       "state": "Illinois",
+       "zip": "60612",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 41.85003,
+        "lon": -87.65005
+       }
+      }
+     ]
+    },
+    "ipdSharingStatementModule": {
+     "ipdSharing": "NO"
+    }
+   },
+   "hasResults": true
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT02457000",
+     "orgStudyIdInfo": {
+      "id": "12-14-23"
+     },
+     "organization": {
+      "fullName": "University Hospitals Cleveland Medical Center",
+      "class": "OTHER"
+     },
+     "briefTitle": "Sleep, Circadian Rhythm & Skin Health",
+     "officialTitle": "Sleep, Circadian Rhythm & Skin Health"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2021-11",
+     "overallStatus": "COMPLETED",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2015-03",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2020-08",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2020-08",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2015-03-18",
+     "studyFirstSubmitQcDate": "2015-05-26",
+     "studyFirstPostDateStruct": {
+      "date": "2015-05-29",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2021-11-30",
+     "lastUpdatePostDateStruct": {
+      "date": "2021-12-15",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "PRINCIPAL_INVESTIGATOR",
+      "investigatorFullName": "Dr. Kevin Cooper",
+      "investigatorTitle": "Principal Investigator",
+      "investigatorAffiliation": "University Hospitals Cleveland Medical Center"
+     },
+     "leadSponsor": {
+      "name": "University Hospitals Cleveland Medical Center",
+      "class": "OTHER"
+     }
+    },
+    "oversightModule": {
+     "oversightHasDmc": true
+    },
+    "descriptionModule": {
+     "briefSummary": "The purpose of this study is to explore the mechanisms behind how sleep quality may affect skin aging, skin integrity and skin disease."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy",
+      "Psoriasis",
+      "Eczema",
+      "Acne"
+     ],
+     "keywords": [
+      "Sleep",
+      "Skin",
+      "Circadian Rhythm"
+     ]
+    },
+    "designModule": {
+     "studyType": "OBSERVATIONAL",
+     "patientRegistry": false,
+     "designInfo": {
+      "observationalModel": "COHORT",
+      "timePerspective": "OTHER"
+     },
+     "bioSpec": {
+      "retention": "SAMPLES_WITHOUT_DNA",
+      "description": "Skin, blood, urine, saliva and hair follicle samples may be collected from volunteers to look at various markers related to sleep, the circadian rhythm and skin disease."
+     },
+     "enrollmentInfo": {
+      "count": 59,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "Normal, healthy volunteers",
+       "description": "Normal, healthy volunteers without any skin pathology will be asked to undergo various procedures to evaluate their sleep and skin health."
+      },
+      {
+       "label": "Volunteers with skin pathology",
+       "description": "Volunteers with skin pathology including but not limited to eczema, psoriasis, acne, and other inflammatory dermatoses will be asked to undergo various procedures to evaluate their sleep and skin health."
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Analysis of Sleep Pattern via Actigraphy, Polysomnography & Questionnaires",
+       "description": "The volunteers may be asked to wear a wrist actigraph to measure movement. This watch would be worn for 24 hours per day for 7-14 days. The volunteer may also be asked to fill out questionnaires regarding their sleep patterns. Note: Other methods of assessing sleep patterns may also be used including a portable polysomnogram or a standard, overnight sleep study.",
+       "timeFrame": "7-14 days"
+      },
+      {
+       "measure": "Evaluation of skin (both in terms of skin aging and skin disease)",
+       "description": "The volunteers may have their skin evaluated for skin aging using the SCINEXA tool. Volunteers with psoriasis may have their skin evaluated via PASI and/or PGA assessments. Volunteers may have photographs taken to compare clinical appearance with laboratory and research findings.",
+       "timeFrame": "Only once during the study or at specific time points depending on what other procedures are being performed"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "Sample Analysis (from skin, blood, urine, saliva and hair follicle samples)",
+       "description": "Skin, blood, urine, saliva and hair follicle samples may be collected from some volunteers to look at various markers related to sleep, the circadian rhythm and skin disease.",
+       "timeFrame": "Only once during the study or at specific time points depending on what other procedures are being performed"
+      },
+      {
+       "measure": "Skin Barrier Recovery (via TEWL measurement)",
+       "description": "Skin barrier recovery via Transepidermal Water Loss (TEWL) measurement may be assessed in some volunteers.",
+       "timeFrame": "Only once during the study or at specific time points depending on what other procedures are being performed"
+      },
+      {
+       "measure": "MED Testing & Recovery from UV-induced erythema",
+       "description": "MED Testing \\& Recovery from UV-induced erythema may be assessed in some volunteers.",
+       "timeFrame": "24 hours"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* Males or females ages 18 years and above\n* Capable of giving informed consent\n* Adults who are either healthy, normal volunteers or those with a skin disease including but not limited to eczema, psoriasis, acne or other inflammatory dermatoses\n* Fitzpatrick Skin Type I-VI\n* In good general health\n* Willing to cooperate with study instructions\n\nExclusion Criteria:\n\n* Volunteers 18 years or younger\n* Any serious medical or physical condition that would cause the subject significant discomfort with study procedures\n* Women who are pregnant, nursing, or who may become pregnant in the next 3 months",
+     "healthyVolunteers": true,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ],
+     "studyPopulation": "Adults from Northeast Ohio who are either healthy, normal volunteers or have skin pathology including but not limited to eczema, psoriasis, acne, and other inflammatory dermatoses",
+     "samplingMethod": "PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+     "overallOfficials": [
+      {
+       "name": "Kevin Cooper, MD",
+       "affiliation": "University Hospitals Cleveland Medical Center",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "locations": [
+      {
+       "facility": "University Hospitals Cleveland Medical Center",
+       "city": "Cleveland",
+       "state": "Ohio",
+       "zip": "44118",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 41.4995,
+        "lon": -81.69541
+       }
+      }
+     ]
+    },
+    "referencesModule": {
+     "references": [
+      {
+       "pmid": "25266053",
+       "type": "BACKGROUND",
+       "citation": "Oyetakin-White P, Suggs A, Koo B, Matsui MS, Yarosh D, Cooper KD, Baron ED. Does poor sleep quality affect skin ageing? Clin Exp Dermatol. 2015 Jan;40(1):17-22. doi: 10.1111/ced.12455. Epub 2014 Sep 30."
+      },
+      {
+       "pmid": "11316970",
+       "type": "BACKGROUND",
+       "citation": "Rogiers V; EEMCO Group. EEMCO guidance for the assessment of transepidermal water loss in cosmetic sciences. Skin Pharmacol Appl Skin Physiol. 2001 Mar-Apr;14(2):117-28. doi: 10.1159/000056341."
+      },
+      {
+       "pmid": "19059763",
+       "type": "BACKGROUND",
+       "citation": "Vierkotter A, Ranft U, Kramer U, Sugiri D, Reimann V, Krutmann J. The SCINEXA: a novel, validated score to simultaneously assess and differentiate between intrinsic and extrinsic skin ageing. J Dermatol Sci. 2009 Mar;53(3):207-11. doi: 10.1016/j.jdermsci.2008.10.001. Epub 2008 Dec 6."
+      }
+     ]
+    }
+   },
+   "hasResults": false
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT00041977",
+     "orgStudyIdInfo": {
+      "id": "DERM-303"
+     },
+     "organization": {
+      "fullName": "CollaGenex Pharmaceuticals",
+      "class": "INDUSTRY"
+     },
+     "briefTitle": "Determine the Effect of Administering Periostat(R) Twice Daily on Patients With Acne Rosacea",
+     "officialTitle": "A Multicenter, Randomized, Double-Blind, Placebo-Controlled, Clinical Trial to Determine the Effects of Doxycycline Hyclate 20 Mg Tablets [Periostat(R)] Administered Twice Daily for the Treatment of Acne Rosacea"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2003-11",
+     "overallStatus": "COMPLETED",
+     "startDateStruct": {
+      "date": "2002-06"
+     },
+     "studyFirstSubmitDate": "2002-07-19",
+     "studyFirstSubmitQcDate": "2002-07-22",
+     "studyFirstPostDateStruct": {
+      "date": "2002-07-23",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2005-06-23",
+     "lastUpdatePostDateStruct": {
+      "date": "2005-06-24",
+      "type": "ESTIMATED"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "name": "CollaGenex Pharmaceuticals",
+      "class": "INDUSTRY"
+     }
+    },
+    "descriptionModule": {
+     "briefSummary": "The purpose of this study is to determine whether Periostat(R), Doxycycline Hyclate 20 mg Tablets, taken twice daily is effective in reducing the red and white heads and overall redness associated with rosacea."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Acne Rosacea"
+     ],
+     "keywords": [
+      "Rosacea"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE3"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SINGLE_GROUP",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "DOUBLE"
+      }
+     },
+     "enrollmentInfo": {
+      "count": 150
+     }
+    },
+    "armsInterventionsModule": {
+     "interventions": [
+      {
+       "type": "DRUG",
+       "name": "doxycycline hyclate 20 mg twice daily"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria\n\n* Healthy, post-pubescent male and females \\> age 18, with rosacea, 10 to 30, \\[papules and pustules\\] and \\< 2 nodules.\n* Presence of moderate to severe erythema.\n* Presence of telangiectasia.\n* Female patients must utilize one of the following methods of birth control throughout the study: IUD, diaphragm, a condom plus the use of a spermicidal gel or foam, oral contraceptives (provided patient has been utilizing this method for at least 4 months prior to baseline and has not changed the brand within this period). Patients may also participate if they are surgically sterilized, in a monogamous relationship with a sterile partner, or sign an agreement that they will abstain from sexual intercourse during the course of a study.\n* Patients must sign an informed consent form.\n* Negative pregnancy test and non-lactating.\n\nExclusion Criteria\n\n* The initiation of a hormonal method of contraception within 4 months of baseline; or discontinuation during the course of study; or change in the actual product within 4 months of baseline or during the study.\n* The use of topical acne treatments within 2 weeks of baseline.\n* The use of systemic antibiotics within 4 weeks of baseline.\n* The use of an investigational drug with 90 days of baseline.\n* Pregnant women or women of child-bearing potential who are not using an adequate form of birth control as described in Item 4 of the Inclusion Criteria.\n* Nursing women.\n* Patients with a known hypersensitivity to tetracyclines.\n* Patients on clinically significant, concomitant drug therapy (See section below).\n* The use of any acne treatment during the course of the study.\n* The use of topical steroids 6 weeks prior to baseline and during the study.\n* The use of systemic corticosteroids 6 weeks prior to baseline and during the study.\n* The use of vasodilators 6 weeks prior to baseline or during the study.\n* The use of \u03b1-adrenergic receptor-blocking agents 6 weeks prior to baseline and during the study.\n\nProhibited Medications:\n\n* Chronic use (\\> 14 days) of sulfa drugs, erythromycin, cephalosporins, and quinolones.\n* The use of tetracycline antibiotics is prohibited.\n* Use of any acne treatment during the course of the study, including spironolactone.\n* Chronic use (\\> 14 days) of NSAIDs. Chronic use of aspirin at sub-analgesic doses (\\< 325 mg q.d.) may be used by those patient requiring platelet aggregation inhibitor.\n* Penicillin antibiotics should NOT be used during the course of this trial since the bacteriostatic action of doxycycline may interfere with the bactericidal action of penicillins.\n* Antacids and vitamins containing aluminum, calcium, or magnesium may impair drug absorption and should be taken at least 1.5 hours before or 3.0 hours after taking study medication.",
+     "healthyVolunteers": true,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "locations": [
+      {
+       "facility": "University of Florida",
+       "city": "Gainesville",
+       "state": "Florida",
+       "zip": "32610",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 29.65163,
+        "lon": -82.32483
+       }
+      },
+      {
+       "facility": "University of Miami Medical Center",
+       "city": "Miami",
+       "state": "Florida",
+       "zip": "33136",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 25.77427,
+        "lon": -80.19366
+       }
+      },
+      {
+       "facility": "Beer and Houck/Florida Dermatology Institute",
+       "city": "West Palm Beach",
+       "state": "Florida",
+       "zip": "33104",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 26.71534,
+        "lon": -80.05337
+       }
+      },
+      {
+       "facility": "University of Louisville",
+       "city": "Louisville",
+       "state": "Kentucky",
+       "zip": "40202",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 38.25424,
+        "lon": -85.75941
+       }
+      },
+      {
+       "facility": "Milton S. Hershey Medical Center",
+       "city": "Hershey",
+       "state": "Pennsylvania",
+       "zip": "17033",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 40.28592,
+        "lon": -76.65025
+       }
+      },
+      {
+       "facility": "University of Pennsylvania",
+       "city": "Philadelphia",
+       "state": "Pennsylvania",
+       "zip": "19104",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 39.95238,
+        "lon": -75.16362
+       }
+      },
+      {
+       "facility": "David Pariser, MD",
+       "city": "Norfolk",
+       "state": "Virginia",
+       "zip": "23507",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 36.84681,
+        "lon": -76.28522
+       }
+      }
+     ]
+    }
+   },
+   "hasResults": false
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT02058628",
+     "orgStudyIdInfo": {
+      "id": "200398"
+     },
+     "organization": {
+      "fullName": "GlaxoSmithKline",
+      "class": "INDUSTRY"
+     },
+     "briefTitle": "Comparison of the Efficacy and Safety of Clindamycin + Benzoyl Peroxide Formulation With Azelaic Acid Formulation in the Treatment of Acne Vulgaris",
+     "officialTitle": "A Multi-centre, Single-blind, Parallel Group, Clinical Evaluation of the Efficacy and Safety of Clindamycin 1% / Benzoyl Peroxide 3% and Azelaic Acid 20% in the Topical Treatment of Mild to Moderate Acne Vulgaris"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2017-08",
+     "overallStatus": "COMPLETED",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2014-02-21",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2014-09-08",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2014-09-08",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2014-02-06",
+     "studyFirstSubmitQcDate": "2014-02-06",
+     "studyFirstPostDateStruct": {
+      "date": "2014-02-10",
+      "type": "ESTIMATED"
+     },
+     "resultsFirstSubmitDate": "2017-03-01",
+     "resultsFirstSubmitQcDate": "2017-08-24",
+     "resultsFirstPostDateStruct": {
+      "date": "2017-08-25",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2017-08-24",
+     "lastUpdatePostDateStruct": {
+      "date": "2017-08-25",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "SPONSOR"
+     },
+     "leadSponsor": {
+      "name": "GlaxoSmithKline",
+      "class": "INDUSTRY"
+     }
+    },
+    "oversightModule": {
+     "oversightHasDmc": false
+    },
+    "descriptionModule": {
+     "briefSummary": "This is a randomized, comparator-controlled, single-blind, parallel-group study. The current study proposes to compare a fixed-dose combination product containing 3% benzoyl peroxide (BPO) and 1% clindamycin against a cream containing 20% azelaic acid for the treatment of facial acne vulgaris. The results of the study will enable a better assessment of the safety and efficacy of the new dose regime (BPO 3% + clindamycin 1%) in comparison to a well established treatment. Based on the data more evidence based recommendations will be possible to improve the treatment of subjects with acne vulgaris. A total of 220 subjects will be enrolled and will have 5 study visits (Day 1, Weeks 2, 4, 8 and 12). The duration of the study will be over 12 weeks."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Acne Vulgaris"
+     ],
+     "keywords": [
+      "azelaic acid",
+      "Clindamycin",
+      "Benzoyl peroxide",
+      "Acne vulgaris"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE4"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "SINGLE",
+       "whoMasked": [
+        "INVESTIGATOR"
+       ]
+      }
+     },
+     "enrollmentInfo": {
+      "count": 222,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "Arm 1",
+       "type": "EXPERIMENTAL",
+       "description": "A total of 110 subjects will receive clindamycin + BPO once daily in the evening for 12 weeks as per the randomization schedule.",
+       "interventionNames": [
+        "Drug: Clindamycin + BPO"
+       ]
+      },
+      {
+       "label": "Arm 2",
+       "type": "EXPERIMENTAL",
+       "description": "A total of 110 subjects will receive azelaic acid twice daily (1 in the morning and 1 in the evening) for 12 weeks as per the randomization schedule.",
+       "interventionNames": [
+        "Drug: Azelaic acid"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DRUG",
+       "name": "Clindamycin + BPO",
+       "description": "Gel containing 1.2% clindamycin and 3% BPO for once daily application",
+       "armGroupLabels": [
+        "Arm 1"
+       ]
+      },
+      {
+       "type": "DRUG",
+       "name": "Azelaic acid",
+       "description": "Cream containing 20% azelaic acid for twice daily application",
+       "armGroupLabels": [
+        "Arm 2"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Percentage Change From Baseline (Day 1) of Inflammatory Lesion (IL) Count at Week 4 - Superiority Analysis",
+       "description": "A count of IL (papules and pustules, including nasal lesions) was performed at baseline and up to Week 12. Lesion counts were confined to the face. Baseline was defined at Visit 1 (Day 1). Change from Baseline in the number of IL was defined as Week 4 values minus the Baseline values. Raw data has been presented for outcome measure results; however, p value is derived from the Wilcoxon test mean scores.",
+       "timeFrame": "Baseline (Day 1) and Week 4"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "Absolute Change From Baseline in IL, Non-inflammatory Lesions (NIL) and Calculated Total Lesions to Weeks 2, 4, 8 and 12",
+       "description": "A count of IL (papules and pustules, including nasal lesions), NIL (open and closed comedones) and total lesions was performed at baseline and up to Week 12. Lesion counts were confined to the face. Baseline was defined at Visit 1 (Day 1). Change from Baseline in the number of IL was defined as week 12 values minus the Baseline values.",
+       "timeFrame": "Baseline (Day 1) up to Week 2, 4, 8, 12"
+      },
+      {
+       "measure": "Percentage Change From Baseline in IL, NIL and Calculated Total Lesions at Weeks 2, 4, 8 and 12",
+       "description": "A count of IL (papules and pustules, including nasal lesions),NIL (open and closed comedones) and total lesions was performed at baseline and up to Week 12. Lesion counts were confined to the face. Baseline was defined at Visit 1 (Day 1). Change from Baseline in the number of IL was defined as week 12 values minus the Baseline values.",
+       "timeFrame": "Baseline (Day 1) up to Week 2, 4, 8, 12"
+      },
+      {
+       "measure": "Speed of Onset : Time to 50 Percent Reduction in Total Lesion Count",
+       "description": "The average time to 50 percent reduction of the calculated total lesion count was analyzed by determination of the number of days between Baseline and the first visit with a 50 percent reduction of the count.",
+       "timeFrame": "Week 12"
+      },
+      {
+       "measure": "Number of Participants With Change From Baseline in Investigator's Static Global Assessment (ISGA) to Weeks 2,4,8 and 12",
+       "description": "ISGA was conducted at all study visits. The area considered for the ISGA was confined to the face. A 0-5 point rating scale was used: 0 means Clear- Clear skin with no IL or NIL, 1 means Almost Clear- Rare NIL with no more than one small IL, 2 means Mild- Some NIL with no more than a few IL (papules/pustules only, no nodular lesions), 3 means Moderate- Up to many NIL and may have some IL, but no more than one small nodular lesion, 4 means Severe- Up to many NIL and IL, but no more than a few nodular lesions and 5 means Very Severe- Many NIL and IL and more than a few nodular lesions, may have cystic lesions.",
+       "timeFrame": "Baseline (Day 1) up to Weeks 2, 4, 8, 12"
+      },
+      {
+       "measure": "Number of Participants With Change From Baseline in Local Tolerability as Per Investigator's Assessment at Weeks 2,4,8,12",
+       "description": "Tolerability was assessed by investigator on a 0-3 point rating scale for erythema (0- None, 1- Slight, 2- Some and 3- Very red), dryness (0- None, 1- Slight, 2- Some and 3- Very dry) and peeling (0- None, 1- Slight, 2- Moderate and 3- Strong). A shift table was provided to deduce how the results are varying from the baseline visit to post-baseline visits. Change from Baseline is the value at indicated time point minus the Baseline value.",
+       "timeFrame": "Baseline (Day 1) and Weeks 2, 4, 8, 12"
+      },
+      {
+       "measure": "Number of Participants With Participant Global Change Assessment Score 12 Weeks",
+       "description": "An SGCA was conducted by the participant to assess the efficacy of treatment on Week 2, 4, 8 and 12 as Very Much Improved, Much Improved, Minimally Improved, No Change, Minimally Worse, Much Worse, Very Much Worse and missing.",
+       "timeFrame": "Weeks 2, 4, 8 and 12"
+      },
+      {
+       "measure": "Number of Participants With Change From Baseline in Local Tolerability as Per Participant's Assessment at Weeks 2, 4, 8 and 12",
+       "description": "Tolerability was assessed by the participants based on a 0-3 point rating scale for stinging/burning (S/B) and pruritus of the face (0- None, 1- Slight, 2- Moderate and 3- Strong). A shift table was provided to deduce how the results are varying from the Baseline visit to post-baseline visits.",
+       "timeFrame": "Baseline (Day 1), Weeks 2, 4, 8 and 12"
+      },
+      {
+       "measure": "Number of Participants With Participant Satisfaction Score at Week 12 (Simple Grading)",
+       "description": "The product acceptability and preference questionnaire (PAP-Q ) served as a patient satisfaction score and was performed only once at the final study visit (ie, after 12 weeks (V5) or earlier in case of premature termination). Severity of each facial acne sign and symptom (scaling, redness, dryness, burning, itching) was based on a 0-5 point rating scale (0- None, 1- Very minimal, 2- Mild, 3- Moderate, 4- Severe, 5- Very severe).",
+       "timeFrame": "Week 12"
+      },
+      {
+       "measure": "Number of Treatment Adherent Participants at Week 12",
+       "description": "The general assessment of 'overall satisfaction' with study therapy was assessed at week 12 on a 0-4 point rating scale (0-Very satisfied, 1- Satisfied, 2- Neutral, 3- Unsatisfied and 4- Very unsatisfied).",
+       "timeFrame": "Week 12"
+      },
+      {
+       "measure": "Absolute Change From Baseline in Total Score as Per Dermatology Life Quality Index (DLQI) at Week 2,4,8 and 12",
+       "description": "This outcome measure was a measure of quality of life (QOL). The DLQI was used to assess the quality of life at each visit. Participants completed the questionnaire to evaluate how their acne has affected their life. The DLQI is a 10 item questionnaire, which addresses feelings, daily activities, leisure, work, school, personal relationships, and treatment. Each question was scored out of 0-3, as follows: 0- Not at all, 1- A little, 2- A lot, 3- very much, indicating 0 as the least and 3 as the best quality Index. The sub-scale scores of 10 questions were combined and a composite score was presented. The total score ranged from 0 to 30, 0 indicated the least and highest score indicated the best quality Index. The DLQI was for participants with 17 to 45 years of age. Baseline was defined at Visit 1 (Day 1). Change from Baseline is the value at indicated time point minus the Baseline value.",
+       "timeFrame": "Baseline (Day 1) up to Weeks 2, 4, 8, 12"
+      },
+      {
+       "measure": "Absolute Change From Baseline in Total Score as Per Children's Dermatology Life Quality Index (CDLQI) at Week 2,4,8 and 12",
+       "description": "This outcome measure was a measure of QOL. The CDLQI was used to assess the quality of life at each visit. Participants completed the questionnaire to evaluate how their acne has affected their life. The DLQI is a 10 item questionnaire, which addresses feelings, daily activities, leisure, work, school, personal relationships, and treatment. Each question was scored out of 0-3, as follows: 0- Not at all, 1- A little, 2- A lot, 3- very much, indicating 0 as the least and 3 as the best quality Index. The sub-scale scores of 10 questions were combined and a composite score was presented. The total score ranged from 0 to 30, 0 indicated the least and highest score indicated the best quality Index. The CDLQI was for participants with 12 to 16 years of age. Baseline was defined at Visit 1 (Day 1). Change from Baseline is the value at indicated time point minus the Baseline value.",
+       "timeFrame": "Baseline (Day 1) up to Weeks 2, 4, 8, 12"
+      },
+      {
+       "measure": "Number of Participants With Treatment Emergent Adverse Events (TEAEs) and Serious Adverse Events (TESAEs) Related to Study Medication",
+       "description": "Adverse events are defined as any untoward medical occurrence in a participant or clinical investigation participant, temporally associated with the use of a medicinal product, whether or not considered related to the medicinal product. Serious adverse events are defined as any untoward medical occurrence that results in death, is life threatening, requires hospitalization or prolongation of existing hospitalization, results in disability/incapacity, congenital anomaly/birth defect and medically significant. TEAEs and TESAEs were reported up to 12 weeks.",
+       "timeFrame": "Up to Week 12"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* Subjects who are males or females 12 to 45 years of age, inclusive.\n* Subjects with acne vulgaris who have: a minimum of 17 to a maximum of 60 inflammatory facial lesions (papules and pustules), including the nose, and no more than 1 facial nodular cystic lesions and a minimum of 20 to a maximum of 125 non-inflammatory facial lesions (open and closed comedones) and an ISGA score of 2 or 3.\n* Subjects agreeing not to use sun-beds or undergo any ultraviolet (UV) light treatment for 4 weeks prior to entering the study and to minimize the amount of exposure to direct sunlight for the duration of the study.\n* Subjects who are capable of understanding and willing to provide signed and dated written voluntary informed consent before any protocol-specific procedures are performed. Subjects under the legal age of consent must provide assent and have the written, informed consent of both parents or legal guardians.\n\nExclusion Criteria:\n\n* Unable to comply with the requirement of the study.\n* Female subjects who are pregnant, breast-feeding, or sexually active and not using reliable contraception and/or not prepared to do so for the duration of the trial (a negative pregnancy test must be confirmed at Visit 1, 3, 4 and 5, for all females if menarche has occurred).\n* Subjects who have any clinically relevant finding at their baseline physical examination or medical history such as severe systemic diseases or diseases of the facial skin other than acne vulgaris.\n* Subjects who have facial hair that may obscure the accurate assessment of acne grade.\n* Subjects who have a history or presence of regional enteritis or inflammatory bowel disease (eg, ulcerative colitis, pseudomembranous colitis, chronic diarrhea, or a history of antibiotic-associated colitis) or similar symptoms.\n* Prior Therapy: Have received treatment with the following therapies at the times specified prior to Baseline: systemic retinoids \\[6 months\\]; systemic antibiotics, investigational therapy, facial procedure (chemical or laser peel, microdermabrasion, artificial UV therapy), topical corticosteroids on the face or systemic corticosteroids \\[4 weeks\\]; topical antibiotics on the face, topical anti-acne medications (eg, BPO, retinoids, azelaic acid, resorcinol, salicylates, sulfacetamide sodium and derivatives, glycolic acid) \\[2 weeks\\]; medications that are reported to exacerbate acne (eg, mega-doses of certain vitamins such as vitamin D, vitamin A, and vitamins B2, B6, and B12; haloperidol; halogens such as iodide and bromide; lithium; hydantoin; and phenobarbital) as these may impact efficacy assessments, neuromuscular blocking agents (Clindamycin has neuromuscular blocking activities, which may enhance the action of other neuromuscular blocking agents), drugs known to be photosensitizers (eg, thiazides, tetracyclines, fluoroquinolones, phenothiazines, sulfonamides) because of the possibility of increased phototoxicity \\[1 day\\].\n* Subjects who are unwilling to stop using the following types of facial products during the study: astringents, toners, abradants, facials, peels containing glycolic or other acids, masks, washes or soaps containing BPO, sulfacetamide sodium or salicylic acid, non-mild facial cleansers, or moisturizers that contain retinol, salicylic acid, or alpha- or beta-hydroxy acids.\n* Subjects who have a known hypersensitivity or previous allergic reaction to any of the active components (azaleic acid, lincomycin, clindamycin, BPO), or excipients of the study medication.\n* Use of estrogens, including oral, implanted, and topical contraceptives, androgens, or anti-androgenic agents of less than 12 consecutive weeks prior to start of study dosing (change of the dose or drug is not permitted between 12 weeks prior study dosing until end of the study).",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "12 Years",
+     "maximumAge": "45 Years",
+     "stdAges": [
+      "CHILD",
+      "ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "overallOfficials": [
+      {
+       "name": "GSK Clinical Trials",
+       "affiliation": "GlaxoSmithKline",
+       "role": "STUDY_DIRECTOR"
+      }
+     ],
+     "locations": [
+      {
+       "facility": "GSK Investigational Site",
+       "city": "Stuttgart",
+       "state": "Baden-Wurttemberg",
+       "zip": "70178",
+       "country": "Germany",
+       "geoPoint": {
+        "lat": 48.78232,
+        "lon": 9.17702
+       }
+      },
+      {
+       "facility": "GSK Investigational Site",
+       "city": "T\u00fcbingen",
+       "state": "Baden-Wurttemberg",
+       "zip": "72076",
+       "country": "Germany",
+       "geoPoint": {
+        "lat": 48.52266,
+        "lon": 9.05222
+       }
+      },
+      {
+       "facility": "GSK Investigational Site",
+       "city": "Augsburg",
+       "state": "Bavaria",
+       "zip": "86179",
+       "country": "Germany",
+       "geoPoint": {
+        "lat": 48.37154,
+        "lon": 10.89851
+       }
+      },
+      {
+       "facility": "GSK Investigational Site",
+       "city": "Gilching",
+       "state": "Bavaria",
+       "zip": "82205",
+       "country": "Germany",
+       "geoPoint": {
+        "lat": 48.10755,
+        "lon": 11.2936
+       }
+      },
+      {
+       "facility": "GSK Investigational Site",
+       "city": "Mahlow",
+       "state": "Brandenburg",
+       "zip": "15831",
+       "country": "Germany",
+       "geoPoint": {
+        "lat": 52.36017,
+        "lon": 13.40954
+       }
+      },
+      {
+       "facility": "GSK Investigational Site",
+       "city": "Duelmen",
+       "state": "Lower Saxony",
+       "zip": "48249",
+       "country": "Germany"
+      },
+      {
+       "facility": "GSK Investigational Site",
+       "city": "D\u00fcsseldorf",
+       "state": "North Rhine-Westphalia",
+       "zip": "40212",
+       "country": "Germany",
+       "geoPoint": {
+        "lat": 51.22319,
+        "lon": 6.77927
+       }
+      },
+      {
+       "facility": "GSK Investigational Site",
+       "city": "Dessau",
+       "state": "Saxony-Anhalt",
+       "zip": "06847",
+       "country": "Germany",
+       "geoPoint": {
+        "lat": 51.83864,
+        "lon": 12.24555
+       }
+      },
+      {
+       "facility": "GSK Investigational Site",
+       "city": "Magdeburg",
+       "state": "Saxony-Anhalt",
+       "zip": "39120",
+       "country": "Germany",
+       "geoPoint": {
+        "lat": 52.13129,
+        "lon": 11.63189
+       }
+      },
+      {
+       "facility": "GSK Investigational Site",
+       "city": "Kiel",
+       "state": "Schleswig-Holstein",
+       "zip": "24148",
+       "country": "Germany",
+       "geoPoint": {
+        "lat": 54.32133,
+        "lon": 10.13489
+       }
+      },
+      {
+       "facility": "GSK Investigational Site",
+       "city": "Berlin",
+       "zip": "10783",
+       "country": "Germany",
+       "geoPoint": {
+        "lat": 52.52437,
+        "lon": 13.41053
+       }
+      }
+     ]
+    },
+    "referencesModule": {
+     "seeAlsoLinks": [
+      {
+       "label": "Researchers can use this site to request access to anonymised patient level data and/or supporting documents from clinical studies to conduct further research.",
+       "url": "https://www.clinicalstudydatarequest.com"
+      }
+     ],
+     "availIpds": [
+      {
+       "id": "200398",
+       "type": "Dataset Specification",
+       "url": "https://www.clinicalstudydatarequest.com",
+       "comment": "For additional information about this study please refer to the GSK Clinical Study Register"
+      },
+      {
+       "id": "200398",
+       "type": "Study Protocol",
+       "url": "https://www.clinicalstudydatarequest.com",
+       "comment": "For additional information about this study please refer to the GSK Clinical Study Register"
+      },
+      {
+       "id": "200398",
+       "type": "Statistical Analysis Plan",
+       "url": "https://www.clinicalstudydatarequest.com",
+       "comment": "For additional information about this study please refer to the GSK Clinical Study Register"
+      },
+      {
+       "id": "200398",
+       "type": "Informed Consent Form",
+       "url": "https://www.clinicalstudydatarequest.com",
+       "comment": "For additional information about this study please refer to the GSK Clinical Study Register"
+      },
+      {
+       "id": "200398",
+       "type": "Annotated Case Report Form",
+       "url": "https://www.clinicalstudydatarequest.com",
+       "comment": "For additional information about this study please refer to the GSK Clinical Study Register"
+      },
+      {
+       "id": "200398",
+       "type": "Clinical Study Report",
+       "url": "https://www.clinicalstudydatarequest.com",
+       "comment": "For additional information about this study please refer to the GSK Clinical Study Register"
+      },
+      {
+       "id": "200398",
+       "type": "Individual Participant Data Set",
+       "url": "https://www.clinicalstudydatarequest.com",
+       "comment": "For additional information about this study please refer to the GSK Clinical Study Register"
+      }
+     ]
+    },
+    "ipdSharingStatementModule": {
+     "ipdSharing": "YES",
+     "description": "Patient-level data for this study will be made available through www.clinicalstudydatarequest.com following the timelines and process described on this site."
+    }
+   },
+   "hasResults": true
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT01313728",
+     "orgStudyIdInfo": {
+      "id": "CA-P-7966"
+     },
+     "organization": {
+      "fullName": "Bausch Health Americas, Inc.",
+      "class": "INDUSTRY"
+     },
+     "briefTitle": "A Study That Evaluates the Decrease in Irritation When Using Additional Acne Treatment Products",
+     "officialTitle": "An Investigator-Blind, Phase 4 Study Assessing Mitigation of Facial Irritation When Comparing the Use of Two Acne Treatment Products (Retin-A Micro\u00ae 0.1 % Pump and Aczone\u00ae) With One Treatment Product (Retin-A Micro\u00ae 0.1 % Pump) Using a Split-Face Model"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2012-02",
+     "overallStatus": "COMPLETED",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2010-12"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2010-12",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2011-01",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2011-03-10",
+     "studyFirstSubmitQcDate": "2011-03-10",
+     "studyFirstPostDateStruct": {
+      "date": "2011-03-14",
+      "type": "ESTIMATED"
+     },
+     "resultsFirstSubmitDate": "2011-10-14",
+     "resultsFirstSubmitQcDate": "2011-12-14",
+     "resultsFirstPostDateStruct": {
+      "date": "2012-01-19",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2012-02-14",
+     "lastUpdatePostDateStruct": {
+      "date": "2012-02-15",
+      "type": "ESTIMATED"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "SPONSOR"
+     },
+     "leadSponsor": {
+      "name": "Bausch Health Americas, Inc.",
+      "class": "INDUSTRY"
+     }
+    },
+    "oversightModule": {
+     "oversightHasDmc": false
+    },
+    "descriptionModule": {
+     "briefSummary": "This study is to see if there's any difference in the amount of facial irritation when two acne products are used together on one side of the face, compared to one acne treatment product used alone on the other side of the face. All people participating in this trial will be required to return to the same study center every weekday for two weeks for the investigator to check for irritation on the face and to have the products applied - on weekends they will have to put them on at home. If one side of the face is more irritated than the other side, a picture will be taken as well.",
+     "detailedDescription": "This is an investigator-blind, randomized, balanced study comparing two treatment regimens in a split-face model. All subjects will apply Retin-A Micro Gel (tretinoin) 0.1 % Pump, and Aczone Gel (dapsone) 5% daily to one side of the face (with 1 hour between applications, applying Aczone Gel first) and Retin-A Micro Gel 0.1 % Pump to the other side of the face in a randomized scheme for two consecutive weeks. Subjects will return to the study center daily for evaluation and for application of both products (weekend applications will be done at home). At each visit the subject will be evaluated and scored for irritation and cutaneous treatment effects. Subjects presenting with differences in irritation between one side of the face and the other will be photographed and have chromometer readings taken. A single treatment center is expected to enroll at least 24 subjects."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Acne Vulgaris"
+     ],
+     "keywords": [
+      "Acne",
+      "Irritation"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE4"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SINGLE_GROUP",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "SINGLE",
+       "whoMasked": [
+        "INVESTIGATOR"
+       ]
+      }
+     },
+     "enrollmentInfo": {
+      "count": 26,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "Dapsone plus Tretinoin Gel",
+       "type": "EXPERIMENTAL",
+       "description": "Dapsone gel, followed by tretinoin gel one hour later, applied once daily to the assigned side of the face for 2 weeks - all subjects participate in both arms in a split-face model",
+       "interventionNames": [
+        "Drug: Dapsone plus Tretinoin Gel"
+       ]
+      },
+      {
+       "label": "Tretinoin Gel Alone",
+       "type": "ACTIVE_COMPARATOR",
+       "description": "Tretinoin gel applied once daily to the assigned side of the face for 2 weeks - all subjects participate in both arms in a split-face model",
+       "interventionNames": [
+        "Drug: Tretinoin Gel"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DRUG",
+       "name": "Dapsone plus Tretinoin Gel",
+       "description": "Dapsone gel, followed by tretinoin gel one hour later, applied once daily to the assigned side of the face for 2 weeks",
+       "armGroupLabels": [
+        "Dapsone plus Tretinoin Gel"
+       ],
+       "otherNames": [
+        "Aczone Gel 5% plus Retin-A Micro Gel 0.1% Pump"
+       ]
+      },
+      {
+       "type": "DRUG",
+       "name": "Tretinoin Gel",
+       "description": "Tretinoin gel applied once daily to the assigned side of the face for 2 weeks",
+       "armGroupLabels": [
+        "Tretinoin Gel Alone"
+       ],
+       "otherNames": [
+        "Retin-A Micro Gel 0.1% Pump"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Expert Grader Assessment - Erythema",
+       "description": "Ordinal erythema scores (on a scale of 0=none to 8=severe scaling and fissuring) were collected on weekdays for two weeks and the total daily score (for all subjects) was treated as a single interval measurement for comparative assessment between treatment regimens. Thus, for the total for the 25 Participants measured, minimum possible score reported below is 0 and maximum is 2000 (highest possible score of 8, times 10 days, times 25 subjects).",
+       "timeFrame": "Baseline to 2 Weeks"
+      },
+      {
+       "measure": "Expert Grader Assessment - Dryness",
+       "description": "Ordinal dryness scores (on a scale of 0=none to 8=deep) were collected on weekdays for two weeks and the total daily score (for all subjects) was treated as a single interval measurement for comparative assessment between treatment regimens. Thus, for the total for the 25 Participants measured, minimum possible score reported below is 0 and maximum is 2000 (highest possible score of 8, times 10 days, times 25 subjects).",
+       "timeFrame": "Baseline to 2 Weeks"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "Subject Assessment - Burning/Stinging",
+       "description": "Ordinal burning/stinging scores (on a scale of 0=none to 3=severe) were collected on weekdays for two weeks and the total daily score (for all subjects) was treated as a single interval measurement for comparative assessment between treatment regimens. Thus, for the total for the 25 Participants measured, minimum possible score reported below is 0 and maximum is 750 (highest possible score of 3, times 10 days, times 25 subjects).",
+       "timeFrame": "Baseline to 2 Weeks"
+      },
+      {
+       "measure": "Subject Assessment - Itching",
+       "description": "Ordinal itching scores (on a scale of 0=none to 3=severe) were collected on weekdays for two weeks and the total daily score (for all subjects) was treated as a single interval measurement for comparative assessment between treatment regimens. Thus, for the total for the 25 Participants measured, minimum possible score reported below is 0 and maximum is 750 (highest possible score of 3, times 10 days, times 25 subjects).",
+       "timeFrame": "Baseline to 2 Weeks"
+      },
+      {
+       "measure": "Subject Assessment - Tightness",
+       "description": "Ordinal tightness scores (on a scale of 0=none to 3=severe) were collected on weekdays for two weeks and the total daily score (for all subjects) was treated as a single interval measurement for comparative assessment between treatment regimens. Thus, for the total for the 25 Participants measured, minimum possible score reported below is 0 and maximum is 750 (highest possible score of 3, times 10 days, times 25 subjects).",
+       "timeFrame": "Baseline to 2 Weeks"
+      },
+      {
+       "measure": "Facial Tolerance",
+       "description": "All interval measurements were combined for comparative assessment between treatment regimens. Facial tolerance is the sum of scores from Erythema, Dryness, Burning/Stinging, Itching, and Tightness assessments, reported in Outcome Measures 1-5. Thus, for the total for the 25 Participants measured, minimum possible score reported below is 0 and maximum is 6250 (highest possible combined score of 25, times 10 days, times 25 subjects).",
+       "timeFrame": "Baseline to 2 Weeks"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* Fitzpatrick Skin Type I, II or III with healthy skin as judged by the investigator\n* Bilateral skin is clear of any confounding irritation, rashes, acne, rosacea, etc., prior to study start\n* Subjects are willing to avoid applying emollients or cosmetics to the face 24 hours before they start, and during the study\n* If subject is of childbearing potential, subject has been using a protocol-approved method of birth control for a certain amount of time, and is willing to continue using it throughout the study\n\nExclusion Criteria:\n\n* Subjects who are pregnant or nursing, or intend to be during the study\n* Subjects with any condition or medical history, or using any drug or medication, that might negatively affect the subject's safety or the validity of study results, either as listed in the protocol or in the opinion of the investigator\n* Subjects who have facial hair that may obstruct or hinder the evaluation of any reactions\n* Subjects who use any known photosensitizing agents",
+     "healthyVolunteers": true,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "maximumAge": "40 Years",
+     "stdAges": [
+      "ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "overallOfficials": [
+      {
+       "name": "David Lineberry",
+       "affiliation": "Bausch Health Americas, Inc.",
+       "role": "STUDY_DIRECTOR"
+      }
+     ],
+     "locations": [
+      {
+       "facility": "Skin Study Center",
+       "city": "Broomall",
+       "state": "Pennsylvania",
+       "zip": "19008",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 39.9815,
+        "lon": -75.35658
+       }
+      }
+     ]
+    },
+    "referencesModule": {
+     "seeAlsoLinks": [
+      {
+       "label": "FDA's Drug Finder",
+       "url": "http://www.accessdata.fda.gov/scripts/cder/drugsatfda/index.cfm"
+      }
+     ]
+    }
+   },
+   "hasResults": true
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT01501799",
+     "orgStudyIdInfo": {
+      "id": "ACTA/ADAP/BP/2010"
+     },
+     "organization": {
+      "fullName": "Actavis Mid-Atlantic LLC",
+      "class": "INDUSTRY"
+     },
+     "briefTitle": "A Bioequivalence Study With Clinical Endpoints Comparing Adapalene and Benzoyl Peroxide Topical Gel 0.1%/2.5% (Actavis Mid-Atlantic LLC) To Epiduo\u2122 (Adapalene and Benzoyl Peroxide) Gel 0.1%/2.5% (Galderma Laboratories, L.P.) in the Treatment of Mild to Severe Acne Vulgaris",
+     "officialTitle": "A Multicenter, Double-Blind, Randomized, Vehicle-Controlled, Parallel-Group Study Comparing Adapalene and Benzoyl Peroxide Topical Gel 0.1%/2.5% (Actavis Mid-Atlantic LLC) To Epiduo\u2122 (Adapalene and Benzoyl Peroxide) Gel 0.1%/2.5% (Galderma Laboratories, L.P.) and Both Active Treatments to Topical Gel Placebo (Actavis Mid-Atlantic Llc) in the Treatment of Mild to Severe Acne Vulgaris"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2011-12",
+     "overallStatus": "COMPLETED",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2011-07"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2011-12",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2011-12",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2011-12-27",
+     "studyFirstSubmitQcDate": "2011-12-28",
+     "studyFirstPostDateStruct": {
+      "date": "2011-12-29",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2011-12-28",
+     "lastUpdatePostDateStruct": {
+      "date": "2011-12-29",
+      "type": "ESTIMATED"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "SPONSOR"
+     },
+     "leadSponsor": {
+      "name": "Actavis Mid-Atlantic LLC",
+      "class": "INDUSTRY"
+     }
+    },
+    "oversightModule": {
+     "oversightHasDmc": false
+    },
+    "descriptionModule": {
+     "briefSummary": "EPIDUO\u2122 (adapalene and benzoyl peroxide) Gel 0.1%/2.5%, marketed by GALDERMA LABORATORIES, L.P., is a safe and effective topical therapy used for the treatment of acne vulgaris. Actavis Mid-Atlantic LLC has developed a generic formulation of adapalene and benzoyl peroxide topical gel 0.1%/2.5%,and the current study is designed to evaluate the safety and efficacy of this formulation to determine if it is bioequivalent to EPIDUO\u2122."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Acne Vulgaris"
+     ],
+     "keywords": [
+      "acne",
+      "adapalene/benzoyl peroxide",
+      "Epiduo",
+      "Mild to severe acne vulgaris"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "NA"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      }
+     },
+     "enrollmentInfo": {
+      "count": 885,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "Adapalene 0.1% and benzoyl peroxide 2.5% topical gel",
+       "type": "EXPERIMENTAL",
+       "interventionNames": [
+        "Drug: adapalene 0.1% and benzoyl peroxide 2.5% topical gel"
+       ]
+      },
+      {
+       "label": "EPIDUO\u2122 (adapalene 0.1% and benzoyl peroxide 2.5%) Gel",
+       "type": "ACTIVE_COMPARATOR",
+       "interventionNames": [
+        "Drug: EPIDUO"
+       ]
+      },
+      {
+       "label": "Vehicle Gel",
+       "type": "PLACEBO_COMPARATOR",
+       "interventionNames": [
+        "Drug: Placebo (Vehicle Gel)"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DRUG",
+       "name": "adapalene 0.1% and benzoyl peroxide 2.5% topical gel",
+       "description": "Dosage form: topical gel Dosage: A pea-sized amount was applied to each affected area of the face Frequency: once daily in the evening Duration: 12 weeks",
+       "armGroupLabels": [
+        "Adapalene 0.1% and benzoyl peroxide 2.5% topical gel"
+       ]
+      },
+      {
+       "type": "DRUG",
+       "name": "EPIDUO",
+       "description": "EPIDUO (adapalene 0.1% and benzoyl peroxide 2.5%) Gel",
+       "armGroupLabels": [
+        "EPIDUO\u2122 (adapalene 0.1% and benzoyl peroxide 2.5%) Gel"
+       ]
+      },
+      {
+       "type": "DRUG",
+       "name": "Placebo (Vehicle Gel)",
+       "description": "Vehicle Gel",
+       "armGroupLabels": [
+        "Vehicle Gel"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Percent change in inflammatory and non-inflammatory lesions from Baseline to Week 12",
+       "description": "The mean percent change from Baseline to Visit 5 (End of Treatment) in the inflammatory and non-inflammatory lesion counts.",
+       "timeFrame": "Week 12"
+      },
+      {
+       "measure": "Treatment-emergent adverse events",
+       "description": "All adverse events (AEs) and treatment-emergent AEs reported during the study were summarized for the safety assessment. A treatment-emergent AE was defined as any event not present prior to the initiation of treatment with the investigational products or any event present at Baseline that worsened in either intensity or frequency following exposure to investigational products.",
+       "timeFrame": "12 Weeks"
+      },
+      {
+       "measure": "Signs and Symptoms of Local Irritation",
+       "description": "Patients will be evaluated for any signs and/or symptoms as separate scores of local irritation, including: erythema, dryness, burning / stinging, erosion, edema, pain, scaling, and itching using the following scale:\n\n0 = None\n\n1. = Mild, barely perceptible\n2. = Moderate, distinctive presence\n3. = Severe, marked/intense",
+       "timeFrame": "12 Weeks"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "The proportion of \"success\" patients at Visit 5 using the IGE",
+       "description": "The proportion of \"success\" patients at Visit 5 using the IGE, where \"success\" was defined as a two-grade improvement.",
+       "timeFrame": "12 Weeks"
+      },
+      {
+       "measure": "Mean Percent Change in Total Lesion Count from Baseline to Visit 5",
+       "description": "The mean percent change in the total lesion count from Baseline to Visit 5.",
+       "timeFrame": "12 Weeks"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n1. Male or nonpregnant female patients must be between the ages of 12 and 40 years old inclusive.\n2. Patients who are 18 years of age or older must have provided IEC/IRB approved written informed consent. Patients between the ages of 12 to 17 years of age must have provided IEC/IRB approved written assent; this written assent must be accompanied by an IEC/IRB approved written informed consent from the patient's legally acceptable representative (i.e., parent or guardian). In addition, all patients or their legally acceptable representatives (i.e., parent or guardian) must sign a HIPAA authorization, if applicable.\n3. Patients must have a definite clinical diagnosis of mild to severe acne vulgaris (Grade 2, Grade 3 or Grade 4 on the IGE).\n4. Patients must have a minimum of 20 inflammatory lesions and a maximum of 100 and a minimum of 25 and a maximum of 100 non-inflammatory lesions (i.e., open and closed comedones) and no more than 2 nodulocystic lesions (i.e., nodules and cysts) at baseline. For the purposes of study treatment and evaluation, these lesions should be limited to the facial treatment area. Lesions involving the eyes, angles of the nose (i.e., the lines around your nostrils and under the nostrils) and scalp should be excluded from the count. Patients may have acne lesions on other areas of the body (e.g., on the back).\n5. Female patients of childbearing potential must have been using accepted methods of birth control or must agree to continue to practice abstinence, from 30 days prior to study entry to 30 days after the last administration of study drug. All female patients are considered to be of childbearing potential unless they have been surgically sterilized or have been postmenopausal for at least 1 year. Abstinence is an acceptable method of birth control. Any of the following methods of birth control are acceptable: oral contraceptives, contraceptive patches/implants (e.g., Norplant\u00ae) Depo-Provera\u00ae, double barrier methods (e.g., condom and spermicide) or IUD. Female patients must have a negative urine pregnancy test at baseline. A negative result of a pregnancy test having a minimum sensitivity of at least 50 mIU/ml for hCG should be obtained.\n6. All male patients must agree to use accepted methods of birth control with their partners, from the day of the first dose administration to 30 days after the last administration of study drug. Abstinence is an acceptable method of birth control. Any of the following methods of birth control are acceptable: oral contraceptives, contraceptive patches/implants (e.g., Norplant\u00ae), Depo-Provera\u00ae, double barrier methods (e.g., condom and spermicide) or IUD.\n7. Patients must be willing and able to understand and comply with the requirements of the protocol, including attendance at the required study visits.\n8. Patients must be willing to refrain from using any other treatments for acne vulgaris, including antibiotics, other than the investigational product, for acne present on the face. Patients may use other topical acne treatments that do not have significant or measurable systemic absorption for treatment of acne of the back, shoulders and chest (e.g., benzoyl peroxide, salicylic acid).\n9. Patients must be in good health and free from any clinically significant disease.\n10. Patients who use make-up must have used the same brands/types of make-up for a minimum period of 14 days prior to study entry and must agree to not change make-up brand/type or frequency of use throughout the study.\n\nExclusion Criteria:\n\n1. Female patients who are pregnant, nursing or planning to become pregnant during study participation (Visit 1 through Visit 5) will be excluded from study participation.\n2. Patients who have a known hypersensitivity to benzoyl peroxide, adapalene, and other retinoids, or their excipients will be excluded from study participation.\n3. Patients who have conditions that may interfere with the evaluation of acne vulgaris. Such conditions include, but are not limited to the following lesions on the face: rosacea; seborrheic dermatitis; perioral dermatitis; corticosteroid-induced acne or folliculitis; carcinoid syndrome; squamous cell carcinoma; mastocytosis; acneiform eruptions caused by make-up or medication; bacterial folliculitis; facial psoriasis; and facial eczema.\n4. Patients who have acne congoblata, acne fulminans, and secondary acne (e.g., chloracne and drug induced acne) will be excluded from participation.\n5. Patients who have been treated with systemic antibiotics or systemic anti-acne drugs or systemic anti-inflammatory drugs within 30 days prior to baseline will be excluded from study participation.\n6. Patients who have been treated with prescription and/or over-the-counter topical medications for the treatment of acne vulgaris including antibiotics, topical corticosteroids, \u03b1-hydroxy/glycolic acid, benzoyl peroxide, or topical anti-inflammatory medications on the face within 14 days prior to baseline will be excluded from study participation.\n7. Patients who are currently taking or have been treated with systemic corticosteroids (including intranasal and inhaled corticosteroids) within 30 days prior to baseline will be excluded from study participation.\n8. Patients who have started hormonal therapy or changed the dosage of their hormonal therapy within 3 months prior to baseline will be excluded from study participation. The dosage and frequency of use of any hormonal therapy started greater than 3 months prior to baseline must remain unchanged throughout the study (Visit 1 through Visit 5). Hormonal treatments include, but are not limited to, estrogenic and progestational agents such as birth control pills.\n9. Patients who use androgen receptor blockers (such as spironolactone or flutamide) will be excluded from study participation.\n10. Patients who have received oral retinoids (e.g., isotretinoin) within 180 days prior to study entry,or have used therapeutic vitamin A supplements of greater than 10,000 units/day (multivitamins are allowed) within 180 days prior to study entry, or have applied topical retinoids (e.g., tretinoin, tazarotene, adapalene) to the face within the 2 weeks prior to baseline will be excluded from study participation.\n11. Patients who have received radiation therapy and/or anti-neoplastic agents within 90 days prior to baseline will be excluded from study participation.\n12. Patients who have unstable medical disorders that are clinically significant or life-threatening diseases will be excluded from study participation.\n13. Patients who have on-going malignancies requiring systemic treatment will be excluded from study participation. In addition, patients who have any malignancy of the skin of the facial area will be excluded from study participation.\n14. Patients who have facial hair will be excluded from study participation. Unacceptable facial hair includes, but is not limited to, beards, and long side-burns. A well-trimmed mustache is acceptable. Patients who have performed wax epilation of the face within 14 days prior to baseline will also be excluded from study participation.\n15. Patients who engage in activities that involve excessive or prolonged exposure to sunlight or weather extremes, such as wind or cold, will be excluded from study participation.\n16. Patients who consume excessive amounts of alcohol (greater than two drinks per day) or use drugs of abuse (including, but not limited to, cannabinoids and cocaine) as judged by history will be excluded from study participation.\n17. Patients who have participated in an investigational drug study (i.e., patients have been treated with an investigational drug) within 30 days prior to baseline will be excluded from study participation. Patients who are participating in non-treatment studies such as observational studies or registry studies can be considered for inclusion.\n18. Patients who have been previously enrolled in this study will be excluded from study participation.\n19. Patients who have had within 30 days prior to baseline or during the study cryodestruction or chemodestruction, dermabrasion, photodynamic therapy, acne surgery, intralesional steroids, or x-ray therapy will be excluded from study participation.\n20. Patients who have had laser therapy, and electrodessication to the facial area within 180 days prior to study entry will be excluded from participation.\n21. Patients who have had cosmetic procedures (e.g., facials) which may affect the efficacy and safety profile of the investigational product within 14 days prior to study entry will be excluded from participation.\n22. Patients who have had general anesthesia for any reason and patients who have received neuromuscular blocking agents within 14 days prior to study entry will be excluded from study participation.\n23. Patients who have a baseline local irritation score of 3 (severe, marked/intense) as scored using the Application Site Reaction Scale (Section 5.2) will be excluded from participation.",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "12 Years",
+     "maximumAge": "40 Years",
+     "stdAges": [
+      "CHILD",
+      "ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "overallOfficials": [
+      {
+       "name": "Nagashayana G., M.D.",
+       "affiliation": "Lotus Labs Pvt Ltd",
+       "role": "STUDY_DIRECTOR"
+      },
+      {
+       "name": "Nermina Nakas, M.D., M.P.H.",
+       "affiliation": "Jubilant Clinsys, Inc",
+       "role": "STUDY_DIRECTOR"
+      }
+     ],
+     "locations": [
+      {
+       "facility": "Center for Dermatology Clinical Research Inc.",
+       "city": "Fremont",
+       "state": "California",
+       "zip": "94538",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 37.54827,
+        "lon": -121.98857
+       }
+      },
+      {
+       "facility": "FXM Research Corp.",
+       "city": "Miami",
+       "state": "Florida",
+       "zip": "33175",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 25.77427,
+        "lon": -80.19366
+       }
+      },
+      {
+       "facility": "FXM Research Miramar",
+       "city": "Miramar",
+       "state": "Florida",
+       "zip": "33027",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 25.98731,
+        "lon": -80.23227
+       }
+      },
+      {
+       "facility": "The Indiana Clinical Trials Center",
+       "city": "Plainfield",
+       "state": "Indiana",
+       "zip": "46168",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 39.70421,
+        "lon": -86.39944
+       }
+      },
+      {
+       "facility": "Adult & Pediatric Dermatology",
+       "city": "Overland Park",
+       "state": "Kansas",
+       "zip": "66211",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 38.98223,
+        "lon": -94.67079
+       }
+      },
+      {
+       "facility": "Skin Search of Rochester Inc.",
+       "city": "Rochester",
+       "state": "New York",
+       "zip": "14623",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 43.15478,
+        "lon": -77.61556
+       }
+      },
+      {
+       "facility": "Dermatology Consulting Services",
+       "city": "High Point",
+       "state": "North Carolina",
+       "zip": "27262",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 35.95569,
+        "lon": -80.00532
+       }
+      },
+      {
+       "facility": "Haber Dermatology and Cosmetic Surgery Inc.",
+       "city": "South Euclid",
+       "state": "Ohio",
+       "zip": "44118",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 41.52311,
+        "lon": -81.51846
+       }
+      },
+      {
+       "facility": "FXM Research International - Belize",
+       "city": "Belize City",
+       "state": "Belize District",
+       "country": "Belize",
+       "geoPoint": {
+        "lat": 17.49952,
+        "lon": -88.19756
+       }
+      },
+      {
+       "facility": "Raga's Skin Care",
+       "city": "Bangalore",
+       "state": "Bangalore",
+       "zip": "560 061",
+       "country": "India",
+       "geoPoint": {
+        "lat": 12.97194,
+        "lon": 77.59369
+       }
+      },
+      {
+       "facility": "MS Clinical Research Pvt. Ltd.",
+       "city": "Bangalore",
+       "state": "Bangalore",
+       "zip": "560025",
+       "country": "India",
+       "geoPoint": {
+        "lat": 12.97194,
+        "lon": 77.59369
+       }
+      },
+      {
+       "facility": "Chamarajpet Skin and Laser Centre",
+       "city": "Chamarajpet",
+       "state": "Bangalore",
+       "zip": "560 018",
+       "country": "India"
+      },
+      {
+       "facility": "Rajbal Polyclinic & Research Center",
+       "city": "Kalyan Nagar",
+       "state": "Bangalore",
+       "zip": "560043",
+       "country": "India",
+       "geoPoint": {
+        "lat": 12.9655,
+        "lon": 77.52065
+       }
+      },
+      {
+       "facility": "Department of Skin & STD, Kempegowda Institute of Medical Sciences,",
+       "city": "V.V. Puram",
+       "state": "Bangalore",
+       "zip": "560-004",
+       "country": "India"
+      },
+      {
+       "facility": "Bhagwan Mahaveer Jain Hospital",
+       "city": "Vasanthnagar",
+       "state": "Bangalore",
+       "zip": "560-052",
+       "country": "India"
+      },
+      {
+       "facility": "Skin & Cosmetology Clinic",
+       "city": "Banjara Hills",
+       "state": "Hyderabad",
+       "zip": "500034",
+       "country": "India",
+       "geoPoint": {
+        "lat": 17.41682,
+        "lon": 78.43839
+       }
+      },
+      {
+       "facility": "Department of Dermatology, Durga Bai Deshmukh Hospital",
+       "city": "Vidy\u0101nagar",
+       "state": "Hyderabad",
+       "zip": "500044",
+       "country": "India",
+       "geoPoint": {
+        "lat": 27.60778,
+        "lon": 78.03341
+       }
+      },
+      {
+       "facility": "Bhatia Skin, Laser & Cosmetic Center",
+       "city": "Anand Bazar",
+       "state": "Indore",
+       "zip": "452 001",
+       "country": "India"
+      },
+      {
+       "facility": "Swarnakar Super Specialty Centre",
+       "city": "Anand Bazar",
+       "state": "Indore",
+       "zip": "452 018",
+       "country": "India"
+      },
+      {
+       "facility": "Skin Clinic",
+       "city": "RNT Marg",
+       "state": "Indore",
+       "zip": "452 001",
+       "country": "India"
+      },
+      {
+       "facility": "Agrawal Skin & Laser Centre",
+       "city": "Vijayanagar",
+       "state": "Indore",
+       "zip": "452 010",
+       "country": "India",
+       "geoPoint": {
+        "lat": 23.9975,
+        "lon": 73.28553
+       }
+      },
+      {
+       "facility": "Sri Gayathri Skin Care & Hair Transplant Centre",
+       "city": "Dwarakanagar",
+       "state": "Visakhapatnam",
+       "zip": "530016",
+       "country": "India"
+      },
+      {
+       "facility": "Dayal Clinic",
+       "city": "Visakhapatnam",
+       "state": "Visakhapatnam",
+       "zip": "530 016",
+       "country": "India",
+       "geoPoint": {
+        "lat": 17.68009,
+        "lon": 83.20161
+       }
+      },
+      {
+       "facility": "B.V. Department of Dermatology King George Hospital",
+       "city": "Visakhapatnam",
+       "state": "Visakhapatnam",
+       "zip": "530002",
+       "country": "India",
+       "geoPoint": {
+        "lat": 17.68009,
+        "lon": 83.20161
+       }
+      },
+      {
+       "facility": "Skin & Cosmetology",
+       "city": "Visakhapatnam",
+       "state": "Visakhapatnam",
+       "zip": "530002",
+       "country": "India",
+       "geoPoint": {
+        "lat": 17.68009,
+        "lon": 83.20161
+       }
+      }
+     ]
+    }
+   },
+   "hasResults": false
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT00974870",
+     "orgStudyIdInfo": {
+      "id": "STU15904"
+     },
+     "organization": {
+      "fullName": "Northwestern University",
+      "class": "OTHER"
+     },
+     "briefTitle": "A Pilot Study Testing the Efficacy of a Needling Device for the Treatment of Acne Scars",
+     "officialTitle": "A Split-face Randomized Controlled Trial to Assess the Efficacy of a Needling Device for the Treatment of Acne Scars"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2021-11",
+     "overallStatus": "COMPLETED",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2009-11"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2010-07",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2010-07",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2009-09-09",
+     "studyFirstSubmitQcDate": "2009-09-09",
+     "studyFirstPostDateStruct": {
+      "date": "2009-09-10",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2021-11-30",
+     "lastUpdatePostDateStruct": {
+      "date": "2021-12-02",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "PRINCIPAL_INVESTIGATOR",
+      "investigatorFullName": "Murad Alam",
+      "investigatorTitle": "Professor in Dermatology, Otolaryngology- Head and Neck Surgery, and Surgery-Organ Transplantation",
+      "investigatorAffiliation": "Northwestern University"
+     },
+     "leadSponsor": {
+      "name": "Northwestern University",
+      "class": "OTHER"
+     }
+    },
+    "oversightModule": {
+     "oversightHasDmc": false
+    },
+    "descriptionModule": {
+     "briefSummary": "The primary objective of this study is to determine the efficacy of a needling device for treatment of acne scars.",
+     "detailedDescription": "We are investigating a needled micro-roller for use in improving the appearance of acne scars. The study is being conducted under the direction of Dr. Murad Alam of Northwestern University, Department of Dermatology.\n\nThe needles on the micro-roller are designed to create small holes in the top and mid layers of skin in order to induce the formation of more collagen, which would in turn help improve the appearance of acne scars. To qualify for the study, you must have at least 2 large areas of the face with acne scars.\n\nThe study is designed such that one part of your face, which has acne scars, will be treated with the device on 3 separate occasions, spaced 2 weeks apart at our clinic in Chicago at Northwestern. We would also ask you to return at 3 months and at 6 months to have photographs taken.\n\nIf you are interested in participating, we would like to get you involved as soon as possible"
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Acne Scars"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "NA"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SINGLE_GROUP",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "NONE"
+      }
+     },
+     "enrollmentInfo": {
+      "count": 20,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "needling treatment",
+       "type": "EXPERIMENTAL",
+       "description": "Needling treatment applied to half of the face at each study visit",
+       "interventionNames": [
+        "Procedure: needling treatment"
+       ]
+      },
+      {
+       "label": "Control",
+       "type": "NO_INTERVENTION",
+       "description": "No treatment applied to half of the face"
+      }
+     ],
+     "interventions": [
+      {
+       "type": "PROCEDURE",
+       "name": "needling treatment",
+       "description": "Needling treatment applied to half of the face at each study visit",
+       "armGroupLabels": [
+        "needling treatment"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "We will evaluate qualitatively and quantitatively the improvement of the subject's acne scars",
+       "timeFrame": "6 months"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "The tolerability of the treatment will be assessed",
+       "timeFrame": "4 weeks"
+      },
+      {
+       "measure": "Subject satisfaction will be determined",
+       "timeFrame": "6 months"
+      },
+      {
+       "measure": "Any adverse events of this treatment will be recorded.",
+       "timeFrame": "6 months"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* Ages 18-70 years old\n* Subjects in general good health\n* The subject has the willingness and the ability to understand and provide informed consent for the use of their tissue and communicate with the investigator\n* Global Acne Scarring Classification grade 2-41 (Appendix II)\n* Subject has at least two areas of acne scaring on the face (with at least 2 acne scars in each) that are at least 2 cm apart\n\nExclusion Criteria:\n\n* Pregnancy and lactation\n* Subjects with history of keloid or hypertrophic scars\n* Subjects with active skin disease (other than mild acne) or skin infection in the treatment area\n* Subjects with an active systematic or local skin disease that is likely to alter wound healing\n* Subjects who have undergone in the past 6 months or planning to undergo in the next 6 months the following cosmetic treatments in the acne scar area\n\n  * Injectable permanent filler\n  * Ablative laser treatment\n* Subjects taking the following prescription medications:\n\n  * Accutane or other retinoids within the past 12 months\n  * Anticoagulant (warfarin)\n* Subjects who allergic to lidocaine and prilocaine",
+     "healthyVolunteers": true,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "maximumAge": "70 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "overallOfficials": [
+      {
+       "name": "Murad Alam, MD",
+       "affiliation": "Northwestern University",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "locations": [
+      {
+       "facility": "Northwestern University Feinberg School of Medicine, Department of Dermatology",
+       "city": "Chicago",
+       "state": "Illinois",
+       "zip": "60611",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 41.85003,
+        "lon": -87.65005
+       }
+      }
+     ]
+    },
+    "referencesModule": {
+     "references": [
+      {
+       "pmid": "24919799",
+       "type": "DERIVED",
+       "citation": "Alam M, Han S, Pongprutthipan M, Disphanurat W, Kakar R, Nodzenski M, Pace N, Kim N, Yoo S, Veledar E, Poon E, West DP. Efficacy of a needling device for the treatment of acne scars: a randomized clinical trial. JAMA Dermatol. 2014 Aug;150(8):844-9. doi: 10.1001/jamadermatol.2013.8687."
+      }
+     ]
+    }
+   },
+   "hasResults": false
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT06544889",
+     "orgStudyIdInfo": {
+      "id": "CS2024SK100019"
+     },
+     "organization": {
+      "fullName": "Johnson & Johnson Consumer and Personal Products Worldwide",
+      "class": "INDUSTRY"
+     },
+     "briefTitle": "A Study to Assess the Safety and Efficacy of a Sunscreen on Acne-Prone Skin With Inflammatory and Non-Inflammatory Acne Vulgaris",
+     "officialTitle": "A Single Center, Open-Label, Non-Randomized, Safety in Use Clinical Study to Assess The Topical Tolerability, Comedogenic and Acnegenic Potential, and Efficacy in Inflammatory and Non-Inflammatory Acne Vulgaris of a Sunscreen in Adult Subjects With Oily and Combination, Acne-Prone Skin"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2024-08",
+     "overallStatus": "COMPLETED",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2024-05-09",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2024-06-18",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2024-06-18",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-08-05",
+     "studyFirstSubmitQcDate": "2024-08-05",
+     "studyFirstPostDateStruct": {
+      "date": "2024-08-09",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-08-13",
+     "lastUpdatePostDateStruct": {
+      "date": "2024-08-15",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "SPONSOR"
+     },
+     "leadSponsor": {
+      "name": "JNTL Consumer Health (Brasil) LTDA",
+      "class": "INDUSTRY"
+     }
+    },
+    "oversightModule": {
+     "isFdaRegulatedDrug": false,
+     "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+     "briefSummary": "The purpose of this trial is to evaluate 1) To assess the dermatological tolerability and the absence of acnegenic and comedogenic potential of 1 facial sunscreen, after 28 \u00b1 2 days of use under normal conditions by adult subjects with acne prone skin, 2) To assess the clinical efficacy of the topical product in inflammatory and non-inflammatory acne vulgaris, and in the reduction of post-inflammatory erythema (PIE) and post-inflammatory hyperpigmentation (PIH) spots, under normal conditions of use; 3) Facial image capture with the VISIA-CR\u00ae Analysis System (Canfield Scientific, Inc.) equipment, to analyze acne marks and record before and after; 4)Assessment of perception by the study subject through Self-Perceived Effectiveness questionnaires and satisfaction surveys (emotional testimony)."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Acne Vulgaris"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "NA"
+     ],
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "primaryPurpose": "BASIC_SCIENCE",
+      "maskingInfo": {
+       "masking": "NONE"
+      }
+     },
+     "enrollmentInfo": {
+      "count": 32,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "Sunscreen",
+       "type": "EXPERIMENTAL",
+       "description": "Eligible study participants will visit the Site for an initial evaluation of skin condition and receive the Sunscreen to be used at home. Next, participants will use the Sunscreen in normal conditions at home for 28 +/- 2 days, returning to the Site after 7 days of product use, then make the last study visit to complete the final analysis.",
+       "interventionNames": [
+        "Other: Sunscreen SPF 70"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "OTHER",
+       "name": "Sunscreen SPF 70",
+       "description": "Participants will topically apply sunscreen SPF 70",
+       "armGroupLabels": [
+        "Sunscreen"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Number of participants with adverse events",
+       "description": "Number of participants with adverse events will be reported. An adverse event is any untoward medical occurrence in a clinical study participant temporally associated with the clinical investigation, whether or not the event has a causal relationship to the participants' participation in the trial. It is therefore any unfavorable and unintended sign (including an abnormal finding), symptom, or disease that occurs during the trial. This can include any occurrence that is new in onset, an aggravation of severity/frequency of a baseline condition, or abnormal results of diagnostic procedures, including laboratory test abnormalities.",
+       "timeFrame": "Up to 28 days"
+      },
+      {
+       "measure": "Topical tolerability as assessed by the dermatologist",
+       "description": "Topical tolerability will be assessed using skin reaction intensity evaluation scale. Skin Reaction Intensity Evaluation Scale is a composite evaluation of any irritation/reaction subscoring for erythema, peeling, vesiculation, and edema. The scale ranges from 0=absent to 4=intense.",
+       "timeFrame": "Baseline, Day 7 and Day 28 +/- 2 days"
+      },
+      {
+       "measure": "Number of Participants with Improvement from Baseline in Acne and Comedones",
+       "description": "The comedogenic and acnegenic potential will be evaluated by comparing the final acne lesion counts (D28) with the baseline acne lesion counts. The lesions will be classified as closed comedones (whiteheads), open comedones (blackheads), pustules (pustules) and papules (papules). The lesions will be counted in 05 areas of the face: 02 in the frontal region, 02 in the malar region and chin, papules and pustules will be counted on the entire face (except the nose).",
+       "timeFrame": "Baseline, Day 7 and Day 28 +/- 2 days"
+      },
+      {
+       "measure": "Change from Baseline in Clinical Effectiveness Assessment on Post-Inflammatory Hyperpigmentation",
+       "description": "Change from Baseline in Clinical Effectiveness Assessment on Post-Inflammatory Hyperpigmentation (PIH) will be reported. A 10-point ordinal scale (0 to 9) will be used. Therefore, as it is an ordinal scale, the intermediate points do not have an established definition. For PIH, the evaluated area will be the Global Face and the scale to be used is defined from 0 = None, uniform skin color with no observable hyperpigmentation to 9 = Severe/highly visible, deep color difference.",
+       "timeFrame": "Baseline, Day 7 and Day 28 +/- 2 days"
+      },
+      {
+       "measure": "Change from Baseline in Clinical Effectiveness Assessment on Post-Inflammatory Erythema",
+       "description": "Change from Baseline in Clinical Effectiveness Assessment on Post-Inflammatory Erythema (PIE) will be reported. A 10-point ordinal scale (0 to 9) will be used. Therefore, as it is an ordinal scale, the intermediate points do not have an established definition. For PIE, the evaluated area will be the Global Face and the scale to be used is defined from 0 = None, skin color without observable erythema to 9 = Severe/Highly visible, color difference between skin and spot intense.",
+       "timeFrame": "Baseline, Day 7 and Day 28 +/- 2 days"
+      },
+      {
+       "measure": "Number of Participants with Improvement From Baseline in Acne Mark Attributes Assessed Using the Visia-CR Facial Imaging Booth",
+       "description": "Facial images will be captured using the Visia CR Facial Imaging Booth. Three Three images per participant will be captured: right lateral, left lateral and frontal using using the Cross Polarized, Standard 2 and RBX (Red) filters. The captured images will be further analyzed using specific image analysis software to evaluate the reduction in acne, improvement in PIE and PIH, reduction in acne marks.",
+       "timeFrame": "Baseline, Day 7 and Day 28 +/- 2 days"
+      },
+      {
+       "measure": "Participant's Self-perceived Questionnaire to Assess the Clinical Effectiveness of the Sunscreen on Day 7",
+       "description": "Participant's self-perceived questionnaire to assess the clinical effectiveness of the sunscreen on Day 7 will be reported. Participants will answer 11 questions and rate as: totally disagree, disagree, neither agree nor disagree, agree and totally agree.",
+       "timeFrame": "Day 7"
+      },
+      {
+       "measure": "Participant's Self-perceived Questionnaire to Assess the Clinical Effectiveness of the Sunscreen on Day 28",
+       "description": "Participant's self-perceived questionnaire to assess the clinical effectiveness of the sunscreen on Day 28 will be reported. Participants will answer 11 questions and rate as: totally disagree, disagree, neither agree nor disagree, agree and totally agree.",
+       "timeFrame": "Day 28 +/- 2 days"
+      },
+      {
+       "measure": "Testimonial Regarding the Experience with Sunscreen",
+       "description": "A testimonial regarding the experience with sunscreen will be provided by the participants through an open question at the end of the study. The purpose is to know their opinion and experience using this product during the study.",
+       "timeFrame": "End of the study (Day 28 +/- 2 days)"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* Men and/or Women;\n* 18 to 55 years old;\n* Subjects vaccinated against COVID-19;\n* Subjects of all ethnicities according to IBGE criteria - IBGE-The Brazilian Institute of Geography and Statistics;\n* Phototypes I to IV according to the Fitzpatrick classification;\n* Oily or combination skin with a tendency to acne - confirmed by a dermatologist;\n* Healthy skin in the test area (except for comedones and occasional inflammatory lesions - papules and pustules);\n* Generally, in good health based on medical history reported by the subject;\n* Subjects with mild elementary acne lesions (Grade 2 on the IGA scale), including non-inflammatory and/or inflammatory lesions (papules/pustules only, no nodular lesions) - proven by a dermatologist;\n* Subjects presenting the following criteria on the face, confirmed by Expert Grader:\n\n  1. At least 1 PIE\n  2. At least PIH\n* For male subjects: who agree to shave 24 hours before Visits 1, 2, and 3;\n* Subjects able to read, write, speak, and understand Portuguese;\n* Subjects who signed the terms ICD - Informed Consent Document and ICID - Informed Consent Image Disclosure;\n* Intends to complete the study and is willing and able to follow all study instructions and attend the Site on the day(s) and at the time(s) set for the evaluations;\n\nExclusion Criteria:\n\n* Has known allergies or adverse reactions to common topical skin care products including sunscreens; medications, or other products that the investigator deems relevant;\n* Presents a skin condition that may confound the study results (specifically psoriasis, eczema, atopic dermatitis, cutaneous xerosis, erythema, or active skin cancer);\n* Has self-reported Type 1 or Type 2 diabetes or is taking insulin or another anti-diabetic medication;\n* Is taking a medication that would mask an Adverse Event (AE) or confound the study results, including:\n\n  * Immunosuppressive or steroidal drugs within 2 months before Visit 1\\*\n  * Non-steroidal anti-inflammatory drugs within 5 days before Visit 1\\* (For Oxaprozin and Piroxicam consider 2 weeks before visit 1).\n  * Antihistamines within 2 weeks before Visit 1\\* \\*If an individual is taking one of these medication types, the individual is not considered eligible at screening. However, if a subject begins using one of these medications during the study, the Study Physician should be consulted to consider the impact of the specific medication on subject safety and/or the study results.\n* Is currently using or has used any facial products containing acne active ingredients (e.g. benzoyl peroxide, salicylic acid, etc.) within the past 2 weeks or longer, if in the opinion of the Study Physician this could interfere with study results;\n* Aesthetic or dermatologic treatment, invasive or non-invasive, in the test areas within 2 weeks prior to the start of the study and during the study;\n* Subjects who reported being pregnant, or planning to become pregnant during the study;\n* Using any medication to treat diseases of the face or eyes;\n* Use of any other products capable of interfering with the study evaluations, at the discretion of the dermatologist;\n* Subjects who have hormonal dysfunction that may influence the study results, at the discretion of the attending physician (for example, subjects with a history of irregular menstruation, polycystic ovary syndrome, users of anabolic steroids, and/or medication for hormone treatment, etc);\n* Moderate to severe acne skin, confirmed by a dermatologist;\n* Has a history of or a concurrent health condition/situation that may put the individual at significant risk, confound the study results, or interfere significantly with the individual's participation in the study;\n* Has washed their face less than 2 hours before the study assessments;\n* Excessive hair in the assessment area that could interfere with visual measurements. In the case of men, even in the presence of excessive hair in the beard area, they will be instructed to shave 24 hours before the visit;\n* Simultaneously taking part in another study;\n* Being an employee/contractor or close relative of the PI, Study Site, or Sponsor.",
+     "healthyVolunteers": true,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "maximumAge": "55 Years",
+     "stdAges": [
+      "ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "overallOfficials": [
+      {
+       "name": "Gabrielli Brianezi, PhD",
+       "affiliation": "Johnson & Johnson Consumer Inc. (J&JCI)",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "locations": [
+      {
+       "facility": "Allergisa Pesquisa Dermato-Cosm\u00e9tica Ltda",
+       "city": "Campinas",
+       "state": "S\u00e3o Paulo",
+       "zip": "13084-791",
+       "country": "Brazil",
+       "geoPoint": {
+        "lat": -22.90556,
+        "lon": -47.06083
+       }
+      }
+     ]
+    },
+    "ipdSharingStatementModule": {
+     "ipdSharing": "NO"
+    }
+   },
+   "hasResults": false
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT04820673",
+     "orgStudyIdInfo": {
+      "id": "M-24001-40"
+     },
+     "organization": {
+      "fullName": "Almirall, S.A.",
+      "class": "INDUSTRY"
+     },
+     "briefTitle": "Patient-reported Outcomes for Sarecycline Effectiveness and Safety (PROSES)",
+     "officialTitle": "A Real-world Prospective Cohort Study of Patients With Moderate to Severe Acne Vulgaris Treated With Sarecycline (Seysara\u00ae) In Community Practice Settings in the U.S",
+     "acronym": "PROSES"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2024-10",
+     "overallStatus": "COMPLETED",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2021-03-09",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2022-05-04",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2022-05-04",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-03-25",
+     "studyFirstSubmitQcDate": "2021-03-25",
+     "studyFirstPostDateStruct": {
+      "date": "2021-03-29",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2024-06-12",
+     "resultsFirstSubmitQcDate": "2024-10-07",
+     "resultsFirstPostDateStruct": {
+      "date": "2024-10-10",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-10-07",
+     "lastUpdatePostDateStruct": {
+      "date": "2024-10-10",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "SPONSOR"
+     },
+     "leadSponsor": {
+      "name": "Almirall, S.A.",
+      "class": "INDUSTRY"
+     }
+    },
+    "oversightModule": {
+     "oversightHasDmc": false,
+     "isFdaRegulatedDrug": true,
+     "isFdaRegulatedDevice": false,
+     "isUsExport": false
+    },
+    "descriptionModule": {
+     "briefSummary": "The purpose of this study is to evaluate the patient-reported outcomes (PROs) in terms of health-related quality of life (HRQoL) and signs of Acne Vulgaris (AV) among patients with moderate to severe non-nodular AV who are administered sarecycline (Seysara\u00ae) in real-world community practice settings in the United States (U.S). Investigator's Global Assessment (IGA) of AV and safety measures associated with use of sarecycline (Seysara\u00ae) will be assessed over the study observation period of 12 weeks. Clinicians will prescribe sarecycline (Seyara\u00ae) as per their own clinical judgment and standard practice."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Acne Vulgaris"
+     ],
+     "keywords": [
+      "Prospective",
+      "Non-nodular Acne Vulgaris",
+      "Perceptions",
+      "Health-Related Quality of Life (HRQoL)",
+      "Patient-Reported Outcomes (PROs)",
+      "Signs & Symptoms"
+     ]
+    },
+    "designModule": {
+     "studyType": "OBSERVATIONAL",
+     "patientRegistry": false,
+     "designInfo": {
+      "observationalModel": "COHORT",
+      "timePerspective": "PROSPECTIVE"
+     },
+     "enrollmentInfo": {
+      "count": 300,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "Sarecycline",
+       "description": "Eligible patients prescribed with commercially available sarecycline will be followed-up for 12 weeks post-initiation of treatment.",
+       "interventionNames": [
+        "Drug: Sarecycline"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DRUG",
+       "name": "Sarecycline",
+       "description": "Clinicians will prescribe the sarecycline as per their own clinical judgment and standard practice.",
+       "armGroupLabels": [
+        "Sarecycline"
+       ],
+       "otherNames": [
+        "Seysara\u00ae"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Change From Baseline in Acne Symptom and Impact Scale Questionnaire (ASIS) Domain Score at Week 12",
+       "description": "Patient related outcome (PROs) assessment performed using ASIS Questionnaire, a 17-item questionnaire that asks participants about the signs, impact (emotional and social) of AV, responses were reported as two scales: Signs (9 items), and Impact (8 items). Impact domain had two sub-scales, pertinent to Emotional (6 items) and Social impact (2 items). All items are scored on a 5-point scale: 0 (best) to 4 (worst). A domain score is determined by the average of scores in each scale within the domain. The total score is the average of all 17 items. Higher scores on the ASIS Sign domain, comprised of all items that assess symptoms (items 1-9), indicate the presence of more severe symptoms, whereas higher scores on the ASIS Impact domain, comprised of all the items that assess impacts (items 10-17), indicate a greater negative impact of acne.",
+       "timeFrame": "Baseline, Week 12"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "Percentage of Participants With Facial Investigator Global Assesment (IGA) Success at Week 12",
+       "description": "The investigator assessed the participant's facial acne using the IGA 5-point scale. The scale ranges from 0 (best): clear, no evidence of papules or pustules to 4 (worst): severe, inflammatory lesions are more apparent, many papules/pustules, there may or may not be a few nodulocytic lesions. Success was defined as at least a 2-point decrease (improvement) from Baseline on the IGA assessment as well as a score of clear (0) or almost clear (1). Percentage of participants who achieved facial IGA success at Week 12 were reported.",
+       "timeFrame": "At Week 12"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\nPatient Inclusion Criteria:\n\n* Male or female, aged 9 years and above\n* Has facial non-nodular AV with IGA score of moderate or severe\n* Considered as a potential candidate for sarecycline (Seysara\u00ae) treatment, per clinician judgment\n\nCaregiver Inclusion Criteria:\n\n* Primary caregiver of the study-eligible patient\n* Male or female, aged 18 years and above\n\nExclusion Criteria:\n\n* Patients with any known resistance to other tetracyclines\n* Patients with any dermatological or physical condition of the face that could interfere with the AV clinical evaluations.\n* Patients with any history of allergy to tetracycline-class antibiotics, pseudomembranous colitis or antibiotic-associated colitis.\n* Unable to comply with the requirements of the study or patients who in the opinion of the Site Investigator should not participate in the study\n\nOther protocol defined Inclusion/Exclusion criteria may apply",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "9 Years",
+     "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+     ],
+     "studyPopulation": "Patients with moderate to severe non-nodular acne vulgaris who are on prescribed sarecycline will be enrolled. Caregivers of eligible pediatric patients will also be enrolled.",
+     "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+     "overallOfficials": [
+      {
+       "name": "Study Director",
+       "affiliation": "Almirall, S.A.",
+       "role": "STUDY_DIRECTOR"
+      }
+     ],
+     "locations": [
+      {
+       "facility": "Almirall Site#2",
+       "city": "Boston",
+       "state": "Massachusetts",
+       "zip": "02116",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 42.35843,
+        "lon": -71.05977
+       }
+      },
+      {
+       "facility": "Almirall Site #1",
+       "city": "Brooklyn",
+       "state": "New York",
+       "zip": "11201",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 40.6501,
+        "lon": -73.94958
+       }
+      }
+     ]
+    },
+    "ipdSharingStatementModule": {
+     "ipdSharing": "NO"
+    }
+   },
+   "hasResults": true
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT05855629",
+     "orgStudyIdInfo": {
+      "id": "EDA1370"
+     },
+     "organization": {
+      "fullName": "Treatment and Diagnostic Center of Private Enterprise \"Asklepiy\"",
+      "class": "OTHER"
+     },
+     "briefTitle": "\"A Comparative Clinical Evaluation of the Efficacy of Topical Adapalene, Benzoyl Peroxide Gel, Oral Lactobacillus Rhamnosus, D-chiro-inositol, Inulin Capsule, and Their Fixed Combination in Mild to Moderate Acne Vulgaris Patients.\"",
+     "officialTitle": "\"A Comparative Clinical Evaluation of the Efficacy of Topical Adapalene, Benzoyl Peroxide Gel, Oral Lactobacillus Rhamnosus, D-chiro-inositol, Inulin Capsule, and Their Fixed Combination in Mild to Moderate Acne Vulgaris Patients.\""
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2023-05",
+     "overallStatus": "UNKNOWN",
+     "lastKnownStatus": "ACTIVE_NOT_RECRUITING",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2022-02-18",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2023-06-12",
+      "type": "ESTIMATED"
+     },
+     "completionDateStruct": {
+      "date": "2023-07-30",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2023-05-04",
+     "studyFirstSubmitQcDate": "2023-05-04",
+     "studyFirstPostDateStruct": {
+      "date": "2023-05-11",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-05-04",
+     "lastUpdatePostDateStruct": {
+      "date": "2023-05-11",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "PRINCIPAL_INVESTIGATOR",
+      "investigatorFullName": "Yuriy Andrashko",
+      "investigatorTitle": "Yuriy Andrashko",
+      "investigatorAffiliation": "Treatment and Diagnostic Center of Private Enterprise \"Asklepiy\""
+     },
+     "leadSponsor": {
+      "name": "Treatment and Diagnostic Center of Private Enterprise \"Asklepiy\"",
+      "class": "OTHER"
+     },
+     "collaborators": [
+      {
+       "name": "delta medical promotions ag",
+       "class": "UNKNOWN"
+      }
+     ]
+    },
+    "oversightModule": {
+     "isFdaRegulatedDrug": false,
+     "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+     "briefSummary": "The study aims to conduct a comparative clinical evaluation of the effectiveness of a fixed topical combination of adapalene with benzoyl peroxide in the form of a gel, a fixed combination of Lactobacillus rhamnosus, D-chiro-inositol and inulin in the form of capsules and their combination in patients with acne vulgaris of mild and moderate severity and laboratory lipid analysis profile of sebum, lipid metabolism, and IGF-1 (insulin-like growth factor)."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Acne Vulgaris"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "NA"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "NONE"
+      }
+     },
+     "enrollmentInfo": {
+      "count": 59,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "Topical Adapalene, Benzoyl Peroxide Gel",
+       "type": "OTHER",
+       "interventionNames": [
+        "Drug: Topical Adapalene, Benzoyl Peroxide Gel"
+       ]
+      },
+      {
+       "label": "Oral Lactobacillus Rhamnosus, D-chiro-inositol, Inulin Capsule",
+       "type": "OTHER",
+       "interventionNames": [
+        "Dietary Supplement: Oral Lactobacillus Rhamnosus, D-chiro-inositol, Inulin Capsule"
+       ]
+      },
+      {
+       "label": "Topical Adapalene,Benzoyl Peroxide Gel,Oral Lactobacillus Rhamnosus,D-chiro-inositol,Inulin Capsule",
+       "type": "OTHER",
+       "interventionNames": [
+        "Dietary Supplement: Oral Lactobacillus Rhamnosus, D-chiro-inositol, Inulin Capsule",
+        "Drug: Topical Adapalene, Benzoyl Peroxide Gel"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DIETARY_SUPPLEMENT",
+       "name": "Oral Lactobacillus Rhamnosus, D-chiro-inositol, Inulin Capsule",
+       "description": "Lactobacillus Rhamnosus 1,5 \u0445 10\\*9, Inulin 25mg, D-chiro-inositol 250mg",
+       "armGroupLabels": [
+        "Oral Lactobacillus Rhamnosus, D-chiro-inositol, Inulin Capsule",
+        "Topical Adapalene,Benzoyl Peroxide Gel,Oral Lactobacillus Rhamnosus,D-chiro-inositol,Inulin Capsule"
+       ]
+      },
+      {
+       "type": "DRUG",
+       "name": "Topical Adapalene, Benzoyl Peroxide Gel",
+       "description": "Adapalene 1mg/g, Benzoyl Peroxide 25mg/ml",
+       "armGroupLabels": [
+        "Topical Adapalene, Benzoyl Peroxide Gel",
+        "Topical Adapalene,Benzoyl Peroxide Gel,Oral Lactobacillus Rhamnosus,D-chiro-inositol,Inulin Capsule"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "GAGS (Global Acne Grading System)",
+       "description": "The primary end point of the study is the intensity of acne manifestations according to the GAGS scale",
+       "timeFrame": "180 days"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "IGA (Investigator Global Assessment)",
+       "description": "The secondary end point of the study is the intensity of acne manifestations according to the IGA scale",
+       "timeFrame": "180 days"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with mild to moderate level of Acne Vulgaris\n\nExclusion Criteria:\n\n* Pregnancy",
+     "healthyVolunteers": true,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "maximumAge": "27 Years",
+     "stdAges": [
+      "ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "locations": [
+      {
+       "facility": "TDC PE \"Asklepiy\"",
+       "city": "Uzhhorod",
+       "state": "Zakarpattia Oblast",
+       "zip": "88000",
+       "country": "Ukraine",
+       "geoPoint": {
+        "lat": 48.6242,
+        "lon": 22.2947
+       }
+      }
+     ]
+    }
+   },
+   "hasResults": false
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT01160757",
+     "orgStudyIdInfo": {
+      "id": "U/S1-SPOT"
+     },
+     "organization": {
+      "fullName": "Arizona State University",
+      "class": "OTHER"
+     },
+     "briefTitle": "A Study to Determine the Safety and Efficacy of an Ultrasound Device in the Management of Acute Acne Lesions",
+     "officialTitle": "A Study to Determine the Safety and Efficacy of an Ultrasound Device in the Management of Acute Acne Lesions"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2010-07",
+     "overallStatus": "COMPLETED",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2008-10"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2009-07",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2010-07-09",
+     "studyFirstSubmitQcDate": "2010-07-09",
+     "studyFirstPostDateStruct": {
+      "date": "2010-07-12",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2010-07-09",
+     "lastUpdatePostDateStruct": {
+      "date": "2010-07-12",
+      "type": "ESTIMATED"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "oldNameTitle": "Denise G. Link, PhD, WHNP-BC, CNE, FNAP, Associate Dean",
+      "oldOrganization": "Arizona State University, College of Nursing and Healthcare Innovation"
+     },
+     "leadSponsor": {
+      "name": "Arizona State University",
+      "class": "OTHER"
+     }
+    },
+    "oversightModule": {
+     "oversightHasDmc": true
+    },
+    "descriptionModule": {
+     "briefSummary": "The purpose of this study is to find out how effective and safe an experimental ultrasound device is for treating Acute Acne lesions.",
+     "detailedDescription": "Acne vulgaris is a disease that occurs when oil and dead skin cells clog the pores of the skin. When the skin's pores are clogged, red spots and bumps known as pimples are formed, usually on the face, neck, chest, and back. In adolescents and adults, acne vulgaris is commonly called \"acne.\" Many factors have been associated with acne. One of the factors is the increased production of fatty substances from an enlarged sebaceous gland (\"oil gland\").\n\nThe experimental ultrasonic device uses sound waves (called ultrasonic waves) to heat the acute acne lesion and the surrounding sebaceous (\"oil\") glands deep in the skin without affecting the surface of the skin. We hope that heating the sebaceous glands will reduce their size and reduce the symptoms of inflamed acne. Using ultrasonic waves to treat acne is investigational.\n\nThis is a pilot study. A pilot study is done on a small group of subjects to learn if the device will be effective and safe, before the device is used on a larger group of subjects."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Acne Vulgaris"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE1"
+     ],
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "NONE"
+      }
+     },
+     "enrollmentInfo": {
+      "count": 35,
+      "type": "ESTIMATED"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "ultrasound",
+       "type": "OTHER",
+       "interventionNames": [
+        "Device: ultrasound"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DEVICE",
+       "name": "ultrasound",
+       "description": "ultrasound exposure on acute acne lesions",
+       "armGroupLabels": [
+        "ultrasound"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Time to clear acute acne lesions",
+       "timeFrame": "12 days"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* female or male subjects,\n* greater than 18 years age,\n* with acute acne on the face.\n\nExclusion Criteria:\n\n* pregnancy,\n* concomitant skin diseases,\n* severe acne,\n* antibiotic therapy.",
+     "healthyVolunteers": true,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "overallOfficials": [
+      {
+       "name": "Denise Link, PhD",
+       "affiliation": "ASU, College of Nursing and Healthcare Innovation",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "locations": [
+      {
+       "facility": "Arizona State University, College of Nursing and Healthcare Innovation",
+       "city": "Phoenix",
+       "state": "Arizona",
+       "zip": "85004",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 33.44838,
+        "lon": -112.07404
+       }
+      }
+     ]
+    }
+   },
+   "hasResults": false
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT07749469",
+     "orgStudyIdInfo": {
+      "id": "USMR-26-1"
+     },
+     "organization": {
+      "fullName": "USMARI Research & Innovation Centre",
+      "class": "INDUSTRY"
+     },
+     "briefTitle": "Safety and Efficacy of Skincare Products for Managing Mild to Moderate Acne in Individuals With Sensitive Skin",
+     "officialTitle": "Safety and Efficacy of Skincare Products for Managing Mild to Moderate Acne in Individuals With Sensitive Skin"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2026-07",
+     "overallStatus": "RECRUITING",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2026-06-01",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2026-12-30",
+      "type": "ESTIMATED"
+     },
+     "completionDateStruct": {
+      "date": "2026-12-30",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2026-07-29",
+     "studyFirstSubmitQcDate": "2026-08-04",
+     "studyFirstPostDateStruct": {
+      "date": "2026-08-06",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-04",
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-06",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "SPONSOR"
+     },
+     "leadSponsor": {
+      "name": "USMARI Research & Innovation Centre",
+      "class": "INDUSTRY"
+     }
+    },
+    "oversightModule": {
+     "oversightHasDmc": false,
+     "isFdaRegulatedDrug": false,
+     "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+     "briefSummary": "To investigate the safety and efficacy of a skincare regimen in individuals with mild to moderate acne and sensitive skin. The study duration is 4 weeks and the skin assessment will be carried out at baseline and week 4.\n\nThe main questions this study aims to answer are:\n\n1. To investigate the safety of the skincare regimen products in managing mild to moderate acne in individuals with sensitive skin.\n2. To determine the efficacy of the skincare regimen products in managing mild to moderate acne in individuals with sensitive skin.\n3. To assess the participants' satisfaction with the skincare regimen products in managing mild to moderate acne in individuals with sensitive skin."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Acne"
+     ],
+     "keywords": [
+      "skincare",
+      "sensitive skin",
+      "acne"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "NA"
+     ],
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "primaryPurpose": "SUPPORTIVE_CARE",
+      "maskingInfo": {
+       "masking": "NONE"
+      }
+     },
+     "enrollmentInfo": {
+      "count": 34,
+      "type": "ESTIMATED"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "Skincare regimen",
+       "type": "OTHER",
+       "description": "The skincare regimen consist of cleanser, toner, serum, day cream and night cream",
+       "interventionNames": [
+        "Other: Cleanser",
+        "Other: Toner",
+        "Other: Serum",
+        "Other: Day cream",
+        "Other: Night cream"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "OTHER",
+       "name": "Cleanser",
+       "description": "Each participant will be provided with a Gentle deep cleanser, 100 mL containing Cocos Nucifera (Coconut) Oil, to be applied for 4 weeks according to the specified instructions.",
+       "armGroupLabels": [
+        "Skincare regimen"
+       ]
+      },
+      {
+       "type": "OTHER",
+       "name": "Toner",
+       "description": "Each participant will be provided with a Dewy cheeks revitalising toner, 100 mL containing Cocos Nucifera (Coconut) Oil, to be applied for 4 weeks according to the specified instructions.",
+       "armGroupLabels": [
+        "Skincare regimen"
+       ]
+      },
+      {
+       "type": "OTHER",
+       "name": "Serum",
+       "description": "Each participant will be provided with a Deep serum, 30 mL containing Cocos Nucifera (Coconut) Oil, to be applied for 4 weeks according to the specified instructions.",
+       "armGroupLabels": [
+        "Skincare regimen"
+       ]
+      },
+      {
+       "type": "OTHER",
+       "name": "Day cream",
+       "description": "Each participant will be provided with a moisturizing day cream, 50 gm containing Cocos Nucifera (Coconut) Oil, to be applied for 4 weeks according to the specified instructions.",
+       "armGroupLabels": [
+        "Skincare regimen"
+       ]
+      },
+      {
+       "type": "OTHER",
+       "name": "Night cream",
+       "description": "Each participant will be provided with a moisturizing night cream, 50 gm containing Cocos Nucifera (Coconut) Oil, to be applied for 4 weeks according to the specified instructions.",
+       "armGroupLabels": [
+        "Skincare regimen"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Comprehensive Acne Severity Scale Classification (CASS)",
+       "description": "Improvement of acne lesions will be assessed by blinded clinician at W0 and W4 of the study, using CASS. Acne severity was graded using a 6-point scale ranging from Grade 0 (clear) to Grade 5 (very severe). Grade 0 (clear)= No lesions to barely noticeable ones. Very few scattered comedones and papules; Grade 1 (almost clear) = Hardly visible from 2.5 metres away. A few scattered comedones, few small papules, and very few pustules; Grade 2 (mild)= Easily recognisable; less than half of the affected area is involved. Many comedones, papules, and pustules; Grade 3 (moderate)= More than half of the affected area is involved. Numerous comedones, papules, and pustules; Grade 4 (severe)= Entire area is involved. Covered with comedones, numerous pustules and papules, a few nodules and cyst; Grade 5 (very severe)= Highly inflammatory acne covering the affected area, with nodules, and cyst present.",
+       "timeFrame": "baseline, week 4"
+      },
+      {
+       "measure": "Acne lesion counts",
+       "description": "Acne lesion counts will be performed by a blinded clinician. It will involve quantifying the open comedones, closed comedones, papules, pustules, nodules, and cysts. Lesions will be assessed across 5 facial regions: right forehead, left forehead, right cheek, left cheek, and chin. The nose and perinasal area will be excluded from analysis.",
+       "timeFrame": "baseline, week 4"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "Incidence of Treatment-Emergent Adverse Events [Safety and Tolerability]",
+       "description": "The safety of the skincare regimen will be evaluated throughout the study by monitoring adverse events (AEs) reported by participants. The product tolerability will be evaluated using a self-administered questionnaire at week 4. Participants will be asked to rate their level of redness, stinging sensation, tightening, itching, dryness, scaling, and burning on a 6-point scale, with 0 indicating 'none' and 5 indicating 'very severe",
+       "timeFrame": "4 weeks"
+      },
+      {
+       "measure": "Participant satisfaction",
+       "description": "Participation satisfaction towards product efficacy will be evaluated using a survey. Participants rated their level of agreement with each statement using a 5-point Likert scale (1 = strongly disagree, 2 = disagree, 3 = not sure, 4 = agree, 5 = strongly agree).",
+       "timeFrame": "week 4"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* Healthy Malaysian women and men\n* Fitzpatrick skin type II-V\n* Age above 18 years old\n* Individuals with sensitive skin identify through sensitive skin survey (Corazza et al., 2022) and lactic acid sting test (LAST).\n* Individuals with mild to moderate acne, based on Comprehensive Acne Severity Scale (CASS)\n\nExclusion Criteria:\n\n* Pregnant or breastfeeding women, or those planning pregnancy during the study period.\n* Individuals with documented autoimmune diseases or other conditions that may affect immune response or skin barrier function.\n* Individuals with a history of severe skin sensitivity reactions, including frequent intense erythema, swelling, or intolerable burning in response to topical products.\n* Individuals with severe acne requiring medical treatment or systemic treatment such as nodulocystic acne.\n* Individuals with active inflammatory or allergic dermatological conditions affecting the face, such as atopic dermatitis, eczema, or psoriasis, which may compromise skin barrier function or interfere with study assessments.\n* Individuals who have undergone cosmetic or dermatological procedures such as -chemical peel, microneedling, or any procedures aimed at improving acne, within 3 months prior to the study.\n* Individuals currently taking medical or hormonal treatments that may interfere with study outcomes, including anti-inflammatory agents, corticosteroids, or other medication interfering with study objectives.\n* Individuals with known allergy or hypersensitivity to any ingredients found in the product.",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "centralContacts": [
+      {
+       "name": "Siti Nur Hanis Mamood, PhD",
+       "role": "CONTACT",
+       "phone": "+60167572670",
+       "email": "hanis@usmari.org.my"
+      }
+     ],
+     "locations": [
+      {
+       "facility": "USMARI Research & Innovation Centre",
+       "status": "RECRUITING",
+       "city": "Petaling Jaya",
+       "state": "Selangor",
+       "zip": "47810",
+       "country": "Malaysia",
+       "contacts": [
+        {
+         "name": "Siti Nur Hanis Mamood, PhD",
+         "role": "CONTACT",
+         "phone": "+60167572670",
+         "email": "hanis@usmari.org.my"
+        }
+       ],
+       "geoPoint": {
+        "lat": 3.10726,
+        "lon": 101.60671
+       }
+      }
+     ]
+    },
+    "ipdSharingStatementModule": {
+     "ipdSharing": "NO"
+    }
+   },
+   "hasResults": false
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT00725439",
+     "orgStudyIdInfo": {
+      "id": "BT0700BEL001"
+     },
+     "organization": {
+      "fullName": "GlaxoSmithKline",
+      "class": "INDUSTRY"
+     },
+     "briefTitle": "An Open Label Trial to Assess the Safety and Efficacy of Oral R115866 in the Treatment Facial Acne",
+     "officialTitle": "An Open Label Pilot Trial to Assess the Safety and Efficacy of Oral R115866 in the Treatment of Moderate to Severe Facial Acne"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2011-09",
+     "overallStatus": "COMPLETED",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2004-09"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2005-07",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2007-12",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2008-07-17",
+     "studyFirstSubmitQcDate": "2008-07-28",
+     "studyFirstPostDateStruct": {
+      "date": "2008-07-30",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2011-09-23",
+     "lastUpdatePostDateStruct": {
+      "date": "2011-09-26",
+      "type": "ESTIMATED"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "SPONSOR"
+     },
+     "leadSponsor": {
+      "name": "Stiefel, a GSK Company",
+      "class": "INDUSTRY"
+     }
+    },
+    "oversightModule": {
+     "oversightHasDmc": false
+    },
+    "descriptionModule": {
+     "briefSummary": "This study is looking at a new oral drug to treat acne. All patients in the study will get active drug, there is no placebo arm."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Acne"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE2"
+     ],
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SINGLE_GROUP",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "NONE"
+      }
+     },
+     "enrollmentInfo": {
+      "count": 16,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "A",
+       "type": "EXPERIMENTAL",
+       "description": "Talarozole",
+       "interventionNames": [
+        "Drug: Talarozole"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DRUG",
+       "name": "Talarozole",
+       "description": "Oral Dose 1.0 mg once daily",
+       "armGroupLabels": [
+        "A"
+       ],
+       "otherNames": [
+        "Rambazole",
+        "R115866"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Facial Lesion Count",
+       "timeFrame": "Post 12 weeks treatment"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* Male subject\n* Presence of moderate to severe facial acne vulgaris: having a minimum of 15 papules and/or pustules and at least 2 nodulocystic lesions\n* In good general health and free of any disease state or physical condition which, in the investigator's opinion, might have impaired evaluation of acne or exposed the subject to an unacceptable risk by trial participation\n\nExclusion Criteria:\n\n* Subjects with types of acne other than acne vulgaris\n* Significant coexisting hepatic, renal, or bone marrow disease, hyperlipidemia, chronic pancreatitis, osteoporosis, or a history indicating adrenal cortex dysfunction or any other serious disease (including cancer and subjects known to be HIV positive)\n* History of any malignancy in the past 5 years, except for adequately treated basal cell carcinoma of the skin\n* History of heart failure, myocardial infarction within the past six months, cardiac arrhythmia, or under treatment for heart disorders\n* Clinically significant abnormal ECG-intervals or morphology of the ECG; QT or QTc \\>470 ms in females or \\>450 ms in males\n* Use of vitamin A (\\>1000 microgram/day), phenytoin, carbamazepine, warfarin, rifampicin, tetracyclines, ketoconazole, itraconazole, astemizole, terfenadine, cisapride, anti-psychotics, anti-depressants, lithium, antimalarials, alpha-blocking drugs, angiotensin-converting enzyme inhibitors, cyclosporin A, glucocorticosteroids and non-steroid anti-inflammatory drugs, non-potassium-sparing diuretics\n* Use of oral retinoids 6 months prior to Visit 1\n* Use of other oral/topical therapy for acne unless stopped at Visit 1\n* Use of ultraviolet light (including artificial UVA and UVB as well as excessive natural sun exposure) unless stopped at Visit 1",
+     "healthyVolunteers": false,
+     "sex": "MALE",
+     "minimumAge": "16 Years",
+     "maximumAge": "50 Years",
+     "stdAges": [
+      "CHILD",
+      "ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "overallOfficials": [
+      {
+       "name": "Prof. Dr. D. Roseeuw, MD",
+       "affiliation": "Department Dermatology, University Hospital Brussel (UZ Brussel)",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "locations": [
+      {
+       "facility": "Department of Dermatology, UZ Brussel",
+       "city": "Brussels",
+       "zip": "B-1090",
+       "country": "Belgium",
+       "geoPoint": {
+        "lat": 50.85045,
+        "lon": 4.34878
+       }
+      },
+      {
+       "facility": "Private Practice in Dermatology",
+       "city": "Vilvoorde",
+       "zip": "B-1800",
+       "country": "Belgium",
+       "geoPoint": {
+        "lat": 50.92814,
+        "lon": 4.42938
+       }
+      },
+      {
+       "facility": "Albert Schweitzer Hospital, Dermatology",
+       "city": "Zwijndrecht",
+       "zip": "NL-3331 LZ",
+       "country": "Netherlands",
+       "geoPoint": {
+        "lat": 51.8175,
+        "lon": 4.63333
+       }
+      }
+     ]
+    }
+   },
+   "hasResults": false
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT07069075",
+     "orgStudyIdInfo": {
+      "id": "2020SJZTCMLL-KY0045"
+     },
+     "organization": {
+      "fullName": "Shijiazhuang TCM Hospital",
+      "class": "OTHER"
+     },
+     "briefTitle": "Gene Polymorphisms, Skin Barrier, and Inflammation in Acne",
+     "officialTitle": "The Relationship Between MMP-2 and TIMP-2 Gene Polymorphisms and Skin Barrier Function, Inflammatory Cytokine Levels in Acne Patients"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2025-07",
+     "overallStatus": "COMPLETED",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2018-08-01",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2021-09-30",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2021-09-30",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-07-05",
+     "studyFirstSubmitQcDate": "2025-07-05",
+     "studyFirstPostDateStruct": {
+      "date": "2025-07-16",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-07-05",
+     "lastUpdatePostDateStruct": {
+      "date": "2025-07-16",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "SPONSOR_INVESTIGATOR",
+      "investigatorFullName": "Hong Zhang",
+      "investigatorTitle": "Principal investigator",
+      "investigatorAffiliation": "Shijiazhuang TCM Hospital"
+     },
+     "leadSponsor": {
+      "name": "Hong Zhang",
+      "class": "OTHER"
+     }
+    },
+    "oversightModule": {
+     "isFdaRegulatedDrug": false,
+     "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+     "briefSummary": "This study investigated the relationship between Matrix Metalloproteinase-2 (MMP-2) and Tissue Inhibitor of Metalloproteinase-2 (TIMP-2) gene polymorphisms and acne pathogenesis. The study aimed to determine whether specific genotypes (MMP-2-CC and TIMP-2-CC) are associated with impaired skin barrier function (measured by transepidermal water loss and skin hydration) and elevated levels of inflammatory cytokines (IL-1\u03b2, TNF-\u03b1) in acne patients compared to healthy controls.",
+     "detailedDescription": "Acne vulgaris is a common dermatological condition with a complex pathogenesis involving skin barrier dysfunction and inflammation. Matrix metalloproteinases (MMPs) and their tissue inhibitors (TIMPs) are crucial in extracellular matrix remodeling and have been implicated in acne. This case-control study was designed to explore the association of specific polymorphisms in the MMP-2 (rs243865) and TIMP-2 (rs8179090) genes with clinical and biological markers in acne. A total of 200 acne patients and 100 healthy controls were enrolled. Genomic DNA was extracted from peripheral blood samples, and genotyping was performed using PCR-RFLP. Skin barrier function was assessed by measuring Transepidermal Water Loss (TEWL) and skin hydration. Serum levels of the inflammatory cytokines Interleukin-1\u03b2 (IL-1\u03b2) and Tumor Necrosis Factor-\u03b1 (TNF-\u03b1) were quantified using ELISA. The study evaluates whether the CC genotypes of MMP-2 and TIMP-2 are risk factors for acne susceptibility and are correlated with more severe disease phenotypes, characterized by poorer skin barrier integrity and a heightened inflammatory state."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Acne Vulgaris"
+     ],
+     "keywords": [
+      "Acne",
+      "MMP-2",
+      "TIMP-2",
+      "Gene Polymorphism"
+     ]
+    },
+    "designModule": {
+     "studyType": "OBSERVATIONAL",
+     "patientRegistry": false,
+     "designInfo": {
+      "observationalModel": "CASE_CROSSOVER",
+      "timePerspective": "PROSPECTIVE"
+     },
+     "bioSpec": {
+      "retention": "SAMPLES_WITH_DNA",
+      "description": "Venous blood samples were collected from all participants. Genomic DNA was extracted from whole blood for genotyping of MMP-2 rs243865 and TIMP-2 rs8179090. Serum was separated for measuring inflammatory cytokine levels (IL-1\u03b2, TNF-\u03b1) via ELISA."
+     },
+     "enrollmentInfo": {
+      "count": 300,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "Acne Patients",
+       "description": "Individuals aged 18 years or older who were diagnosed with acne vulgaris by a dermatologist. Participants provided blood samples for genotyping and cytokine analysis, and underwent non-invasive skin function tests.",
+       "interventionNames": [
+        "Genetic: MMP-2 Gene Polymorphism (rs243865) Analysis",
+        "Genetic: TIMP-2 Gene Polymorphism (rs8179090) Analysis"
+       ]
+      },
+      {
+       "label": "Healthy Controls",
+       "description": "Healthy volunteers aged 18 years or older without any systemic or skin diseases, recruited during the same period. Participants provided blood samples for genotyping.",
+       "interventionNames": [
+        "Genetic: MMP-2 Gene Polymorphism (rs243865) Analysis",
+        "Genetic: TIMP-2 Gene Polymorphism (rs8179090) Analysis"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "GENETIC",
+       "name": "MMP-2 Gene Polymorphism (rs243865) Analysis",
+       "description": "Participants were genotyped for the MMP-2 rs243865 polymorphism. Genomic DNA was extracted from peripheral blood, and the specific genotype (CC, CT, or TT) was determined using Polymerase Chain Reaction-Restriction Fragment Length Polymorphism (PCR-RFLP) analysis. This allowed for the stratification of participants based on their genetic variation at this locus for subsequent association analysis.",
+       "armGroupLabels": [
+        "Acne Patients",
+        "Healthy Controls"
+       ]
+      },
+      {
+       "type": "GENETIC",
+       "name": "TIMP-2 Gene Polymorphism (rs8179090) Analysis",
+       "description": "Participants were genotyped for the TIMP-2 rs8179090 polymorphism. Genomic DNA was extracted from peripheral blood, and the specific genotype (CC, GC, or GG) was determined using Polymerase Chain Reaction-Restriction Fragment Length Polymorphism (PCR-RFLP) analysis. This allowed for the stratification of participants based on their genetic variation at this locus for subsequent association analysis.",
+       "armGroupLabels": [
+        "Acne Patients",
+        "Healthy Controls"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Genotype Frequencies of MMP-2 and TIMP-2",
+       "description": "Comparison of the genotype distribution (CC vs. CT/TT for MMP-2; CC vs. GC/GG for TIMP-2) between acne patients and healthy controls to assess association with acne susceptibility. \\[Time Frame: Data collected at a single study visit\\] Skin Barrier Function Assessment: Measurement of Transepidermal Water Loss (TEWL) and skin hydration levels in acne patients, compared across different MMP-2 and TIMP-2 genotypes.",
+       "timeFrame": "Data for each participant were collected at a single visit during the study period from March 2018 to September 2021."
+      },
+      {
+       "measure": "Skin Barrier Function Assessment",
+       "description": "Measurement of Transepidermal Water Loss (TEWL) and skin hydration levels in acne patients, compared across different MMP-2 and TIMP-2 genotypes.",
+       "timeFrame": "Data for each participant were collected at a single visit during the study period from March 2018 to September 2021."
+      },
+      {
+       "measure": "Serum Interleukin-1\u03b2 (IL-1\u03b2) Level",
+       "description": "Measurement of serum levels of IL-1\u03b2 in acne patients, compared across different MMP-2 and TIMP-2 genotypes.",
+       "timeFrame": "Data for each participant were collected at a single visit during the study period from March 2018 to September 2021."
+      },
+      {
+       "measure": "Serum Tumor Necrosis Factor-\u03b1 (TNF-\u03b1) Level",
+       "description": "Measurement of serum levels of TNF-\u03b1 in acne patients, compared across different MMP-2 and TIMP-2 genotypes.",
+       "timeFrame": "Data for each participant were collected at a single visit during the study period from March 2018 to September 2021."
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "Correlation Analysis",
+       "description": "Pearson correlation and logistic regression analyses to evaluate the association between the MMP-2/TIMP-2 genotypes, impaired skin barrier function, and elevated inflammatory cytokine levels in acne patients.",
+       "timeFrame": "Analysis was performed after the completion of data collection in September 2021."
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* Aged 18 years or older, regardless of gender.\n* Diagnosed with acne by a dermatologist (for patient group).\n* No systemic or skin diseases (for control group).\n* Able to provide informed consent and willing to undergo genotype testing and related skin function tests.\n\nExclusion Criteria:\n\n* Acne induced by medications.\n* Polycystic ovary syndrome or other forms of hormone-related acne.\n* Any local, systemic, or surgical acne/acne scar treatments within the last four weeks.\n* Presence of genetic connective tissue diseases.\n* Associated with pyoderma or other systemic comorbidities.\n* Refusal to sign the informed consent form.",
+     "healthyVolunteers": true,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ],
+     "studyPopulation": "Patients with acne vulgaris and healthy volunteers recruited from the dermatology department of Shijiazhuang TCM Hospital.",
+     "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+     "locations": [
+      {
+       "facility": "Shijiazhuang TCM Hospital",
+       "city": "Shijiazhuang",
+       "state": "Hebei",
+       "zip": "050000",
+       "country": "China",
+       "geoPoint": {
+        "lat": 38.04139,
+        "lon": 114.47861
+       }
+      }
+     ]
+    },
+    "referencesModule": {
+     "references": [
+      {
+       "pmid": "41730533",
+       "type": "DERIVED",
+       "citation": "Huang S, Fang L, Zhang M, Sun S, Zhi H, Zhu Y, Zhang H. The relationship between MMP-2 and TIMP-2 gene polymorphisms and skin barrier function, inflammatory cytokine levels in acne patients. Expert Rev Clin Immunol. 2026 Feb;22(2):233-241. doi: 10.1080/1744666X.2026.2636646. Epub 2026 Mar 4."
+      }
+     ]
+    }
+   },
+   "hasResults": false
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT01425320",
+     "orgStudyIdInfo": {
+      "id": "225678-003"
+     },
+     "organization": {
+      "fullName": "Allergan",
+      "class": "INDUSTRY"
+     },
+     "briefTitle": "Pharmacokinetics Study of Dapsone-Adapalene Fixed Combination Gel in Acne"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2012-11",
+     "overallStatus": "WITHDRAWN",
+     "whyStopped": "Study was never initiated due to company decision. No study subjects were ever enrolled or dosed.",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2013-01"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2013-06",
+      "type": "ESTIMATED"
+     },
+     "completionDateStruct": {
+      "date": "2013-06",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2011-08-26",
+     "studyFirstSubmitQcDate": "2011-08-26",
+     "studyFirstPostDateStruct": {
+      "date": "2011-08-30",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2012-11-16",
+     "lastUpdatePostDateStruct": {
+      "date": "2012-11-19",
+      "type": "ESTIMATED"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "SPONSOR"
+     },
+     "leadSponsor": {
+      "name": "Allergan",
+      "class": "INDUSTRY"
+     }
+    },
+    "oversightModule": {
+     "oversightHasDmc": false
+    },
+    "descriptionModule": {
+     "briefSummary": "This study will investigate the pharmacokinetics, safety and tolerability of dapsone and adapalene following topical administration of 2 formulations of dapsone/adapalene fixed combination gel, dapsone 5% gel (ACZONE\u00ae), and adapalene 0.3% gel (Differin\u00ae) in subjects with acne vulgaris."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Acne Vulgaris"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE1"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      }
+     },
+     "enrollmentInfo": {
+      "count": 0,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "Fixed Combination dapsone/adapalene Formulation A Gel",
+       "type": "EXPERIMENTAL",
+       "description": "Study medication will be applied once daily for 14 days to the face, upper chest, upper back, and shoulders.",
+       "interventionNames": [
+        "Drug: Fixed Combination dapsone/adapalene Formulation A Gel"
+       ]
+      },
+      {
+       "label": "Fixed Combination dapsone/adapalene Formulation B Gel",
+       "type": "EXPERIMENTAL",
+       "description": "Study medication will be applied once daily for 14 days to the face, upper chest, upper back, and shoulders.",
+       "interventionNames": [
+        "Drug: Fixed Combination dapsone/adapalene Formulation B Gel"
+       ]
+      },
+      {
+       "label": "dapsone 5% gel (ACZONE\u00ae)",
+       "type": "ACTIVE_COMPARATOR",
+       "description": "Study medication will be applied twice daily for 14 days to the face, upper chest, upper back, and shoulders.",
+       "interventionNames": [
+        "Drug: dapsone 5% gel"
+       ]
+      },
+      {
+       "label": "adapalene 0.3% gel (Differin\u00ae)",
+       "type": "ACTIVE_COMPARATOR",
+       "description": "Study medication will be applied once daily for 14 days to the face, upper chest, upper back, and shoulders.",
+       "interventionNames": [
+        "Drug: adapalene 0.3% gel"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DRUG",
+       "name": "Fixed Combination dapsone/adapalene Formulation A Gel",
+       "description": "Study medication will be applied once daily for 14 days to the face, upper chest, upper back, and shoulders.",
+       "armGroupLabels": [
+        "Fixed Combination dapsone/adapalene Formulation A Gel"
+       ]
+      },
+      {
+       "type": "DRUG",
+       "name": "Fixed Combination dapsone/adapalene Formulation B Gel",
+       "description": "Study medication will be applied once daily for 14 days to the face, upper chest, upper back, and shoulders.",
+       "armGroupLabels": [
+        "Fixed Combination dapsone/adapalene Formulation B Gel"
+       ]
+      },
+      {
+       "type": "DRUG",
+       "name": "dapsone 5% gel",
+       "description": "Study medication will be applied twice daily for 14 days to the face, upper chest, upper back, and shoulders.",
+       "armGroupLabels": [
+        "dapsone 5% gel (ACZONE\u00ae)"
+       ],
+       "otherNames": [
+        "ACZONE\u00ae"
+       ]
+      },
+      {
+       "type": "DRUG",
+       "name": "adapalene 0.3% gel",
+       "description": "Study medication will be applied once daily for 14 days to the face, upper chest, upper back, and shoulders.",
+       "armGroupLabels": [
+        "adapalene 0.3% gel (Differin\u00ae)"
+       ],
+       "otherNames": [
+        "Differin\u00ae"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Plasma Levels of Dapsone",
+       "timeFrame": "Day 1"
+      },
+      {
+       "measure": "Plasma Levels of Dapsone",
+       "timeFrame": "Day 14"
+      },
+      {
+       "measure": "Plasma Levels of Adapalene",
+       "timeFrame": "Day 1"
+      },
+      {
+       "measure": "Plasma Levels of Adapalene",
+       "timeFrame": "Day 14"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "Local Dermal Tolerability Rating Using a 4-Point Scale",
+       "timeFrame": "Day 14"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* Moderate acne on the face\n* Willing to avoid swimming during the study\n* Willing to avoid excessive sunlight and ultraviolet light (e.g., tanning beds)during the study\n* Willing to avoid moisturizers, sunscreens, cosmetics, and chemical peels during the study\n\nExclusion Criteria:\n\n* Severe cystic acne\n* Use of topical or oral retinoids within 4 weeks\n* Use of isotretinoin within 3 months\n* Use of dapsone or adapalene within 3 months\n* Anticipated need to engage in activities/exercise that would cause profuse sweating\n* Donated blood or equivalent blood loss within 90 days",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "maximumAge": "64 Years",
+     "stdAges": [
+      "ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "overallOfficials": [
+      {
+       "name": "Medical Director",
+       "affiliation": "Allergan",
+       "role": "STUDY_DIRECTOR"
+      }
+     ]
+    }
+   },
+   "hasResults": false
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT01727440",
+     "orgStudyIdInfo": {
+      "id": "Pro00030862"
+     },
+     "organization": {
+      "fullName": "Duke University",
+      "class": "OTHER"
+     },
+     "briefTitle": "Identifying the Genetic Predictors of Severe Acne Vulgaris and the Outcome of Oral Isotretinoin Treatment",
+     "officialTitle": "Identifying the Genetic Predictors of Severe Acne Vulgaris and the Outcome of Oral Isotretinoin Treatment",
+     "acronym": "SA"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2017-01",
+     "overallStatus": "COMPLETED",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2011-09"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2015-08",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2015-08",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2012-10-24",
+     "studyFirstSubmitQcDate": "2012-11-12",
+     "studyFirstPostDateStruct": {
+      "date": "2012-11-16",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2017-08-23",
+     "lastUpdatePostDateStruct": {
+      "date": "2017-08-24",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "SPONSOR"
+     },
+     "leadSponsor": {
+      "name": "Duke University",
+      "class": "OTHER"
+     }
+    },
+    "oversightModule": {
+     "oversightHasDmc": true
+    },
+    "descriptionModule": {
+     "briefSummary": "The goal of this study is to enroll 250 participants that have joined the MURDOCK Study Horizon 1.5 (Duke IRB Pro00011196) with a current or prior diagnosis of severe acne AND current or prior treatment with oral isotretinoin. All 250 participants will answer a 5-page questionnaire designed to collect information on the diagnosis of severe acne and response to oral isotretinoin treatment. The aim is to identify genetic predictors of severe acne vulgaris and the outcome of oral isotretinoin treatment.",
+     "detailedDescription": "Acne vulgaris is an under-studied common genetic disease with tremendous economic consequences. Acne vulgaris is one of the most common skin conditions treated by doctors. It affects 40-50 million people in the USA, with prevalence as high as 85% (recent study from Iran was 93%) in teenagers; 18% of woman have late onset (\\>25yr) acne vulgaris. Severe acne has a life-long psychosocial impact due to the significant scarring. Severe acne can also be associated with severe systemic inflammatory disease with fever, sterile osteomyelitis, inflammatory arthritis and other signs of systemic inflammatory responses. Some of these syndromes in Mendelian form (e.g. PAPA syndrome) have known genetic defects. Finally, while the data are inconclusive, there have been many suggestions that diet can exacerbate acne in some patients. The standard of care treatment for severe acne is systemic retinoid therapy, which, is usually, but not always effective. Unfortunately, systemic retinoid treatment is associated with significant toxicity, including common cutaneous adverse effects (dry lips, eyes, skin fragility), less common laboratory abnormalities such as elevated blood lipids, liver function abnormalities, and severe predictable teratogenicity. In addition, systemic therapy with retinoids has been associated with systemic diseases such as clinical depression, suicide, and inflammatory bowel disease, however the mechanisms and significance of these associations has not been determined. Given the frequency and severity of severe acne, the predictable severe toxicity of systemic retinoid therapy, and the already demonstrated genetic associations found in Mendelian forms of severe acne, it seems likely that significant genetic risk factors may be identified in patients with severe acne which would promote new and safer therapy, including dietary adjustment."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Acne Vulgaris",
+      "Isotretinoin"
+     ],
+     "keywords": [
+      "severe acne",
+      "severe acne vulgaris",
+      "acne",
+      "acne vulgaris",
+      "isotretinoin",
+      "Accutane",
+      "Sortret",
+      "Amnesteem",
+      "Claravis",
+      "Clarus",
+      "Decutan",
+      "Isotane",
+      "Izotek",
+      "Oratane",
+      "Isotret",
+      "Roaccutane"
+     ]
+    },
+    "designModule": {
+     "studyType": "OBSERVATIONAL",
+     "designInfo": {
+      "observationalModel": "CASE_CONTROL",
+      "timePerspective": "RETROSPECTIVE"
+     },
+     "bioSpec": {
+      "retention": "SAMPLES_WITH_DNA",
+      "description": "Whole blood collected in three 2-mL EDTA tubes"
+     },
+     "enrollmentInfo": {
+      "count": 123,
+      "type": "ACTUAL"
+     }
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Therapeutic response to isotretinoin",
+       "description": "All 250 patients with severe acne will be genotyped using the Illumina 610 BeadChip. Whole-exome sequencing will be performed on 100 extremely severe acne vulgaris patients, selected based on severity and response to oral isotretinoin treatment. A case-control GWAS analysis will be performed (250 recruited patients vs. 1000 normal controls of convenience available in other studies at CHGV). Additionally, an association analyses will be conducted using complete exome sequencing data for the most severe cases, compared with controls of convenience (as an extreme trait in the population, there is a reasonable expectation of discovery of any important variants, rare or common). This analysis would also include targeted analysis on available drug response data (efficacy and adverse response).",
+       "timeFrame": "10 months"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "Adverse reaccion to isotretinoin",
+       "description": "All 250 patients with severe acne will be genotyped using the Illumina 610 BeadChip. Whole-exome sequencing will be performed on 100 extremely severe acne vulgaris patients, selected based on severity and response to oral isotretinoin treatment. A case-control GWAS analysis will be performed (250 recruited patients vs. 1000 normal controls of convenience available in other studies at CHGV). Additionally, an association analyses will be conducted using complete exome sequencing data for the most severe cases, compared with controls of convenience (as an extreme trait in the population, there is a reasonable expectation of discovery of any important variants, rare or common). This analysis would also include targeted analysis on available drug response data (efficacy and adverse response).",
+       "timeFrame": "10 months"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosed with severe acne while age \\> 12 and \\< 18, and\n* Completed at least one course of oral isotretinoin treatment; OR started treatment but discontinued prior to completion due to adverse side effects (with the exception of dry skin - see \"exclusion criteria\"); OR are currently undergoing and plan to complete treatment\n\nExclusion Criteria:\n\n* Patients who are not willing to participate in this study\n* Patients who experienced inflammatory bowel disease (IBD) prior to oral isotretinoin treatment\n* Patients who did not complete the oral isotretinoin treatment because of pregnancy, dry skin, or reasons other than adverse side effects listed above\n* Patients who are not willing to or cannot provide a blood sample for Murdock Study",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "12 Years",
+     "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+     ],
+     "studyPopulation": "Participants must enroll or have enrolled in the MURDOCK Study Community Registry and Biorepository prior to joining this Severe Acne Study. At the MURDOCK Study visit, or after the participant has enrolled in the MURDOCK Study, they will be asked (either in person or via phone) if they would be willing to join the Severe Acne Study.\n\nParticipants between ages 12 and 18 may also join the MURDOCK Study if they meet the eligibility criteria for this Severe Acne Study (a pediatric consent form will be used).",
+     "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+     "overallOfficials": [
+      {
+       "name": "Russell Hall, MD",
+       "affiliation": "Duke Medicine Site Based Research Group",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "locations": [
+      {
+       "facility": "Carolinas Medical Center Northeast Medical Arts Building",
+       "city": "Concord",
+       "state": "North Carolina",
+       "zip": "28025",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 35.40888,
+        "lon": -80.58158
+       }
+      },
+      {
+       "facility": "Dermatology Group of the Carolinas",
+       "city": "Concord",
+       "state": "North Carolina",
+       "zip": "28025",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 35.40888,
+        "lon": -80.58158
+       }
+      },
+      {
+       "facility": "Ada Jenkins Center",
+       "city": "Davidson",
+       "state": "North Carolina",
+       "zip": "28036",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 35.50233,
+        "lon": -80.83912
+       }
+      },
+      {
+       "facility": "Harrisburg Sleep Center",
+       "city": "Harrisburg",
+       "state": "North Carolina",
+       "zip": "28075",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 35.32395,
+        "lon": -80.65784
+       }
+      },
+      {
+       "facility": "Lake Norman Community Health Clinic",
+       "city": "Huntersville",
+       "state": "North Carolina",
+       "zip": "28078",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 35.41069,
+        "lon": -80.84285
+       }
+      },
+      {
+       "facility": "Kannapolis Internal Medicine",
+       "city": "Kannapolis",
+       "state": "North Carolina",
+       "zip": "28081",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 35.48736,
+        "lon": -80.62173
+       }
+      }
+     ]
+    },
+    "referencesModule": {
+     "seeAlsoLinks": [
+      {
+       "label": "Murdock Study Severe Acne Study",
+       "url": "http://www.murdock-study.com/new-studies/severe-acne"
+      }
+     ]
+    }
+   },
+   "hasResults": false
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT02219776",
+     "orgStudyIdInfo": {
+      "id": "201400113"
+     },
+     "organization": {
+      "fullName": "McLaren Health Care",
+      "class": "OTHER"
+     },
+     "briefTitle": "Decreasing Infection In Arthroscopic Shoulder Surgery",
+     "officialTitle": "Decreasing Proprionbacterium Acne Skin Colonization Prior to Arthroscopic Shoulder Surgery"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2022-08",
+     "overallStatus": "COMPLETED",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2015-09"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2021-06",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2021-06",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2014-08-16",
+     "studyFirstSubmitQcDate": "2014-08-18",
+     "studyFirstPostDateStruct": {
+      "date": "2014-08-19",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2022-08-23",
+     "lastUpdatePostDateStruct": {
+      "date": "2022-08-25",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "SPONSOR"
+     },
+     "leadSponsor": {
+      "name": "McLaren Health Care",
+      "class": "OTHER"
+     }
+    },
+    "oversightModule": {
+     "oversightHasDmc": false
+    },
+    "descriptionModule": {
+     "briefSummary": "Despite the use of a standard preoperative skin disinfectant prior to shoulder surgery propionibacterium acne remains a leading cause of post-operative infections. The purpose of this study is to evaluate effectiveness of topical benzoyl peroxide as an adjuvant to chlorhexidine-impregnated skin preparation in attempting to lower the colonization propionibacterium acne prior to surgery. This study will take cultures from patients who are randomly assigned into groups that receive and do not receive benzoyl peroxide as additional skin prep prior to elective shoulder surgery and compare quantified culture results.",
+     "detailedDescription": "With IRB approval and informed consent to participate in the study, patients scheduled for elective shoulder arthroscopy will be randomly selected and placed into 1 of 2 groups. Both groups will adhere to the surgeon's preoperative protocol of showering the night before with instructions to scrub the operative shoulder including the axilla with a chlorhexidine scrub brush. Group 1 will be treated \"per protocol\" and only be given instructions to use chlorhexidine. While group 2 will be provided a chlorhexidine scrub brush and a 1.5oz bottle of 10% benzoyl peroxide emollient to be applied after using the chlorhexidine scrub. The benzoyl peroxide should not be washed off prior to surgery.\n\nThirty minutes prior to incision, intravenous antibiotics, cefazolin or clindamycin if penicillin intolerant, will be administered per protocol. Dry anaerobic culturettes will be taken at the location of the expected posterior portal location before and after the application of the chloraprep solution. At the time of surgery both groups will undergo preoperative skin preparation, in sterile fashion, with our institutions \"standard\" protocol utilizing ChloraPrep (2% chlorhexidine gluconate and 70% isopropyl alcohol; Enturia, El Paso, Texas). In addition, a 3mm full thickness skin punch biopsy will be taken after, application of chlorprep. Biopsies will be immediately placed, by the surgeon, in sterile receptacle with sterile saline and sent to our microbiology department. The biopsy site will be incorporated into the portal incision and will be closed appropriately minimizing the morbidity of obtaining the biopsy.\n\nThe culture results will be recorded into a \"dummy\" account on McLaren's electronic medical records program. This account ensures that the costs of the study are not charged to the patient as well as blinding the patient and surgeon of the their results. The patient correlating information will only be known to Dr. Fine and they will be kept in a password protect computer document which will be kept in a off campus protected locked location.\n\nThe Microbiology lab will place the swab specimens in 1 ml of saline, vortex them, and inoculate 0.01 mL onto an anaerobic blood agar plate. A chopped meat broth will also be inoculated. The punch biopsies will be ground and then inoculated to an anaerobic blood agar plate and a chopped meat broth. The anaerobic plates will be incubated in an anaerobic chamber at 35\u00b0C. The plates and broth will be examined daily for the first 4 days, then on days 7, 10 and 14 and any growth screened to determine if P. acnes is present. Results will be reported as \"no P. acnes isolated\" or as \"\\<X\\>CFU/mL P. acnes\" for the swab specimens. No colony count can be issued for the biopsies. These will be reported semi-quantitatively as rare, few, moderate or many. All plates will be read and counted manually by a laboratory technician who is not involved in the study and has been blinded from preoperative prep used. If any growth is detected, the sample will be considered positive."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Post Operative Infection Arthroscopic Shoulder Surgery",
+      "Infection"
+     ],
+     "keywords": [
+      "Infection,",
+      "Proprionbacterium Acne,",
+      "Shoulder,",
+      "skin preparation"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "NA"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "primaryPurpose": "PREVENTION",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      }
+     },
+     "enrollmentInfo": {
+      "count": 100,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "Chlorhexidine Standard of Care Arm",
+       "type": "ACTIVE_COMPARATOR",
+       "description": "Use of Chlorhexidine to cleanse pre-operative surgery site",
+       "interventionNames": [
+        "Other: Standard of Care - Chlorhexidine Scrub only"
+       ]
+      },
+      {
+       "label": "Benzoyl Peroxide Experimental Arm",
+       "type": "EXPERIMENTAL",
+       "description": "Use of Chlorhexidine scrub brush and 1.5 oz bottle of 10% benzoyl peroxide emollient",
+       "interventionNames": [
+        "Drug: Benzoyl Peroxide solution Plus Chlorhexidine Scrub"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DRUG",
+       "name": "Benzoyl Peroxide solution Plus Chlorhexidine Scrub",
+       "description": "Subjects will be provided instructions on how to use and apply the chlorhexidine using a scrub brush and 1.5 oz bottle of 10% benzoyl peroxide emollient application",
+       "armGroupLabels": [
+        "Benzoyl Peroxide Experimental Arm"
+       ]
+      },
+      {
+       "type": "OTHER",
+       "name": "Standard of Care - Chlorhexidine Scrub only",
+       "description": "Subjects will be given instructions on how to apply the Chlorhexidine using a scrub brush",
+       "armGroupLabels": [
+        "Chlorhexidine Standard of Care Arm"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Bacterial Growth",
+       "description": "Skin swabs and biopsy will be cultured for 14 days in media specific for growing P.Acne",
+       "timeFrame": "14 days from culture"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion criteria:\n\n1. Elective arthroscopic shoulder surgery\n2. Ages \\> 18\n3. Male and Female\n\nExclusion criteria:\n\n1. Active Infection\n2. History of ipsilateral prior shoulder surgery\n3. History of prior shoulder infection\n4. Current use of Antibiotics\n5. History of immunosuppression\n6. Open wounds\n7. History of Inflammatory arthritis\n8. Allergy to benzoyl peroxide\n9. Allergy to chlorhexidine",
+     "healthyVolunteers": true,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "overallOfficials": [
+      {
+       "name": "Landon R Fine, DO",
+       "affiliation": "McLaren Greater Lansing",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "locations": [
+      {
+       "facility": "McLaren Greater Lansing",
+       "city": "Lansing",
+       "state": "Michigan",
+       "zip": "28910",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 42.73253,
+        "lon": -84.55553
+       }
+      }
+     ]
+    },
+    "ipdSharingStatementModule": {
+     "ipdSharing": "UNDECIDED"
+    }
+   },
+   "hasResults": false
+  }
+ ],
+ "nextPageToken": "ZVNj7o2Elu8o3lpzV8ikv62tmpOQJJxmY_ms1fg"
+}
