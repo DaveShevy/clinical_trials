@@ -117,16 +117,16 @@ clinicaltrials.gov; in browser tests, intercept the API with Playwright
 - `parseDate(s, {end=false})`: "YYYY", "YYYY-MM" or "YYYY-MM-DD" to a UTC Date; with `end`, the last day of that month/year. null for bad input.
 - `phaseGroup(record)`: one of `"Early phase 1"`, `"Phase 1"`, `"Phase 1/2"`, `"Phase 2"`, `"Phase 2/3"`, `"Phase 3"`, `"Phase 4"`, `"Not phased"` (NA, empty, or observational). Export `PHASE_ORDER`.
 - `statusGroup(status)`: `"Recruiting"` (RECRUITING, NOT_YET_RECRUITING, ENROLLING_BY_INVITATION), `"Active, not recruiting"`, `"Completed"`, `"Stopped early"` (TERMINATED, WITHDRAWN, SUSPENDED), `"Unknown"` (UNKNOWN, null, other). Export `STATUS_ORDER`.
-- `sponsorGroup(cls)`: `"Industry"` (INDUSTRY), `"NIH & U.S. government"` (NIH, FED, OTHER_GOV), `"Universities, hospitals & other"` (everything else).
-- `isQuiet(record, today, graceMonths=6)`: true when statusGroup is "Recruiting" and primary completion (end of its month) is more than `graceMonths` before `today`. Also export `quietListings(records, today)` sorted most overdue first, each `{record, monthsOverdue}`.
-- `summarize(records, today)`: `{total, recruiting, active, completed, stopped, unknown, withResults, withResultsOfCompleted (share 0..1 of completed interventional trials with results), industryShare, quiet, firstYear, lastYear, medianEnrollment}`.
+- `sponsorGroup(cls)`: `"Industry"` (INDUSTRY), `"Government & public bodies"` (NIH, FED, OTHER_GOV; OTHER_GOV is mostly non-U.S. public bodies, so the label must not say "U.S." or "NIH"), `"Universities, hospitals & other"` (everything else). Export `SPONSOR_ORDER`.
+- `isQuiet(record, today, graceMonths=6)`: true when statusGroup is "Recruiting" and the planned primary completion date P is more than `graceMonths` before `today`, i.e. P + `graceMonths` months < `today`. A full date counts from that day; "YYYY-MM" and "YYYY" count from the end of that month or year. `monthsOverdue(record, today)` is the number of whole calendar months from P to `today` (the largest k with P + k months ≤ today; negative when P is in the future; null with no date). Also export `quietListings(records, today)` sorted most overdue first, each `{record, monthsOverdue}`. Lookups into label tables use own keys only, so a status such as "toString" falls back to "Unknown".
+- `summarize(records, today)`: `{total, recruiting, active, completed, stopped, unknown, withResults, withResultsOfCompleted (share 0..1 of completed interventional trials with results), completedInterventional, completedInterventionalWithResults, industryShare, quiet, firstYear, lastYear, medianEnrollment, enrollmentCounted, zeroEnrollment, missingEnrollment}`. `medianEnrollment` is over trials listing more than 0 participants; the page must say how many trials with 0 or no number it leaves out.
 - `startsByYear(records)`: `[{year, phase, count}]` by start year and phase group (records with no start date are counted and returned separately as `undated`). Return `{rows, undated}`.
 - `phaseByStatus(records)`: `[{phase, status, count}]` for interventional trials.
 - `topSponsors(records, n=10)`: `{rows: [{sponsor, group, count}], others}`.
 - `sponsorMix(records)`: `[{group, count, share}]`.
 - `interventionTypes(records)`: `[{type, label, count}]` counting trials (not interventions) per type; labels in plain English ("Drug", "Device", "Behavioral", "Procedure or surgery", "Biological", "Dietary supplement", "Radiation", "Genetic", "Combination product", "Diagnostic test", "Other").
-- `topInterventions(records, n=15)`: most-tested named interventions, counting trials; normalise names (case-fold, trim, collapse spaces, drop dosage like "1%" or "100 mg", map "placebo"/"vehicle" variants to one "Placebo or vehicle" bucket which is reported separately, not ranked). `{rows: [{name, count}], placeboTrials}`.
-- `recruitingSites(records, today)`: sites of trials whose statusGroup is "Recruiting", excluding quiet listings, and whose site status is null or a recruiting status. `{points: [{lat, lon, city, country, trials}], countries: [{country, sites, trials}], trialCount}`; aggregate identical lat/lon.
+- `topInterventions(records, n=15)`: most-tested named interventions, counting trials (a trial counts once per intervention however many arms name it). Normalise names (case-fold, trim, collapse spaces, drop dosage like "1%" or "100 mg" and dosage forms like "cream", "gel", "tablets"). Split combinations ("A + B", "A and B", "A/B", "A; B") into their parts, keeping codes such as "CD07805/47" whole. A name that contains a shorter name used on its own in at least 2 trials (for example "Ivermectin 1% cream" contains "ivermectin") counts under that shorter name. Placebo, vehicle and sham controls, including a control word in brackets, are counted separately and not ranked. `{rows: [{name, count, spellings}], placeboTrials, shamTrials, distinct, tiedAtCut}`: `spellings` is how many listing spellings were merged into the row, `distinct` the number of distinct names, `tiedAtCut` the number of names left out that tie with the last row shown (the page must say so).
+- `recruitingSites(records, today)`: sites of trials whose statusGroup is "Recruiting", excluding quiet listings, and whose site status is null or a recruiting status. `{points: [{lat, lon, city, country, trials, recruitingNow}], countries: [{country, sites, trials}], trialCount, siteCount, notYetPoints}`; aggregate identical lat/lon. `recruitingNow` counts trials at that point whose trial status is RECRUITING and whose site status is RECRUITING or not given; `notYetPoints` counts points where that is 0 (all not yet recruiting or by invitation), which the map draws as hollow rings and the text must never call "open".
 - `searchRecords(records, {text, statusGroup, phase})`: filter for the trial table.
 
 `site/js/data.js`
@@ -158,8 +158,13 @@ Files: `site/index.html`, `site/css/style.css`, `site/js/charts.js`, `site/js/ap
      (Trials registered, Recruiting now, Completed, Completed trials with
      posted results %, Listings not updated). Note the data date.
   2. **When research happened**: stacked bars of trials started per year by
-     phase group (stacking is valid; segments sum to all trials started).
-     Note undated trials.
+     phase (stacking is valid; segments sum to all trials started). The bars
+     use five phase bands ("Phase 1 or earlier" = early phase 1, phase 1 and
+     phase 1/2; "Phase 2" = phase 2 and 2/3; "Phase 3"; "Phase 4"; "Not
+     phased"), so adjacent colours stay distinguishable; tooltips and the
+     table keep the full phase. The axis starts at 2000 when at most 10% of
+     dated trials started earlier, and the page says how many are not drawn.
+     Note undated trials, and that the current year is not over.
   3. **How far trials get**: horizontal stacked bars, one row per phase group
      (interventional only), segments by status group. Order rows by
      `PHASE_ORDER`.
@@ -197,8 +202,11 @@ link `css/style.css` from B for the base design), `site/js/story.js`,
   with the computed number, 1–3 short paragraphs, one chart):
   1. KP has a tiny fraction of the trials of other common skin conditions
      (bar chart of trials per condition across all six prebuilt conditions).
-  2. Research over time per condition (small multiples, one line or bar
-     panel per condition, shared x, independent or log y stated clearly).
+  2. Research over time per condition (small multiples, one bar panel per
+     condition, shared x and one shared linear y, stated clearly, so heights
+     compare directly; a panel whose bars are too short to read says its
+     busiest year in words). The question is magnitude, so independent
+     y-scales are not used.
   3. What gets tested for KP vs rosacea (intervention type comparison).
   4. New approaches in rosacea: cards from `site/data/story.json` (curated:
      NCT id + plain-English one-liner), each showing live status, phase and
@@ -218,7 +226,9 @@ link `css/style.css` from B for the base design), `site/js/story.js`,
   (thulium laser for KP).
 - `pages.yml`: on push to main, on `workflow_dispatch`, and on
   `workflow_run` of "Refresh trial data" (completed, success): checkout,
-  setup-python, `python scripts/build_sqlite.py`,
+  setup-python, setup-node, run `node --test tests/js/` and
+  `python -m pytest -q` (a failing test stops the deploy),
+  `python scripts/build_sqlite.py`,
   `actions/configure-pages@v5`, `actions/upload-pages-artifact@v4` with
   `path: site`, `actions/deploy-pages@v4`. Permissions `pages: write`,
   `id-token: write`, `contents: read`. Concurrency group `pages`.

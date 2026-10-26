@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://clinicaltrials.gov; object-src 'none'; base-uri 'none'; form-action 'self'">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Clinical Trials Explorer</title>
+  <meta name="description" content="See the research landscape for any condition: how many trials, when they ran, how far they got, who pays, where to take part and what gets tested. Data from ClinicalTrials.gov.">
+  <script src="js/early.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="vendor/d3.min.js"></script>
+  <script src="vendor/plot.umd.min.js"></script>
+  <script src="vendor/topojson-client.min.js"></script>
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#results">Skip to the results</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <div class="masthead">
+        <h1 class="brand">
+          <svg class="brand-mark" viewBox="0 0 22 22" aria-hidden="true" focusable="false">
+            <rect x="1" y="12" width="4" height="9" rx="1" fill="var(--c-phase-1)"/>
+            <rect x="7" y="7" width="4" height="14" rx="1" fill="var(--c-phase-2)"/>
+            <rect x="13" y="3" width="4" height="18" rx="1" fill="var(--c-phase-3)"/>
+            <circle cx="19.5" cy="5" r="2" fill="var(--c-status-recruiting)"/>
+          </svg>
+          <span>Clinical Trials Explorer</span>
+        </h1>
+        <nav class="site-nav" aria-label="Site">
+          <a href="index.html" aria-current="page">Explorer</a>
+          <a href="story.html">Story<span class="nav-long">: the skin conditions research forgot</span></a>
+        </nav>
+      </div>
+
+      <div class="intro">
+        <p class="intro-title">See the whole research picture for a condition.</p>
+        <p class="intro-lede">ClinicalTrials.gov is good at finding one trial. This page shows all of them at once: how many there are, when they ran, how far they got, who pays, where you could take part and what gets tested.</p>
+
+        <form class="search" id="search-form" role="search" action="" method="get" novalidate>
+          <label class="label" for="q">Condition</label>
+          <div class="search-row">
+            <input id="q" name="q" type="search" list="condition-list" autocomplete="off" spellcheck="false" placeholder="e.g. rosacea, asthma, migraine" aria-describedby="search-hint">
+            <button class="btn" type="submit">Explore</button>
+          </div>
+          <datalist id="condition-list"></datalist>
+          <p class="hint" id="search-hint">Choose a prebuilt condition below or type any other to search ClinicalTrials.gov live.</p>
+        </form>
+        <div id="load-status" class="load-status" role="status" aria-live="polite"></div>
+        <p class="notice notice-medical" role="note"><strong>Not medical advice.</strong> This site shows what researchers are studying. It does not recommend treatments or say whether a trial is right for anyone. Talk to a doctor.</p>
+
+        <p class="chips-label" id="chips-label">Prebuilt conditions <span class="muted">(number of trials)</span></p>
+        <ul class="chips" id="chips" aria-labelledby="chips-label"></ul>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <noscript><p class="notice notice-warn">This page draws every chart in your browser, so it needs JavaScript. You can still download the <a href="data/index.json">prebuilt data</a>.</p></noscript>
+
+    <div id="results" class="results" hidden tabindex="-1">
+      <div class="results-head">
+        <p class="results-kicker" id="results-kicker">Research landscape</p>
+        <h2 class="results-title" id="results-title"></h2>
+        <p class="results-meta" id="results-meta"></p>
+        <div id="cap-notice"></div>
+        <nav class="toc" aria-label="Sections on this page">
+          <ol>
+            <li><a href="#glance">At a glance</a></li>
+            <li><a href="#when">When</a></li>
+            <li><a href="#progress">How far</a></li>
+            <li><a href="#sponsors">Who pays</a></li>
+            <li><a href="#where">Where</a></li>
+            <li><a href="#tested">What gets tested</a></li>
+            <li><a href="#quiet">Not updated</a></li>
+            <li><a href="#trials">All trials</a></li>
+            <li><a href="#changes">What changed</a></li>
+          </ol>
+        </nav>
+      </div>
+
+      <section class="section" id="glance" aria-labelledby="glance-h">
+        <div class="section-head">
+          <h2 class="section-title" id="glance-h"><span class="section-num" aria-hidden="true">1</span> At a glance</h2>
+          <p class="finding" id="glance-finding"></p>
+        </div>
+        <ul class="tiles" id="glance-tiles" aria-label="Key numbers"></ul>
+        <div class="figure-notes" id="glance-notes"></div>
+      </section>
+
+      <section class="section" id="when" aria-labelledby="when-h">
+        <div class="section-head">
+          <h2 class="section-title" id="when-h"><span class="section-num" aria-hidden="true">2</span> When research happened</h2>
+          <p class="finding" id="when-finding"></p>
+        </div>
+        <figure class="figure">
+          <div id="when-legend"></div>
+          <div class="chart" id="when-chart"></div>
+          <figcaption class="figure-notes" id="when-notes"></figcaption>
+        </figure>
+        <details class="table-view" id="when-table"><summary>Show the numbers</summary></details>
+      </section>
+
+      <section class="section" id="progress" aria-labelledby="progress-h">
+        <div class="section-head">
+          <h2 class="section-title" id="progress-h"><span class="section-num" aria-hidden="true">3</span> How far trials get</h2>
+          <p class="finding" id="progress-finding"></p>
+        </div>
+        <figure class="figure">
+          <div class="figure-head">
+            <div id="progress-legend"></div>
+            <div class="segmented" id="progress-mode" role="group" aria-label="Show bars as">
+              <button type="button" data-mode="share" aria-pressed="true">Share</button>
+              <button type="button" data-mode="count" aria-pressed="false">Number</button>
+            </div>
+          </div>
+          <div class="chart" id="progress-chart"></div>
+          <figcaption class="figure-notes" id="progress-notes"></figcaption>
+        </figure>
+        <details class="table-view" id="progress-table"><summary>Show the numbers</summary></details>
+      </section>
+
+      <section class="section" id="sponsors" aria-labelledby="sponsors-h">
+        <div class="section-head">
+          <h2 class="section-title" id="sponsors-h"><span class="section-num" aria-hidden="true">4</span> Who pays for it</h2>
+          <p class="finding" id="sponsors-finding"></p>
+        </div>
+        <figure class="figure figure-mix">
+          <h3 class="subhead">All trials by type of lead sponsor</h3>
+          <p class="subnote" id="mix-note"></p>
+          <div class="chart" id="mix-chart"></div>
+        </figure>
+        <figure class="figure">
+          <h3 class="subhead" id="sponsors-top-h">Lead sponsors with the most trials</h3>
+          <p class="subnote" id="sponsors-top-note"></p>
+          <div id="sponsors-legend"></div>
+          <div class="chart chart-bars" id="sponsors-chart"></div>
+          <figcaption class="figure-notes" id="sponsors-notes"></figcaption>
+          <details class="table-view" id="sponsors-table"><summary>Show the numbers</summary></details>
+        </figure>
+      </section>
+
+      <section class="section" id="where" aria-labelledby="where-h">
+        <div class="section-head">
+          <h2 class="section-title" id="where-h"><span class="section-num" aria-hidden="true">5</span> Where you could take part</h2>
+          <p class="finding" id="where-finding"></p>
+        </div>
+        <div id="where-body">
+          <figure class="figure">
+            <div id="where-legend"></div>
+            <div class="chart" id="where-chart"></div>
+            <figcaption class="figure-notes" id="where-notes"></figcaption>
+          </figure>
+          <div class="figure" id="where-countries"></div>
+        </div>
+      </section>
+
+      <section class="section" id="tested" aria-labelledby="tested-h">
+        <div class="section-head">
+          <h2 class="section-title" id="tested-h"><span class="section-num" aria-hidden="true">6</span> What gets tested</h2>
+          <p class="finding" id="tested-finding"></p>
+        </div>
+        <div class="split">
+          <figure class="figure">
+            <h3 class="subhead">Trials by type of intervention</h3>
+            <p class="subnote" id="types-note"></p>
+            <div class="chart" id="types-chart"></div>
+            <figcaption class="figure-notes" id="types-notes"></figcaption>
+            <details class="table-view" id="types-table"><summary>Show the numbers</summary></details>
+          </figure>
+          <figure class="figure">
+            <h3 class="subhead" id="named-h">Named in the most trials</h3>
+            <p class="subnote" id="named-note"></p>
+            <div class="chart" id="named-chart"></div>
+            <figcaption class="figure-notes" id="named-notes"></figcaption>
+            <details class="table-view" id="named-table"><summary>Show the numbers</summary></details>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section" id="quiet" aria-labelledby="quiet-h">
+        <div class="section-head">
+          <h2 class="section-title" id="quiet-h"><span class="section-num" aria-hidden="true">7</span> Listings not updated</h2>
+          <p class="finding" id="quiet-finding"></p>
+        </div>
+        <div class="section-body">
+          <p id="quiet-explain"></p>
+        </div>
+        <div id="quiet-body"></div>
+      </section>
+
+      <section class="section" id="trials" aria-labelledby="trials-h">
+        <div class="section-head">
+          <h2 class="section-title" id="trials-h"><span class="section-num" aria-hidden="true">8</span> All trials</h2>
+          <p class="finding" id="trials-finding"></p>
+        </div>
+        <form class="toolbar" id="trial-filters" role="search" aria-label="Filter the trials">
+          <div class="field">
+            <label for="f-text">Filter by words</label>
+            <input id="f-text" type="search" autocomplete="off" placeholder="Title, sponsor, drug, NCT number…">
+          </div>
+          <div class="field">
+            <label for="f-status">Status</label>
+            <select id="f-status"></select>
+          </div>
+          <div class="field">
+            <label for="f-phase">Phase</label>
+            <select id="f-phase"></select>
+          </div>
+          <div class="field">
+            <label for="f-sort">Sort by</label>
+            <select id="f-sort">
+              <option value="start-desc">Newest start first</option>
+              <option value="start-asc">Oldest start first</option>
+              <option value="enrollment-desc">Most participants</option>
+              <option value="updated-desc">Recently updated</option>
+              <option value="id">NCT number</option>
+            </select>
+          </div>
+        </form>
+        <p class="visually-hidden" id="trials-live" aria-live="polite"></p>
+        <div id="trials-body"></div>
+      </section>
+
+      <section class="section" id="changes" aria-labelledby="changes-h">
+        <div class="section-head">
+          <h2 class="section-title" id="changes-h"><span class="section-num" aria-hidden="true">9</span> What changed recently</h2>
+          <p class="finding" id="changes-finding"></p>
+        </div>
+        <div id="changes-body"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p class="notice notice-medical" role="note"><strong>Not medical advice.</strong> This site shows what researchers are studying. It does not recommend treatments or say whether a trial is right for anyone. Talk to a doctor.</p>
+      <div class="footer-grid">
+        <div>
+          <h2>Data source</h2>
+          <p>Trial listings come from <a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a>, the public registry run by the U.S. National Library of Medicine, through its <a href="https://clinicaltrials.gov/data-api/api">API</a>. Listings are written by the people running each trial.</p>
+          <p id="footer-fetched"></p>
+        </div>
+        <div>
+          <h2>Downloads</h2>
+          <ul id="footer-downloads">
+            <li id="download-condition"></li>
+            <li><a href="data/trials.sqlite3" download>Download the data (SQLite)</a>, all prebuilt conditions</li>
+            <li><a href="data/index.json">List of prebuilt conditions (JSON)</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>About</h2>
+          <p>Every number on this page is computed in your browser from the data. Code released under the MIT License. Trial data is in the public domain.</p>
+          <p><a href="story.html">Read the story: the skin conditions research forgot</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
