@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-25T23:16:12+00:00",
+ "fetched": "2026-10-26T15:52:39+00:00",
  "conditions": [
   {
    "slug": "keratosis-pilaris",
@@ -23,7 +23,7 @@
    "slug": "atopic-dermatitis",
    "label": "Atopic dermatitis (eczema)",
    "group": "Dermatology",
-   "count": 1762
+   "count": 1763
   },
   {
    "slug": "psoriasis",

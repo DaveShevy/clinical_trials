@@ -1,5 +1,30 @@
 {
- "updated": "2026-10-25T23:16:12+00:00",
+ "updated": "2026-10-26T15:52:39+00:00",
  "baseline": false,
- "events": []
+ "events": [
+  {
+   "date": "2026-10-26",
+   "id": "NCT07223697",
+   "title": "A Long Term Extension Study to Evaluate the Safety and Efficacy of Afimkibart (RO7790121) in Participants With Atopic Dermatitis",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": "RECRUITING",
+   "to": "ACTIVE_NOT_RECRUITING"
+  },
+  {
+   "date": "2026-10-26",
+   "id": "NCT07895615",
+   "title": "Phase II Clinical Study to Evaluate the Efficacy and Safety of LT-002-158 Tablets in Adult Patients With Moderate-to-Severe Atopic Dermatitis",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": null,
+   "to": "RECRUITING"
+  },
+  {
+   "date": "2026-10-26",
+   "id": "NCT06013969",
+   "title": "A Study to Test Whether Spesolimab Helps People With Generalized Pustular Psoriasis (GPP) Who Need Treatment for Repeated Flares",
+   "condition": "Psoriasis",
+   "from": "ACTIVE_NOT_RECRUITING",
+   "to": "COMPLETED"
+  }
+ ]
 }
