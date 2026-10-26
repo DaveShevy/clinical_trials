@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://clinicaltrials.gov; object-src 'none'; base-uri 'none'; form-action 'self'">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>The skin conditions research forgot · Clinical Trials Explorer</title>
+  <meta name="description" content="Keratosis pilaris is very common, yet ClinicalTrials.gov lists only a handful of studies of it. A data story comparing six skin conditions, with every number computed from the registry data.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/story.css">
+  <script type="module" src="js/story.js"></script>
+  <noscript><style>.story-pending, .story-status { display: none; }</style></noscript>
+</head>
+<body class="story-page">
+  <a class="skip-link" href="#main">Skip to the story</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <div class="masthead story-masthead">
+        <a class="brand" href="index.html">
+          <svg class="brand-mark" viewBox="0 0 22 22" aria-hidden="true" focusable="false">
+            <rect x="1" y="12" width="4" height="9" rx="1" fill="var(--c-phase-1, #85b4f0)"/>
+            <rect x="7" y="7" width="4" height="14" rx="1" fill="var(--c-phase-2, #3a81d7)"/>
+            <rect x="13" y="3" width="4" height="18" rx="1" fill="var(--c-phase-3, #17559b)"/>
+            <circle cx="19.5" cy="5" r="2" fill="var(--c-status-recruiting, #1baf7a)"/>
+          </svg>
+          <span>Clinical Trials Explorer</span>
+        </a>
+        <nav class="site-nav" aria-label="Site">
+          <a href="index.html">Explorer</a>
+          <a href="story.html" aria-current="page">Story: the skin conditions research forgot</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <article class="story" aria-labelledby="story-title">
+      <header class="intro story-intro">
+        <div class="wrap">
+          <div class="story-col">
+            <p class="story-kicker">A data story · Dermatology</p>
+            <h1 class="intro-title story-title" id="story-title">The skin conditions research forgot</h1>
+            <p class="intro-lede story-dek" id="story-dek">Keratosis pilaris, the rough little bumps many people have on their upper arms, is very common. This story counts how often it has been studied on ClinicalTrials.gov, next to other common skin conditions. It also looks at what does get tested in those trials, and at some of the newer ideas being studied.</p>
+            <p class="story-byline" id="story-byline">Data from <a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a>, as most recently fetched. Every number is computed in your browser.</p>
+            <p class="notice notice-medical story-notice" role="note"><strong>Not medical advice.</strong> This page shows what researchers are studying. It does not recommend any treatment or say whether a trial is right for you. Talk to a doctor about your own care.</p>
+            <p class="notice notice-info story-status" id="story-status" role="status" aria-live="polite">Loading the trial data…</p>
+            <noscript><p class="notice notice-warn">This story computes every number in your browser, so it needs JavaScript. You can still <a href="data/index.json">download the data</a>.</p></noscript>
+          </div>
+        </div>
+      </header>
+
+      <section class="section story-section" id="count" aria-labelledby="count-h">
+        <div class="wrap">
+          <div class="story-col">
+            <h2 class="section-title" id="count-h"><span class="section-num">1</span> A common condition, hardly studied</h2>
+            <p class="finding story-finding" id="count-headline"><span class="story-pending">Counting the registered trials…</span></p>
+            <figure class="figure story-figure">
+              <div class="chart story-chart" id="count-chart"></div>
+              <figcaption id="count-caption">Trials registered on ClinicalTrials.gov that list each condition.</figcaption>
+              <div id="count-table"></div>
+            </figure>
+            <div class="story-prose">
+              <p>Keratosis pilaris, often shortened to KP and sometimes called “chicken skin”, causes small, rough bumps around hair follicles, most often on the upper arms, thighs and cheeks. The bumps can be red, itchy or bothersome, and they often last for years.</p>
+              <p id="count-quote" hidden></p>
+              <p id="count-compare" hidden></p>
+            </div>
+            <p class="story-aside">These are counts of studies registered on ClinicalTrials.gov. They do not measure how much a condition matters, and some studies are registered elsewhere or not at all. A study that names several of these conditions is counted under each.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section story-section" id="time" aria-labelledby="time-h">
+        <div class="wrap">
+          <div class="story-col">
+            <h2 class="section-title" id="time-h"><span class="section-num">2</span> Year after year, a trickle</h2>
+            <p class="finding story-finding" id="time-headline"></p>
+            <div class="story-prose">
+              <p id="time-body" hidden></p>
+              <p>All the panels below share <strong>one vertical scale</strong> and the same years, so a short bar really is a small number. Where the bars are too short to read, the panel says its busiest year in words. <span id="time-start-note"></span></p>
+            </div>
+          </div>
+          <figure class="figure story-figure story-figure--wide">
+            <div id="time-legend"></div>
+            <div class="chart story-multiples" id="time-chart"></div>
+            <figcaption class="story-col story-col--flush" id="time-caption"></figcaption>
+            <div class="story-col story-col--flush" id="time-table"></div>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section story-section" id="tested" aria-labelledby="tested-h">
+        <div class="wrap">
+          <div class="story-col">
+            <h2 class="section-title" id="tested-h"><span class="section-num">3</span> What gets tested</h2>
+            <p class="finding story-finding" id="tested-headline"></p>
+            <div class="story-prose">
+              <p id="tested-phases" hidden></p>
+              <p id="tested-sponsors" hidden></p>
+            </div>
+            <figure class="figure story-figure">
+              <div id="tested-legend"></div>
+              <div class="chart story-chart" id="tested-chart"></div>
+              <figcaption id="tested-caption"></figcaption>
+              <div id="tested-table"></div>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section story-section" id="new" aria-labelledby="new-h">
+        <div class="wrap">
+          <div class="story-col">
+            <h2 class="section-title" id="new-h"><span class="section-num">4</span> New approaches being studied</h2>
+            <p class="finding story-finding" id="new-headline"></p>
+            <div class="story-prose">
+              <p id="new-body" hidden></p>
+              <p>The trials below show the range of ideas now being studied. They were picked by hand; the status, phase and sponsor on each card come straight from the current data. This is not a recommendation: trials are run because the answer is not yet known.</p>
+            </div>
+          </div>
+          <div class="story-cards" id="new-cards"></div>
+        </div>
+      </section>
+
+      <section class="section story-section" id="quiet" aria-labelledby="quiet-h">
+        <div class="wrap">
+          <div class="story-col">
+            <h2 class="section-title" id="quiet-h"><span class="section-num">5</span> Listings that have not been updated</h2>
+            <p class="finding story-finding" id="quiet-headline"></p>
+            <div class="story-prose">
+              <p id="quiet-body" hidden></p>
+              <p>A listing counts as not updated here when it still says it is recruiting, but its planned primary completion date passed more than <span class="story-grace">six</span> months before the data was fetched. A date given only as a month or a year counts from the end of that month or year. Usually that means nobody has updated the record, not that anything went wrong. If you are thinking about joining a trial, it is a reason to check with the study team that it is still open.</p>
+            </div>
+            <figure class="figure story-figure">
+              <div class="chart story-chart" id="quiet-chart"></div>
+              <figcaption id="quiet-caption"></figcaption>
+              <div id="quiet-table"></div>
+            </figure>
+            <div class="story-prose">
+              <p id="quiet-focus" hidden></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section story-section story-close" id="explore" aria-labelledby="explore-h">
+        <div class="wrap">
+          <div class="story-col">
+            <h2 class="section-title" id="explore-h"><span class="section-num">6</span> Explore any condition</h2>
+            <p class="finding story-finding">The same picture, for any condition you type.</p>
+            <div class="story-prose">
+              <p>This story compares a handful of skin conditions. The explorer draws the same picture for any condition on ClinicalTrials.gov: when trials started, how far they get, who pays for them, where they are recruiting and what they test.</p>
+            </div>
+            <form class="search story-search" action="index.html" method="get" role="search">
+              <label class="label" for="story-q">Condition</label>
+              <div class="search-row">
+                <input id="story-q" name="q" type="search" autocomplete="off" placeholder="For example: vitiligo" required>
+                <button class="btn" type="submit">Explore</button>
+              </div>
+            </form>
+            <p class="chips-label" id="explore-chips-label">Or open one of the conditions in this story:</p>
+            <ul class="chips" id="explore-chips" aria-labelledby="explore-chips-label"></ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section story-section story-method" id="method" aria-labelledby="method-h">
+        <div class="wrap">
+          <div class="story-col">
+            <h2 class="section-title" id="method-h">How the numbers were counted</h2>
+            <div class="story-prose story-prose--small">
+              <p id="method-fetched">Every number on this page is computed in your browser from the data files listed below.</p>
+              <ul>
+                <li>Each condition is a search of ClinicalTrials.gov for that condition name. A trial that names more than one of these conditions is counted under each; where the story adds the conditions together, each trial is counted once.</li>
+                <li>“Recruiting” means the listing says recruiting, not yet recruiting, or enrolling by invitation.</li>
+                <li>A trial’s start year is the start date on its listing. Some are planned dates in the future.</li>
+                <li>Intervention types and phases are as each listing states them. Device, procedure and behavioural studies usually have no phase.</li>
+              </ul>
+            </div>
+            <div id="method-table"></div>
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p class="notice notice-medical" role="note"><strong>Not medical advice.</strong> This site shows what researchers are studying. It does not recommend treatments or say whether a trial is right for anyone. Talk to a doctor.</p>
+      <div class="footer-grid">
+        <div>
+          <h2>Data source</h2>
+          <p>Trial listings come from <a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a>, the public registry run by the U.S. National Library of Medicine. Listings are written by the people running each trial.</p>
+          <p id="footer-fetched" hidden></p>
+        </div>
+        <div>
+          <h2>Downloads</h2>
+          <ul>
+            <li><a href="data/trials.sqlite3" download>Download the data (SQLite)</a>, all prebuilt conditions</li>
+            <li><a href="data/index.json">List of prebuilt conditions (JSON)</a></li>
+            <li><a href="data/story.json">This story’s curated text (JSON)</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>About</h2>
+          <p>Every number on this page is computed in your browser from the data. Code released under the MIT License. Trial data is in the public domain.</p>
+          <p><a href="index.html">Open the explorer</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

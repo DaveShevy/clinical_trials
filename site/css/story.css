@@ -1,0 +1,386 @@
+/*
+ * Story page additions. The base design (tokens, header, footer, sections,
+ * notices, chips, legend, tables) comes from style.css; this file only adds
+ * what the story needs.
+ *
+ * Every base token used here goes through a local --st-* alias with a
+ * fallback, so the page still reads well if style.css renames a token.
+ *
+ * Condition colours (validated with an OKLab CVD checker): the story's focus
+ * condition is orange, the comparison condition blue, and the rest a neutral
+ * grey, so the two conditions the story is about stand out (emphasis form).
+ * Colour is never the only cue: every bar is labelled with its condition.
+ */
+
+:root {
+  --st-bg: var(--bg, #fbfbf9);
+  --st-surface: var(--surface, #ffffff);
+  --st-surface-2: var(--surface-2, #f3f2ee);
+  --st-ink: var(--ink, #141413);
+  --st-ink-2: var(--ink-2, #4a4945);
+  --st-ink-3: var(--ink-3, #64635d);
+  --st-line: var(--line, #e3e2db);
+  --st-line-2: var(--line-2, #c9c7be);
+  --st-link: var(--link, #1d5aa8);
+  --st-chart-ink: var(--chart-ink, #64635d);
+  --st-grid: var(--grid, #ebeae4);
+  --st-axis: var(--axis, #c3c2b7);
+  --st-tip-bg: var(--tip-bg, #ffffff);
+  --st-warn-bg: var(--warn-bg, #fdf5e2);
+  --st-warn-line: var(--warn-line, #e7c77a);
+  --st-warn-ink: var(--warn-ink, #4f3b05);
+  --st-error-bg: var(--error-bg, #fcefed);
+  --st-error-line: var(--error-line, #e6aaa2);
+  --st-error-ink: var(--error-ink, #7a1f15);
+  --st-font: var(--font-sans, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif);
+  --st-radius: var(--radius, 8px);
+  --st-wrap: var(--wrap, 1080px);
+  --st-gutter: var(--gutter, 16px);
+
+  --story-focus: #eb6834;
+  /* Set here, not taken from the explorer: its single-series colour is grey. */
+  --story-compare: #2a78d6;
+  --story-other: #8a8983;
+  --story-col: 700px;
+
+  --st-status-recruiting: var(--c-status-recruiting, #1baf7a);
+  --st-status-active: var(--c-status-active, #eda100);
+  --st-status-completed: var(--c-status-completed, #6250d6);
+  --st-status-stopped: var(--c-status-stopped, #eb6834);
+  --st-status-unknown: var(--c-status-unknown, #a3a199);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --st-bg: var(--bg, #131312);
+    --st-surface: var(--surface, #1b1b1a);
+    --st-surface-2: var(--surface-2, #232321);
+    --st-ink: var(--ink, #f0efec);
+    --st-ink-2: var(--ink-2, #cbcac2);
+    --st-ink-3: var(--ink-3, #a4a29a);
+    --st-line: var(--line, #2f2f2c);
+    --st-line-2: var(--line-2, #484742);
+    --st-link: var(--link, #8dbaf5);
+    --st-chart-ink: var(--chart-ink, #a4a29a);
+    --st-grid: var(--grid, #2a2a27);
+    --st-axis: var(--axis, #484742);
+    --st-tip-bg: var(--tip-bg, #232321);
+    --st-warn-bg: var(--warn-bg, #261f0e);
+    --st-warn-line: var(--warn-line, #6a5418);
+    --st-warn-ink: var(--warn-ink, #f2dfa8);
+    --st-error-bg: var(--error-bg, #2a1512);
+    --st-error-line: var(--error-line, #7a3328);
+    --st-error-ink: var(--error-ink, #f6c9c1);
+
+    --story-focus: #d95926;
+    --story-compare: #3987e5;
+    --story-other: #7a7973;
+
+    --st-status-recruiting: var(--c-status-recruiting, #199e70);
+    --st-status-active: var(--c-status-active, #c98500);
+    --st-status-completed: var(--c-status-completed, #9085e9);
+    --st-status-stopped: var(--c-status-stopped, #d95926);
+    --st-status-unknown: var(--c-status-unknown, #6b6a64);
+  }
+}
+
+/* The base sheet sets these too; repeated so the page stands on its own. */
+body.story-page {
+  margin: 0;
+  background: var(--st-bg);
+  color: var(--st-ink);
+  font-family: var(--st-font);
+}
+
+/* ------------------------------------------------------------ layout */
+
+/* The story's header holds only the masthead, so one rule is enough. */
+.story-page .story-masthead { border-bottom: 0; }
+
+.story-page .wrap {
+  width: 100%;
+  max-width: var(--st-wrap);
+  margin-inline: auto;
+  padding-inline: var(--st-gutter);
+}
+
+.story-col {
+  max-width: var(--story-col);
+  margin-inline: auto;
+}
+.story-col--flush { margin-inline: 0; }
+
+.story-intro { padding-bottom: var(--sp-6, 32px); }
+.story-kicker {
+  margin: 0 0 var(--sp-3, 12px);
+  font-size: var(--fs-sm, 0.875rem);
+  font-weight: 650;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--st-ink-3);
+}
+.story-title {
+  max-width: 18ch;
+  margin-bottom: var(--sp-4, 16px);
+}
+.story-dek {
+  color: var(--st-ink-2);
+  text-wrap: pretty;
+}
+.story-byline {
+  font-size: var(--fs-sm, 0.875rem);
+  color: var(--st-ink-3);
+  margin-bottom: var(--sp-5, 24px);
+}
+/* While the data loads, the status floats at the foot of the screen, so it
+   takes no space in the page and nothing jumps when it goes. An error stays
+   in the page, under the notice. */
+.story-status:not(.is-error) {
+  position: fixed;
+  z-index: 20;
+  left: 50%;
+  bottom: var(--sp-4, 16px);
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: calc(100% - 2 * var(--st-gutter));
+  box-shadow: var(--shadow, 0 2px 8px rgba(0, 0, 0, 0.12));
+}
+.story-status.is-error {
+  margin-top: var(--sp-3, 12px);
+  background: var(--st-error-bg);
+  border-color: var(--st-error-line);
+  color: var(--st-error-ink);
+}
+
+.story-section .section-title { margin-bottom: var(--sp-3, 12px); }
+.story-finding { margin-bottom: var(--sp-5, 24px); }
+.story-finding:empty { display: none; }
+.story-num { font-weight: 760; color: var(--st-ink); white-space: nowrap; }
+
+.story-prose { color: var(--st-ink-2); }
+.story-prose p { text-wrap: pretty; }
+.story-prose--small { font-size: var(--fs-sm, 0.875rem); }
+.story-prose--small ul { padding-left: 1.1em; }
+.story-prose--small li + li { margin-top: var(--sp-2, 8px); }
+@media (min-width: 640px) {
+  .story-prose { font-size: 1.0625rem; }
+  .story-prose--small { font-size: var(--fs-sm, 0.875rem); }
+}
+
+.story-aside {
+  margin-top: var(--sp-5, 24px);
+  padding-left: var(--sp-3, 12px);
+  border-left: 2px solid var(--st-line-2);
+  color: var(--st-ink-3);
+  font-size: var(--fs-sm, 0.875rem);
+}
+
+/* ------------------------------------------------------------ figures */
+
+.story-figure { margin-top: var(--sp-6, 32px); }
+.story-figure figcaption {
+  margin-top: var(--sp-3, 12px);
+  max-width: var(--story-col);
+  color: var(--st-ink-3);
+  font-size: var(--fs-sm, 0.875rem);
+  line-height: 1.5;
+}
+.story-figure--wide { margin-top: var(--sp-6, 32px); }
+.story-legend { margin-bottom: var(--sp-4, 16px); }
+
+/* Tone of a condition: focus, comparison, the rest. */
+.tone-focus { --tone: var(--story-focus); --swatch: var(--story-focus); }
+.tone-compare { --tone: var(--story-compare); --swatch: var(--story-compare); }
+.tone-other,
+.tone-neutral { --tone: var(--story-other); --swatch: var(--story-other); }
+.story-page .swatch { background: var(--swatch, var(--story-other)); }
+.story-page .swatch.is-partial { opacity: 0.4; }
+
+.story-svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  overflow: visible;
+  font-family: var(--st-font);
+  font-size: 12px;
+}
+.story-svg text { fill: var(--st-chart-ink); font-variant-numeric: tabular-nums; }
+.story-svg .story-label { fill: var(--st-ink); font-size: 13px; font-variant-numeric: normal; }
+.story-svg .tone-focus .story-label,
+.story-svg .story-label--cat { font-weight: 650; }
+.story-svg .story-label--series { fill: var(--st-ink-3); font-size: 12px; font-weight: 500; }
+.story-svg .tone-focus .story-label--series { fill: var(--st-ink-2); font-weight: 650; }
+.story-svg .story-value { fill: var(--st-ink); font-size: 12px; font-weight: 600; }
+.story-svg .story-value--note { fill: var(--st-ink-3); font-weight: 500; font-style: italic; }
+.story-svg .story-note { fill: var(--st-ink-2); font-size: 11px; font-weight: 600; font-variant-numeric: normal; }
+.story-svg .story-tick { fill: var(--st-chart-ink); font-size: 11px; }
+.story-svg .story-axis { stroke: var(--st-axis); stroke-width: 1; }
+.story-svg .story-grid { stroke: var(--st-grid); stroke-width: 1; }
+.story-svg .story-track { fill: var(--st-surface-2); }
+.story-svg .story-bar { fill: var(--tone, var(--story-other)); }
+.story-svg .story-bar.is-partial { fill-opacity: 0.4; }
+.story-svg .story-band { fill: var(--tone, var(--story-other)); fill-opacity: 0.1; }
+.story-svg .story-hit { fill: transparent; }
+.story-svg .story-hit.is-hover { fill: var(--st-ink); fill-opacity: 0.1; }
+
+/* Small multiples */
+.story-multiples { position: relative; }
+.story-multiples__inner { position: relative; }
+.story-multiples__grid {
+  display: grid;
+  gap: var(--sp-6, 32px) 24px;
+}
+.story-panel { display: flex; flex-direction: column; min-width: 0; }
+.story-panel .story-svg { margin-top: auto; }
+.story-panel__title {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2, 8px);
+  margin: 0;
+  font-size: var(--fs-sm, 0.875rem);
+  font-weight: 650;
+  color: var(--st-ink);
+}
+.story-panel__meta {
+  margin: 0 0 var(--sp-2, 8px);
+  font-size: var(--fs-xs, 0.75rem);
+  color: var(--st-ink-3);
+}
+.story-panel.tone-focus .story-panel__title { font-weight: 750; }
+.story-panel.is-loading .story-panel__meta,
+.story-pending { color: var(--st-ink-3); font-weight: 400; font-style: italic; }
+
+.story-tip {
+  position: absolute;
+  z-index: 3;
+  pointer-events: none;
+  padding: 6px 10px;
+  border: 1px solid var(--st-line-2);
+  border-radius: 6px;
+  background: var(--st-tip-bg);
+  color: var(--st-ink-2);
+  font-size: var(--fs-xs, 0.75rem);
+  line-height: 1.4;
+  white-space: nowrap;
+  box-shadow: var(--shadow, 0 2px 8px rgba(0, 0, 0, 0.08));
+}
+.story-tip strong { color: var(--st-ink); font-size: var(--fs-sm, 0.875rem); }
+.story-tip__sub { display: block; color: var(--st-ink-3); }
+
+/* ------------------------------------------------------------ cards */
+
+.story-cards { margin-top: var(--sp-6, 32px); }
+.story-cards__grid {
+  display: grid;
+  gap: var(--sp-4, 16px);
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr));
+}
+.story-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3, 12px);
+  min-width: 0;
+  padding: var(--sp-4, 16px) var(--sp-4, 16px) var(--sp-3, 12px);
+  border: 1px solid var(--st-line);
+  border-top: 3px solid var(--tone, var(--st-line));
+  border-radius: var(--st-radius);
+  background: var(--st-surface);
+}
+.story-card.is-missing { border-style: dashed; border-top-style: solid; }
+.story-card__cond {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2, 8px);
+  font-size: var(--fs-xs, 0.75rem);
+  font-weight: 650;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--st-ink-3);
+}
+.story-card__cond .swatch { width: 10px; height: 10px; }
+.story-card--more {
+  justify-content: center;
+  border-top-width: 1px;
+  border-style: dashed;
+  background: var(--st-surface-2);
+}
+.story-card__more {
+  display: grid;
+  gap: var(--sp-2, 8px);
+  padding: 0;
+  list-style: none;
+  font-weight: 600;
+}
+.story-card > * { margin: 0; }
+.story-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--sp-1, 4px) var(--sp-3, 12px);
+  font-size: var(--fs-sm, 0.875rem);
+}
+.story-pill { font-weight: 600; color: var(--st-ink); }
+.story-pill.status-recruiting { --pill-color: var(--st-status-recruiting); }
+.story-pill.status-active { --pill-color: var(--st-status-active); }
+.story-pill.status-completed { --pill-color: var(--st-status-completed); }
+.story-pill.status-stopped { --pill-color: var(--st-status-stopped); }
+.story-pill.status-unknown { --pill-color: var(--st-status-unknown); }
+.story-phase { color: var(--st-ink-3); }
+.story-card__name { font-size: var(--fs-lg, 1.125rem); line-height: 1.3; }
+.story-card__text { color: var(--st-ink-2); font-size: var(--fs-sm, 0.875rem); line-height: 1.55; }
+.story-card__facts {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--sp-2, 8px) var(--sp-4, 16px);
+  font-size: var(--fs-sm, 0.875rem);
+}
+.story-card__facts dt {
+  color: var(--st-ink-3);
+  font-size: var(--fs-xs, 0.75rem);
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.story-card__facts dd { margin: 0; color: var(--st-ink); }
+.story-card__title { font-size: var(--fs-xs, 0.75rem); line-height: 1.45; color: var(--st-ink-3); }
+.story-card__foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--sp-1, 4px) var(--sp-3, 12px);
+  margin-top: auto !important;
+  padding-top: var(--sp-3, 12px);
+  border-top: 1px solid var(--st-line);
+  font-size: var(--fs-sm, 0.875rem);
+}
+.story-card__link { font-weight: 600; }
+.story-card__updated { color: var(--st-ink-3); font-size: var(--fs-xs, 0.75rem); }
+.story-card__missing,
+.story-card__quiet {
+  padding: var(--sp-2, 8px) var(--sp-3, 12px);
+  border: 1px solid var(--st-warn-line);
+  border-radius: 6px;
+  background: var(--st-warn-bg);
+  color: var(--st-warn-ink);
+  font-size: var(--fs-sm, 0.875rem);
+}
+
+/* ------------------------------------------------------------ close and method */
+
+#quiet-focus { margin-top: var(--sp-5, 24px); }
+.story-search { margin-top: var(--sp-5, 24px); }
+.story-close .chips-label { margin-top: var(--sp-5, 24px); }
+.story-method .section-title { color: var(--st-ink-3); }
+.story-method__table code { font-size: var(--fs-xs, 0.75rem); }
+.story-method__table td,
+.story-method__table th { vertical-align: baseline; }
+
+/* Hold the space of section 1's chart for the moment before the index
+   arrives (about six conditions: 34px rows when wide, 52px when narrow),
+   so the text below it does not jump when it draws. */
+#count-chart:empty { min-height: 206px; }
+@media (max-width: 519px) {
+  #count-chart:empty { min-height: 314px; }
+}
+#count-headline { min-height: 2lh; }

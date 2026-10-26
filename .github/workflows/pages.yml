@@ -1,0 +1,54 @@
+name: Deploy site
+
+# Publishes site/ to GitHub Pages, with the SQLite download built fresh.
+# Runs on pushes to main, by hand, and after each successful data refresh
+# (the refresh pushes with GITHUB_TOKEN, which does not trigger "push").
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Refresh trial data"]
+    types: [completed]
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+      # Never publish a site whose tests fail.
+      - run: pip install -r requirements-dev.txt
+      - name: JavaScript tests
+        run: node --test tests/js/
+      - name: Python tests (includes the JS/Python normalize contract)
+        run: python -m pytest -q
+      - name: Build the SQLite download
+        run: python scripts/build_sqlite.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

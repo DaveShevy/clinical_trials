@@ -1,0 +1,48 @@
+{
+  "title": "The skin conditions research forgot",
+  "focus": "keratosis-pilaris",
+  "focusShort": "KP",
+  "comparison": "rosacea",
+  "lightPattern": "\\blaser|\\bIPL\\b|intense pulsed light|\\blight therapy",
+  "graceMonths": 6,
+  "timelineStart": 2000,
+  "timelineNote": "ClinicalTrials.gov opened in 2000, so the chart starts there.",
+  "familiarMedicines": ["azelaic acid", "doxycycline", "ivermectin", "metronidazole", "brimonidine", "minocycline", "oxymetazoline"],
+  "familiarLabel": "medicines already prescribed for rosacea",
+  "quote": {
+    "id": "NCT07078461",
+    "text": "affects up to 80% of adolescents and 40% of adults"
+  },
+  "cards": [
+    {
+      "id": "NCT07681271",
+      "condition": "rosacea",
+      "name": "Remibrutinib, a pill that targets an immune enzyme",
+      "oneLiner": "Compares remibrutinib, a pill that blocks BTK (an enzyme involved in immune signalling), with a placebo in adults with moderate to severe papulopustular rosacea, the type with red bumps and pus-filled spots. It looks at changes in inflamed spots, safety and tolerability."
+    },
+    {
+      "id": "NCT07600424",
+      "condition": "rosacea",
+      "name": "Stimulating a nerve through the ear",
+      "oneLiner": "A small pilot study of a device that stimulates the vagus nerve through the skin of the outer ear, in people with rosacea who have at least moderate flushing or redness. There is one group and no comparison group; participants use the device for four weeks and are followed for four more."
+    },
+    {
+      "id": "NCT06312813",
+      "condition": "rosacea",
+      "name": "Imipramine and amitriptyline applied to the skin",
+      "oneLiner": "Tests whether imipramine or amitriptyline, two medicines best known as tablets for depression, change the skin redness that ultraviolet B light causes in people with rosacea when they are applied to the skin. Each is compared with an inactive base (vehicle)."
+    },
+    {
+      "id": "NCT07341087",
+      "condition": "rosacea",
+      "name": "A daily probiotic drink",
+      "oneLiner": "Studies whether a daily probiotic drink (Lactobacillus casei Shirota) changes markers of inflammation, immune ageing and skin health in women going through the menopause transition, compared with a skimmed-milk drink. Rosacea is one of several skin conditions the listing names; it is not a rosacea-only trial."
+    },
+    {
+      "id": "NCT07078461",
+      "condition": "keratosis-pilaris",
+      "name": "A thulium laser for keratosis pilaris",
+      "oneLiner": "A small pilot study of how keratosis pilaris on the arms responds to a 1927-nm thulium laser, a device already used for other skin problems but, according to the listing, not approved for KP. Dermatologists rate redness and roughness from standardised photographs."
+    }
+  ]
+}

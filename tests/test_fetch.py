@@ -25,6 +25,7 @@ def test_normalize_maps_fields():
     assert rec["sponsorClass"] == "OTHER"
     assert rec["enrollment"] == 25
     assert rec["primaryCompletion"] == "2026-12"
+    assert rec["primaryCompletionType"] == "ESTIMATED"
     assert rec["interventions"] == [{"type": "DEVICE", "name": "1927-nm Thulium Laser therapy"}]
     # Locations without coordinates are dropped; coordinates are rounded.
     assert rec["sites"] == [{"lat": 39.29, "lon": -76.61, "city": "Baltimore",

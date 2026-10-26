@@ -2,8 +2,17 @@
 
 See the research landscape for any condition at a glance. Type a condition and
 get one page: how many trials there are, when they ran, how far they got, who
-pays for them, where you can join one, what kinds of treatment they test, and
-which listings have gone quiet.
+pays for them, where trials are recruiting, what kinds of intervention they
+test, and which listings have not been updated.
+
+The site has two pages, both static and built in the browser from the data:
+
+- **Explorer** (`site/index.html`): search any condition. Prebuilt conditions
+  load from `site/data/`; anything else is fetched live from the
+  ClinicalTrials.gov API. Share a view with `index.html?q=rosacea`.
+- **Story** (`site/story.html`): "The skin conditions research forgot", a
+  short data story comparing keratosis pilaris with five other skin
+  conditions. Its only hand-written data is `site/data/story.json`.
 
 The data comes from [ClinicalTrials.gov](https://clinicaltrials.gov/), the U.S.
 National Library of Medicine's public registry. Its own site is good at finding
@@ -38,12 +47,23 @@ python scripts/build_sqlite.py
 sqlite3 site/data/trials.sqlite3 "SELECT status, COUNT(*) FROM trials GROUP BY status;"
 ```
 
-Tests:
+Preview the site (no build step; the libraries are vendored in
+`site/vendor/`):
+
+```sh
+python3 -m http.server -d site 8765    # then open http://localhost:8765/
+```
+
+Tests (Node 22 for the JavaScript, Python for the rest and the
+JS/Python `normalize()` contract):
 
 ```sh
 pip install -r requirements-dev.txt
-python -m pytest
+node --test tests/js/
+python -m pytest -q
 ```
+
+The deploy workflow runs both before it publishes.
 
 ## License
 
