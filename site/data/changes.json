@@ -1,7 +1,223 @@
 {
- "updated": "2026-10-26T15:52:39+00:00",
+ "updated": "2026-11-02T19:12:57+00:00",
  "baseline": false,
  "events": [
+  {
+   "date": "2026-11-02",
+   "id": "NCT07290426",
+   "title": "Vbeam Pro Pulse Dye Laser for the Treatment of Vascular Conditions",
+   "condition": "Rosacea",
+   "from": "NOT_YET_RECRUITING",
+   "to": "ENROLLING_BY_INVITATION"
+  },
+  {
+   "date": "2026-11-02",
+   "id": "NCT06655129",
+   "title": "Intense Pulsed Light (IPL) Medical Device as Treatment for Patient Suffering From Skin Disorder",
+   "condition": "Acne",
+   "from": "RECRUITING",
+   "to": "UNKNOWN"
+  },
+  {
+   "date": "2026-11-02",
+   "id": "NCT07102186",
+   "title": "Efficacy and Safety of Adapalene Gel and Hyaluronic Acid Versus Adapalene Gel Alone in Mild to Moderate Acne Vulgaris",
+   "condition": "Acne",
+   "from": "RECRUITING",
+   "to": "COMPLETED"
+  },
+  {
+   "date": "2026-11-02",
+   "id": "NCT07896486",
+   "title": "Evaluating a Brightening Serum for Post-Inflammatory Hyperpigmentation",
+   "condition": "Acne",
+   "from": null,
+   "to": "NOT_YET_RECRUITING"
+  },
+  {
+   "date": "2026-11-02",
+   "id": "NCT07903012",
+   "title": "A Split-Face Comparative Study of Mono Threads Versus Combination With Plasma Gel for the Treatment of Post-Acne Scars",
+   "condition": "Acne",
+   "from": null,
+   "to": "ENROLLING_BY_INVITATION"
+  },
+  {
+   "date": "2026-11-02",
+   "id": "NCT07906509",
+   "title": "Comparative Study of The Efficacy and Safety of Subcision Combined With Injection of Exosomes Versus Subcision Alone in Treatment of Atrophic Post- Acne Scars.",
+   "condition": "Acne",
+   "from": null,
+   "to": "COMPLETED"
+  },
+  {
+   "date": "2026-11-02",
+   "id": "NCT06004986",
+   "title": "DUPIlumab Dose REDUCtion in Patients With Controlled Atopic Eczema",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": "RECRUITING",
+   "to": "ACTIVE_NOT_RECRUITING"
+  },
+  {
+   "date": "2026-11-02",
+   "id": "NCT06330974",
+   "title": "Allergy, Asthma, and Atopic Eczema in Finland",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": "NOT_YET_RECRUITING",
+   "to": "ENROLLING_BY_INVITATION"
+  },
+  {
+   "date": "2026-11-02",
+   "id": "NCT06583395",
+   "title": "Quest to Analyze One Thousand Humans Meditating",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": "ENROLLING_BY_INVITATION",
+   "to": "UNKNOWN"
+  },
+  {
+   "date": "2026-11-02",
+   "id": "NCT07330934",
+   "title": "A Study to Evaluate Efficacy and Safety of IBI356 in Participants With Moderate to Severe Atopic Dermatitis",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": "RECRUITING",
+   "to": "TERMINATED"
+  },
+  {
+   "date": "2026-11-02",
+   "id": "NCT07782333",
+   "title": "A Study Evaluating TRIV-573 in Atopic Dermatitis",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": "NOT_YET_RECRUITING",
+   "to": "RECRUITING"
+  },
+  {
+   "date": "2026-11-02",
+   "id": "NCT07810777",
+   "title": "PRA-216 Atopic Dermatitis Safety and Efficacy Study",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": "NOT_YET_RECRUITING",
+   "to": "RECRUITING"
+  },
+  {
+   "date": "2026-11-02",
+   "id": "NCT07904546",
+   "title": "ADBest TREAT Registry",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": null,
+   "to": "RECRUITING"
+  },
+  {
+   "date": "2026-11-02",
+   "id": "NCT07904689",
+   "title": "A Study of NOR-101 in Healthy Adults and Adults With Moderate-to-Severe Atopic Dermatitis",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": null,
+   "to": "NOT_YET_RECRUITING"
+  },
+  {
+   "date": "2026-11-02",
+   "id": "NCT07905547",
+   "title": "A Study to Investigate Dupixent/ Dupilumab in Adult Indian Participants With Moderate-to-severe Atopic Dermatitis",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": null,
+   "to": "NOT_YET_RECRUITING"
+  },
+  {
+   "date": "2026-11-02",
+   "id": "NCT07909967",
+   "title": "Observational Analytical Validation Study of the Replior ScratchSense",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": null,
+   "to": "RECRUITING"
+  },
+  {
+   "date": "2026-11-02",
+   "id": "NCT03671148",
+   "title": "A Study Comparing Risankizumab to Placebo in Participants With Active Psoriatic Arthritis Including Those Who Have a History of Inadequate Response or Intolerance to Biologic Therapy(Ies)",
+   "condition": "Psoriasis",
+   "from": "COMPLETED",
+   "to": "ACTIVE_NOT_RECRUITING"
+  },
+  {
+   "date": "2026-11-02",
+   "id": "NCT05908240",
+   "title": "Prevention of Cardiovascular Disease and Mortality in Patients With Psoriasis or Psoriatic Arthritis",
+   "condition": "Psoriasis",
+   "from": "ACTIVE_NOT_RECRUITING",
+   "to": "COMPLETED"
+  },
+  {
+   "date": "2026-11-02",
+   "id": "NCT06203470",
+   "title": "Botox Versus Tacrolimus in Psoriasis Vulgaris",
+   "condition": "Psoriasis",
+   "from": "NOT_YET_RECRUITING",
+   "to": "UNKNOWN"
+  },
+  {
+   "date": "2026-11-02",
+   "id": "NCT06628206",
+   "title": "Safety and Pharmacokinetics of LPX-TI641 in Rheumatoid Arthritis and Psoriatic Arthritis",
+   "condition": "Psoriasis",
+   "from": "RECRUITING",
+   "to": "ACTIVE_NOT_RECRUITING"
+  },
+  {
+   "date": "2026-11-02",
+   "id": "NCT06672393",
+   "title": "A Study to Confirm Efficacy and Safety of HS-10374 for Moderate to Severe Plaque Psoriasis",
+   "condition": "Psoriasis",
+   "from": "NOT_YET_RECRUITING",
+   "to": "UNKNOWN"
+  },
+  {
+   "date": "2026-11-02",
+   "id": "NCT07256015",
+   "title": "Deucravacitinib for Patients With Moderate/Severe Psoriasis: A Real-Life Experience in Italy",
+   "condition": "Psoriasis",
+   "from": "RECRUITING",
+   "to": "ACTIVE_NOT_RECRUITING"
+  },
+  {
+   "date": "2026-11-02",
+   "id": "NCT07736586",
+   "title": "A Study of HL40626S Tablets in Healthy Adults",
+   "condition": "Psoriasis",
+   "from": "NOT_YET_RECRUITING",
+   "to": "RECRUITING"
+  },
+  {
+   "date": "2026-11-02",
+   "id": "NCT07850310",
+   "title": "A Clinical Trial of MK-8644 in Healthy Participants and Participants With Psoriasis (MK-8644-001)",
+   "condition": "Psoriasis",
+   "from": "NOT_YET_RECRUITING",
+   "to": "RECRUITING"
+  },
+  {
+   "date": "2026-11-02",
+   "id": "NCT07900659",
+   "title": "Efficacy and Flexibility of Tildrakizumab Treatment in Patients With Moderate-to-severe Plaque Psoriasis and High Disease Burden",
+   "condition": "Psoriasis",
+   "from": null,
+   "to": "ACTIVE_NOT_RECRUITING"
+  },
+  {
+   "date": "2026-11-02",
+   "id": "NCT07908641",
+   "title": "Comparing the Extent to Which Apremilast is Made Available in the Body After Administration as an Extended-release or Immediate-release Formulation",
+   "condition": "Psoriasis",
+   "from": null,
+   "to": "NOT_YET_RECRUITING"
+  },
+  {
+   "date": "2026-11-02",
+   "id": "NCT07903948",
+   "title": "Pilot MBSR for People With HS",
+   "condition": "Hidradenitis suppurativa",
+   "from": null,
+   "to": "ACTIVE_NOT_RECRUITING"
+  },
   {
    "date": "2026-10-26",
    "id": "NCT07223697",
