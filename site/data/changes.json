@@ -1,7 +1,295 @@
 {
- "updated": "2026-11-02T19:12:57+00:00",
+ "updated": "2026-11-09T19:30:31+00:00",
  "baseline": false,
  "events": [
+  {
+   "date": "2026-11-09",
+   "id": "NCT03756389",
+   "title": "Evaluation of Topical Application of BMX-010 in Subjects With Rosacea",
+   "condition": "Rosacea",
+   "from": "SUSPENDED",
+   "to": "TERMINATED"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT07922668",
+   "title": "Abdominal Symptoms and Rosacea: An Observational Study on the Association Between Irritable Bowel Syndrome (IBS) and the Gut-Skin Axis",
+   "condition": "Rosacea",
+   "from": null,
+   "to": "RECRUITING"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT07731802",
+   "title": "Finasteride and Cutibacterium",
+   "condition": "Acne",
+   "from": "NOT_YET_RECRUITING",
+   "to": "RECRUITING"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT07914322",
+   "title": "Pilot Study of Combination Treatment With Subcision, Human Adipose Tissue-Derived Exosomes and Powdered Polydioxanone for Atrophic Acne Scars",
+   "condition": "Acne",
+   "from": null,
+   "to": "COMPLETED"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT07915648",
+   "title": "Comparing Nadifloxacin Plus Tretinoin Versus Clindamycin Plus Tretinoin Creams for Mild-to-Moderate Acne",
+   "condition": "Acne",
+   "from": null,
+   "to": "RECRUITING"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT07918001",
+   "title": "Safety, Tolerability, and Clinical Effectiveness of Adapalene/Clindamycin Phosphate Gel (Klenzit®-C) in Vietnamese Patients With Mild to Moderate Acne Vulgaris",
+   "condition": "Acne",
+   "from": null,
+   "to": "RECRUITING"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT07919886",
+   "title": "Evaluation of the Efficacy and Safety of Fractional CO₂ Laser With and Without Intradermal Botulinum Toxin A in the Treatment of Inflammatory Facial Acne Vulgaris.",
+   "condition": "Acne",
+   "from": null,
+   "to": "NOT_YET_RECRUITING"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT02612454",
+   "title": "Study to Assess the Long-term Safety of Dupilumab Administered in Participants ≥6 Months to <18 Years of Age With Atopic Dermatitis (AD)",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": "ACTIVE_NOT_RECRUITING",
+   "to": "COMPLETED"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT05526222",
+   "title": "A Phase III Study of Jaktinib in Adults With Moderate and Severe Atopic Dermatitis",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": "ACTIVE_NOT_RECRUITING",
+   "to": "COMPLETED"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT05676242",
+   "title": "A Phase III Extended Clinical Trial of Jaktinib Hydrochloride Tablets in the Treatment of Moderate and Severe Atopic Dermatitis",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": "UNKNOWN",
+   "to": "COMPLETED"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT06552520",
+   "title": "To Evaluate the Phase III Clinical Trial of TQH2722 Injection in the Treatment of Moderate to Severe Atopic Dermatitis",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": "ACTIVE_NOT_RECRUITING",
+   "to": "COMPLETED"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT07914088",
+   "title": "A Study for AR100DP1 in Mild to Moderate Atopic Dermatitis",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": null,
+   "to": "RECRUITING"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT07916480",
+   "title": "Roflumilast Cream 0.3% for Moderate to Severe Atopic Dermatitis",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": null,
+   "to": "RECRUITING"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT07918560",
+   "title": "Cosmetic Efficacy Evaluation of Hydraporin AI Cream in Individuals With Atopic Dermatitis and Psoriasis",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": null,
+   "to": "NOT_YET_RECRUITING"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT07918586",
+   "title": "Localized Aeroallergen Exposure in Atopic Dermatitis",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": null,
+   "to": "NOT_YET_RECRUITING"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT07919899",
+   "title": "Pharmacokinetics, Immunogenicity and Safety of Subcutaneous Dupilumab and Berahyaluronidase Alfa (ALT-B4) Coformulation",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": null,
+   "to": "NOT_YET_RECRUITING"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT07920783",
+   "title": "A Phase I Study of GLR2053 Tablets in Chinese Healthy Adult Participants",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": null,
+   "to": "NOT_YET_RECRUITING"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT07920809",
+   "title": "A Study of HSK60002 Tablets in Participants With Moderate-to-Severe Atopic Dermatitis",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": null,
+   "to": "NOT_YET_RECRUITING"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT05172726",
+   "title": "Tapinarof for the Treatment of Plaque Psoriasis in Pediatric Subjects",
+   "condition": "Psoriasis",
+   "from": "ACTIVE_NOT_RECRUITING",
+   "to": "COMPLETED"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT05669833",
+   "title": "Guselkumab vs Golimumab in PsA TNF Inadequate Responder Patients",
+   "condition": "Psoriasis",
+   "from": "RECRUITING",
+   "to": "ACTIVE_NOT_RECRUITING"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT06100991",
+   "title": "CorEvitas Generalized Pustular Psoriasis (GPP) Drug Safety and Effectiveness Registry",
+   "condition": "Psoriasis",
+   "from": "ACTIVE_NOT_RECRUITING",
+   "to": "COMPLETED"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT06807424",
+   "title": "A Study to Evaluate the Efficacy and Safety of Icotrokinra (JNJ-77242113) in Biologic-experienced and Biologic-naive Participants With Active Psoriatic Arthritis",
+   "condition": "Psoriasis",
+   "from": "RECRUITING",
+   "to": "ACTIVE_NOT_RECRUITING"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT06846710",
+   "title": "Evaluate the Safety and Pharmacokinetics/Pharmacodynamics of HS-20118",
+   "condition": "Psoriasis",
+   "from": "RECRUITING",
+   "to": "COMPLETED"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT07321873",
+   "title": "A Study to Evaluate the Efficacy and Safety of JNJ-88545223 for the Treatment of Participants With Active Psoriatic Arthritis",
+   "condition": "Psoriasis",
+   "from": "RECRUITING",
+   "to": "ACTIVE_NOT_RECRUITING"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT07460739",
+   "title": "Efficacy of a Self-Management Smartphone App to Improve Safety Skills in Patients With Inflammatory Arthritis",
+   "condition": "Psoriasis",
+   "from": "NOT_YET_RECRUITING",
+   "to": "RECRUITING"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT07736651",
+   "title": "Anti Inflammatory Diet With Physical Therapy on Psoriasis",
+   "condition": "Psoriasis",
+   "from": "RECRUITING",
+   "to": "COMPLETED"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT07914231",
+   "title": "A Study to Assess the Safety and Effectiveness of COL-5671-PRO Capsules in Adults With Moderate-to-Severe Plaque Psoriasis",
+   "condition": "Psoriasis",
+   "from": null,
+   "to": "NOT_YET_RECRUITING"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT07915492",
+   "title": "Comparison of Efficacy and Safety of Deucravacitinib Versus Methotrexate in the Treatment of Moderate-to-Severe Plaque Psoriasis .",
+   "condition": "Psoriasis",
+   "from": null,
+   "to": "ACTIVE_NOT_RECRUITING"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT07919873",
+   "title": "Efficacy of Fractional Co2 Laser With Topical Tacrolimus 0.1 in the Treatment of Nail Psoriasis",
+   "condition": "Psoriasis",
+   "from": null,
+   "to": "NOT_YET_RECRUITING"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT07920861",
+   "title": "A Study of HB0017 Injection in Healthy Volunteers to Evaluate Safety and Tolerability of a Single Subcutaneous Injection in Low-Body-Weight Subjects; and Pharmacokinetics at Different Subcutaneous Injection Sites at the Same Dose",
+   "condition": "Psoriasis",
+   "from": null,
+   "to": "RECRUITING"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT07923773",
+   "title": "Extension Study of Safety and Tolerability of DDY391 in Participants With Moderate to Severe Psoriatic Arthritis (CDDY391A12201-extension)",
+   "condition": "Psoriasis",
+   "from": null,
+   "to": "NOT_YET_RECRUITING"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT07925957",
+   "title": "VEGF and Nailfold Changes in Psoriasis",
+   "condition": "Psoriasis",
+   "from": null,
+   "to": "COMPLETED"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT06768671",
+   "title": "An Open-label, Single-arm Study to Evaluate Pharmacokinetics and Safety of Subcutaneous Sonelokimab in Adolescents With Moderate to Severe Hidradenitis Suppurativa (VELA-TEEN)",
+   "condition": "Hidradenitis suppurativa",
+   "from": "ACTIVE_NOT_RECRUITING",
+   "to": "COMPLETED"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT07244263",
+   "title": "A Study of Zasocitinib in Adults With Hidradenitis Suppurativa",
+   "condition": "Hidradenitis suppurativa",
+   "from": "RECRUITING",
+   "to": "ACTIVE_NOT_RECRUITING"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT07812116",
+   "title": "A Study to Investigate Efficacy and Safety of Duvakitug in Adult Participants With Moderate to Severe Hidradenitis Suppurativa",
+   "condition": "Hidradenitis suppurativa",
+   "from": "NOT_YET_RECRUITING",
+   "to": "RECRUITING"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "NCT07920848",
+   "title": "Early Pathophysiology of Hidradenitis Suppurativa and Prediction of the Risk of Progression: a Prospective Cohort",
+   "condition": "Hidradenitis suppurativa",
+   "from": null,
+   "to": "NOT_YET_RECRUITING"
+  },
   {
    "date": "2026-11-02",
    "id": "NCT07290426",
