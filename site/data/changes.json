@@ -1,7 +1,207 @@
 {
- "updated": "2026-11-09T19:30:31+00:00",
+ "updated": "2026-11-16T19:17:15+00:00",
  "baseline": false,
  "events": [
+  {
+   "date": "2026-11-16",
+   "id": "NCT07106957",
+   "title": "Efficacy and Safety Evaluation of CICAPLAST BAUME B5+ on Rosacea Accompanied by Sensitive Skin",
+   "condition": "Rosacea",
+   "from": "RECRUITING",
+   "to": "COMPLETED"
+  },
+  {
+   "date": "2026-11-16",
+   "id": "NCT06557434",
+   "title": "AV-23-001 AVAVA MIRIA Pilot Study",
+   "condition": "Acne",
+   "from": "ACTIVE_NOT_RECRUITING",
+   "to": "COMPLETED"
+  },
+  {
+   "date": "2026-11-16",
+   "id": "NCT07058883",
+   "title": "Evaluation of Juläine (TM) for the Treatment of Atrophic Facial Acne Scars",
+   "condition": "Acne",
+   "from": "RECRUITING",
+   "to": "ACTIVE_NOT_RECRUITING"
+  },
+  {
+   "date": "2026-11-16",
+   "id": "NCT07830329",
+   "title": "Efficacy and Safety of Olatorepatide Versus Placebo in Adults With Moderate to Severe Hidradenitis Suppurativa Living With Overweight or Obesity",
+   "condition": "Acne",
+   "from": "NOT_YET_RECRUITING",
+   "to": "RECRUITING"
+  },
+  {
+   "date": "2026-11-16",
+   "id": "NCT07930286",
+   "title": "Silicone Gel Versus White Petrolatum After Fractional CO₂ Laser",
+   "condition": "Acne",
+   "from": null,
+   "to": "COMPLETED"
+  },
+  {
+   "date": "2026-11-16",
+   "id": "NCT07932288",
+   "title": "Clinical Evaluation of an Oil-Balancing Facial Sunscreen With Topical Tretinoin",
+   "condition": "Acne",
+   "from": null,
+   "to": "ENROLLING_BY_INVITATION"
+  },
+  {
+   "date": "2026-11-16",
+   "id": "NCT06454942",
+   "title": "Impact of Regular Consumption of Eggs and Nutrients Fortified Eggs on Eczema Condition in Singapore Individuals",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": "UNKNOWN",
+   "to": "COMPLETED"
+  },
+  {
+   "date": "2026-11-16",
+   "id": "NCT06807268",
+   "title": "A Study of the Medicine Called Abrocitinib in Children 6 to Less Than 12 Years of Age With Moderate-to-Severe Eczema",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": "RECRUITING",
+   "to": "ACTIVE_NOT_RECRUITING"
+  },
+  {
+   "date": "2026-11-16",
+   "id": "NCT07175233",
+   "title": "A Phase 2 Study to Evaluate the Efficacy, Safety of SIM0278 in Subjects With Moderate to Severe Atopic Dermatitis",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": "NOT_YET_RECRUITING",
+   "to": "ACTIVE_NOT_RECRUITING"
+  },
+  {
+   "date": "2026-11-16",
+   "id": "NCT07265479",
+   "title": "A Study to Investigate Safety and Efficacy of Tapinarof Cream, 1% in Participants Ages 3 Months to < 24 Months With Atopic Dermatitis",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": "SUSPENDED",
+   "to": "ACTIVE_NOT_RECRUITING"
+  },
+  {
+   "date": "2026-11-16",
+   "id": "NCT07377838",
+   "title": "Study of ADSTEM Injection for Patients With Moderate to Severe Subacute and Chronic Atopic Dermatitis",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": "NOT_YET_RECRUITING",
+   "to": "RECRUITING"
+  },
+  {
+   "date": "2026-11-16",
+   "id": "NCT07929181",
+   "title": "Efficacy and Safety of Polisorb® MP in the Complex Therapy of Patients With Atopic Dermatitis",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": null,
+   "to": "COMPLETED"
+  },
+  {
+   "date": "2026-11-16",
+   "id": "NCT07932795",
+   "title": "Study of Multiple Ascending Doses (MAD) of M5542 in Participants With Moderate and Severe Eczema",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": null,
+   "to": "NOT_YET_RECRUITING"
+  },
+  {
+   "date": "2026-11-16",
+   "id": "NCT07934654",
+   "title": "The LITTLE OWLS Study (in German: \"Kleine Eulen OWL\"): Exploring the Early-life Microbiome Development and Physical and Mental Health Outcomes During Childhood.",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": null,
+   "to": "RECRUITING"
+  },
+  {
+   "date": "2026-11-16",
+   "id": "NCT07937592",
+   "title": "Study the Mechanism and Effectiveness of Probiotics on Atopic Dermatitis",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": null,
+   "to": "ENROLLING_BY_INVITATION"
+  },
+  {
+   "date": "2026-11-16",
+   "id": "NCT07938606",
+   "title": "MG-K10 in Pediatric Atopic Dermatitis (6-12 Years)",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": null,
+   "to": "NOT_YET_RECRUITING"
+  },
+  {
+   "date": "2026-11-16",
+   "id": "NCT07938944",
+   "title": "Topical Corticosteroid Phobia and Personalized Behavioral Intervention (BERANI) Among Parents of Children With Atopic Dermatitis: A Multicenter RCT in Indonesia",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": null,
+   "to": "NOT_YET_RECRUITING"
+  },
+  {
+   "date": "2026-11-16",
+   "id": "NCT06671483",
+   "title": "A Study of Zasocitinib in Adults With Psoriatic Arthritis Who Have Not Taken Biologic Medicines",
+   "condition": "Psoriasis",
+   "from": "RECRUITING",
+   "to": "ACTIVE_NOT_RECRUITING"
+  },
+  {
+   "date": "2026-11-16",
+   "id": "NCT07251998",
+   "title": "Efficacy and Safety of ICP-332 Versus Placebo in Participants With Moderate to Severe Plaque Psoriasis",
+   "condition": "Psoriasis",
+   "from": "RECRUITING",
+   "to": "COMPLETED"
+  },
+  {
+   "date": "2026-11-16",
+   "id": "NCT07928921",
+   "title": "Liver Fibrosis Risk With Methotrexate Exposure",
+   "condition": "Psoriasis",
+   "from": null,
+   "to": "COMPLETED"
+  },
+  {
+   "date": "2026-11-16",
+   "id": "NCT07933536",
+   "title": "A Study to Assess Targeted Therapies for Treatment of Adults With Moderate to Severe Psoriasis",
+   "condition": "Psoriasis",
+   "from": null,
+   "to": "NOT_YET_RECRUITING"
+  },
+  {
+   "date": "2026-11-16",
+   "id": "NCT07933783",
+   "title": "An Open-label Study With Maintenance Dosing of ORKA-002 in Participants With Moderate-to-Severe Plaque Psoriasis",
+   "condition": "Psoriasis",
+   "from": null,
+   "to": "ENROLLING_BY_INVITATION"
+  },
+  {
+   "date": "2026-11-16",
+   "id": "NCT07937475",
+   "title": "Remote Monitoring in Young Adults With Inflammatory Joint Disease",
+   "condition": "Psoriasis",
+   "from": null,
+   "to": "NOT_YET_RECRUITING"
+  },
+  {
+   "date": "2026-11-16",
+   "id": "NCT06785675",
+   "title": "Assessing Short-term Treatment Satisfaction and Quality of Life in Patients With Hidradenitis Suppurativa Initiated on Secukinumab.",
+   "condition": "Hidradenitis suppurativa",
+   "from": "ACTIVE_NOT_RECRUITING",
+   "to": "COMPLETED"
+  },
+  {
+   "date": "2026-11-16",
+   "id": "NCT07934017",
+   "title": "A Study of SL-325 in Participants With Hidradenitis Suppurativa",
+   "condition": "Hidradenitis suppurativa",
+   "from": null,
+   "to": "NOT_YET_RECRUITING"
+  },
   {
    "date": "2026-11-09",
    "id": "NCT03756389",

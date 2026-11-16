@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-09T19:30:31+00:00",
+ "fetched": "2026-11-16T19:17:15+00:00",
  "conditions": [
   {
    "slug": "keratosis-pilaris",
@@ -17,25 +17,25 @@
    "slug": "acne",
    "label": "Acne",
    "group": "Dermatology",
-   "count": 1059
+   "count": 1061
   },
   {
    "slug": "atopic-dermatitis",
    "label": "Atopic dermatitis (eczema)",
    "group": "Dermatology",
-   "count": 1774
+   "count": 1780
   },
   {
    "slug": "psoriasis",
    "label": "Psoriasis",
    "group": "Dermatology",
-   "count": 2578
+   "count": 2582
   },
   {
    "slug": "hidradenitis-suppurativa",
    "label": "Hidradenitis suppurativa",
    "group": "Dermatology",
-   "count": 289
+   "count": 290
   }
  ]
 }
