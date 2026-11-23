@@ -1,7 +1,183 @@
 {
- "updated": "2026-11-16T19:17:15+00:00",
+ "updated": "2026-11-23T20:53:22+00:00",
  "baseline": false,
  "events": [
+  {
+   "date": "2026-11-23",
+   "id": "NCT02759900",
+   "title": "Using a Cold Atmospheric Plasma Device to Treat Skin Disorders",
+   "condition": "Rosacea",
+   "from": "UNKNOWN",
+   "to": "RECRUITING"
+  },
+  {
+   "date": "2026-11-23",
+   "id": "NCT07946250",
+   "title": "A Clinical Trial to Evaluate the Effects of Broc Shot Capsules on Skin Appearance and Comfort in Adults With Reactive, Blemish-Prone, or Hormonally Affected Skin",
+   "condition": "Rosacea",
+   "from": null,
+   "to": "NOT_YET_RECRUITING"
+  },
+  {
+   "date": "2026-11-23",
+   "id": "NCT07949747",
+   "title": "Evaluating Pulsed Dye Laser Treatment Parameters on Clearance of Vascular Indications",
+   "condition": "Rosacea",
+   "from": null,
+   "to": "ENROLLING_BY_INVITATION"
+  },
+  {
+   "date": "2026-11-23",
+   "id": "NCT05830968",
+   "title": "Safety and Efficacy of Radio Frequency for the Treatment of Mild to Severe Inflammatory Acne",
+   "condition": "Acne",
+   "from": "UNKNOWN",
+   "to": "COMPLETED"
+  },
+  {
+   "date": "2026-11-23",
+   "id": "NCT07406893",
+   "title": "Reduction of Bacterial Seeding in Total Shoulder Arthroplasty",
+   "condition": "Acne",
+   "from": "RECRUITING",
+   "to": "COMPLETED"
+  },
+  {
+   "date": "2026-11-23",
+   "id": "NCT07756957",
+   "title": "Safety of the Acne mRNA Vaccine in Adolescents 12 to 17 Years of Age With Moderate to Severe Acne",
+   "condition": "Acne",
+   "from": "NOT_YET_RECRUITING",
+   "to": "RECRUITING"
+  },
+  {
+   "date": "2026-11-23",
+   "id": "NCT07896486",
+   "title": "Evaluating a Brightening Serum for Post-Inflammatory Hyperpigmentation",
+   "condition": "Acne",
+   "from": "NOT_YET_RECRUITING",
+   "to": "RECRUITING"
+  },
+  {
+   "date": "2026-11-23",
+   "id": "NCT07941440",
+   "title": "Clinical Outcomes of PRX S With Standardized Home Care in Mild-to-Moderate Facial Acne.",
+   "condition": "Acne",
+   "from": null,
+   "to": "NOT_YET_RECRUITING"
+  },
+  {
+   "date": "2026-11-23",
+   "id": "NCT07944196",
+   "title": "Gut Microbiome Diversity in Adults With Inflammatory and Immune-Mediated Skin Diseases",
+   "condition": "Acne",
+   "from": null,
+   "to": "RECRUITING"
+  },
+  {
+   "date": "2026-11-23",
+   "id": "NCT07944274",
+   "title": "Active Versus Vehicle Home Care During PRX S Treatment for Mild-to-Moderate Facial Acne",
+   "condition": "Acne",
+   "from": null,
+   "to": "NOT_YET_RECRUITING"
+  },
+  {
+   "date": "2026-11-23",
+   "id": "NCT04919265",
+   "title": "Mother-Infant Cohort Study in Malaysia and China",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": "RECRUITING",
+   "to": "COMPLETED"
+  },
+  {
+   "date": "2026-11-23",
+   "id": "NCT07941388",
+   "title": "A Phase I Study of INT-1868 Tablets in Healthy Adult Participants (INT-1868-I101)",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": null,
+   "to": "NOT_YET_RECRUITING"
+  },
+  {
+   "date": "2026-11-23",
+   "id": "NCT07953166",
+   "title": "A Study of Two Different Strengths of 611 in Healthy Adult Participants in China (611)",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": null,
+   "to": "NOT_YET_RECRUITING"
+  },
+  {
+   "date": "2026-11-23",
+   "id": "NCT07954349",
+   "title": "A Phase 3 Study of Rezpegaldesleukin (NKTR-358) in the Treatment of Patients ≥ 12 Years of Age With Moderate-to-Severe Atopic Dermatitis Previously Treated With Biologic and/or Oral JAK Inhibitor Therapy (ZENITH AD-3)",
+   "condition": "Atopic dermatitis (eczema)",
+   "from": null,
+   "to": "RECRUITING"
+  },
+  {
+   "date": "2026-11-23",
+   "id": "NCT04175613",
+   "title": "A Long-term Extension Study of Apremilast (CC-10004) in Pediatric Subjects From 6 Through 17 Years of Age With Moderate to Severe Plaque Psoriasis",
+   "condition": "Psoriasis",
+   "from": "COMPLETED",
+   "to": "TERMINATED"
+  },
+  {
+   "date": "2026-11-23",
+   "id": "NCT07780929",
+   "title": "A Prospective, Interventional, Exploratory Study Evaluating the Efficacy of Small-Molecule Compound XJH05 Ointment in the Treatment of Plaque Psoriasis",
+   "condition": "Psoriasis",
+   "from": "RECRUITING",
+   "to": "COMPLETED"
+  },
+  {
+   "date": "2026-11-23",
+   "id": "NCT07881783",
+   "title": "A Real-world Study of Treatment Retention and Adherence to Secukinumab in Patients With Plaque Psoriasis (PsO) With or Without Glucagon-like Peptide-1 Receptor Agonist (GLP-1 RA) Co-therapy",
+   "condition": "Psoriasis",
+   "from": "NOT_YET_RECRUITING",
+   "to": "ACTIVE_NOT_RECRUITING"
+  },
+  {
+   "date": "2026-11-23",
+   "id": "NCT07908641",
+   "title": "Comparing the Extent to Which Apremilast is Made Available in the Body After Administration as an Extended-release or Immediate-release Formulation",
+   "condition": "Psoriasis",
+   "from": "NOT_YET_RECRUITING",
+   "to": "RECRUITING"
+  },
+  {
+   "date": "2026-11-23",
+   "id": "NCT07946497",
+   "title": "CAPN12 Gene Expression as a Molecular Discriminator",
+   "condition": "Psoriasis",
+   "from": null,
+   "to": "RECRUITING"
+  },
+  {
+   "date": "2026-11-23",
+   "id": "NCT07951320",
+   "title": "Recaticimab Add-on to IL-17A Inhibitors in Plaque Psoriasis With Dyslipidemia and Secondary Loss of Response to IL-17A Inhibitors",
+   "condition": "Psoriasis",
+   "from": null,
+   "to": "NOT_YET_RECRUITING"
+  },
+  {
+   "date": "2026-11-23",
+   "id": "NCT07951983",
+   "title": "A Study to Evaluate the Efficacy and Safety of Sonelokimab Compared With Placebo in Participants With Palmoplantar Pustulosis",
+   "condition": "Psoriasis",
+   "from": null,
+   "to": "NOT_YET_RECRUITING"
+  },
+  {
+   "date": "2026-11-23",
+   "id": "NCT07805798",
+   "title": "Urinary Bladder Matrix (UBM) Registry",
+   "condition": "Hidradenitis suppurativa",
+   "from": "NOT_YET_RECRUITING",
+   "to": "RECRUITING"
+  },
   {
    "date": "2026-11-16",
    "id": "NCT07106957",
